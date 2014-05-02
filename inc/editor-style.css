@@ -1,0 +1,228 @@
+/*
+Theme Name: Simone
+Description: Used to style the content editor in posts and pages.
+*/
+
+
+/* =Body
+----------------------------------------------- */
+html .mceContentBody {
+	max-width: 700px;
+}
+
+body {
+	color: #404040;
+	font-family: 'PT Serif', sans-serif;
+	font-size: 20px;
+	line-height: 1.5;
+}
+
+/* =Base elements
+----------------------------------------------- */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+	color: #000;
+        color: hsl(0, 0%, 0%);
+}
+
+a:visited {
+	color: #333;
+        color: hsl(0, 0%, 20%);
+}
+
+h1, h2, h3, h4, h5, h6 {
+	clear: right;
+        font-family: 'Lato', sans-serif;
+        font-weight: 900;
+        color: #000;
+        color: hsl(0, 0%, 0%);
+        margin-bottom: .4em;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 28px;
+}
+
+h4 {
+    font-size: 26px;
+}
+
+h5 {
+    font-size: 24px;
+}
+
+h6 {
+    font-size: 22px;
+}
+
+p,
+ul,
+ol {
+    font-size: 20px;
+    line-height: 1.6em;
+}
+
+/* =Blockquotes
+----------------------------------------------- */
+blockquote p {
+        font-size: 28px;
+        line-height: 1.5em;
+}
+
+blockquote {
+	padding: 1em 1.5em 0;
+        margin-bottom: 1em;
+        font-style: italic;
+        border-top: solid 1px hsl(0, 0%, 80%);
+        border-bottom: solid 1px hsl(0, 0%, 80%);
+}
+
+blockquote.alignleft {
+    float: left;
+    width: 50%;
+    padding: 1em 0 0;
+    margin-right: 1.5em;
+}
+
+blockquote.alignright {
+    float: right;
+    width: 50%;
+    padding: 1em 0 0;
+    margin-left: 1.5em;
+}
+
+blockquote em {
+        font-style: normal;
+}
+
+blockquote cite {
+    display: block;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    text-align: right;
+    font-size: 18px;
+    line-height: 1.5em;
+    margin-top: 1em;
+    margin-left: 40%;
+}
+
+blockquote.alignleft cite {
+    text-align: left;
+    margin-left: 0;
+    margin-right: 40%;
+}
+
+
+/* =Images
+ ----------------------------------------------- */
+
+.wp-caption {
+	margin-bottom: 1.5em;
+	max-width: 100%;
+        border: none;
+        text-align: center;
+        background-color: #fff;
+        padding-top: 0;
+        margin: 10px 0;
+}
+.wp-caption img[class*="wp-image-"] {
+	display: block;
+	margin: 0 auto;
+}
+.wp-caption-text {
+	text-align: center;
+}
+
+.gallery-caption,
+.wp-caption .wp-caption-text,
+.wp-caption-dd {
+	padding: 0.8075em 1em;
+        background: #e5e5e5;
+        background: hsl(0, 0%, 90%);
+        border-left: #fff solid 5px;
+        border-right: #fff solid 5px;
+        font-family: 'Lato', sans-serif;
+        font-size: 14px;
+}
+
+/* Due to HTML5 galleries being activated defaul gallery styling does not apply.*/
+
+.gallery {
+        margin: auto 0;
+        padding: 6px;
+        width: 712px;
+}
+
+.gallery-item:hover .gallery-caption {
+	opacity: 1;
+}
+
+.gallery img {
+        display: block;
+}
+.gallery a img {
+	border: none;
+        height: auto;
+        max-width: 100%;
+        display: block;
+        margin: 0 auto;
+}
+
+.gallery-item {
+        float: left;
+        width: auto!important;
+        margin-right: 3.333333333%!important;
+        margin-bottom: 30px!important;
+        padding: 0!important;
+        background: #333;
+        overflow: hidden;
+        position: relative;
+}
+
+.gallery-caption {
+	background-color: hsla(0, 0%, 0%, .8);
+	color: #fff;
+	font-size: 12px;
+	line-height: 1.5;
+	margin: 0!important;
+        border: none;
+	max-height: 50%;
+	opacity: 0;
+	padding: 6px 8px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	text-align: left;
+	width: 100%;
+}
+
+/* =Alignment
+----------------------------------------------- */
+
+.alignleft {
+	display: inline;
+	float: left;
+	margin-right: 1.5em;
+}
+.alignright {
+	display: inline;
+	float: right;
+	margin-left: 1.5em;
+}
+.aligncenter {
+	clear: right;
+	display: block;
+	margin: 0 auto;
+}

@@ -1,0 +1,292 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Simone 1.0\n"
+"POT-Creation-Date: 2014-04-17 00:17-0800\n"
+"PO-Revision-Date: 2014-04-17 00:18-0800\n"
+"Last-Translator: \n"
+"Language-Team: lynda.com <morten@lynda.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.4\n"
+"X-Poedit-Basepath: ../\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: archive.php:21
+msgid "Posts in the "
+msgstr ""
+
+#: archive.php:24
+msgid " category"
+msgstr ""
+
+#: archive.php:27
+msgid "Posts with the "
+msgstr ""
+
+#: archive.php:30
+msgid "tag"
+msgstr ""
+
+#: archive.php:33
+#, php-format
+msgid "Author: %s"
+msgstr ""
+
+#: archive.php:36 archive.php:39 archive.php:42
+#, php-format
+msgid "Posts from %s"
+msgstr ""
+
+#: archive.php:45
+msgid "Asides"
+msgstr ""
+
+#: archive.php:48 sidebar.php:16
+msgid "Archives"
+msgstr ""
+
+#: comments.php:45
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:46
+msgid "<i class=\"fa fa-arrow-circle-o-left\"></i> Older Comments"
+msgstr ""
+
+#: comments.php:47
+msgid "Newer Comments <i class=\"fa fa-arrow-circle-o-right\"></i>"
+msgstr ""
+
+#: comments.php:57
+msgid "Comments are closed."
+msgstr ""
+
+#: content-aside.php:17 content.php:61
+msgid " | Edit"
+msgstr ""
+
+#: content-none.php:16
+msgid "Page not available"
+msgstr ""
+
+#: content-none.php:17
+msgid "Nothing found for <em>"
+msgstr ""
+
+#: content-none.php:18
+msgid "Nothing Found"
+msgstr ""
+
+#: content-none.php:26
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: content-none.php:30
+msgid ""
+"You seem to be lost. To find what you are looking for check out the most "
+"recent articles below or try a search:"
+msgstr ""
+
+#: content-none.php:35
+msgid ""
+"Nothing matched your search terms. Check out the most recent articles below "
+"or try searching for something else:"
+msgstr ""
+
+#: content-none.php:40
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: content-none.php:51
+msgid "Most recent posts:"
+msgstr ""
+
+#: content-page.php:27 content-single.php:49
+msgid "Pages:"
+msgstr ""
+
+#: content-page.php:32 content-single.php:60
+msgid "Edit"
+msgstr ""
+
+#. translators: used between list items, there is a space after the comma
+#: content-single.php:25 content.php:43
+msgid ", "
+msgstr ""
+
+#: content-single.php:38 content.php:57
+msgid "Leave a comment"
+msgstr ""
+
+#: content-single.php:38 content.php:57
+msgid "1 Comment"
+msgstr ""
+
+#: content-single.php:38 content.php:57
+msgid "% Comments"
+msgstr ""
+
+#: content.php:13 content.php:26 content.php:72
+msgid "Read "
+msgstr ""
+
+#: content.php:79
+msgid "Continue Reading "
+msgstr ""
+
+#: footer.php:17
+msgid "http://wordpress.org/"
+msgstr ""
+
+#: footer.php:17
+#, php-format
+msgid "Proudly powered by %s"
+msgstr ""
+
+#: footer.php:19
+#, php-format
+msgid ""
+"Theme: Simone by <a href=\"%1$s\" rel=\"designer nofollow\">mor10.com</a>."
+msgstr ""
+
+#: functions.php:51
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:52
+msgid "Social Menu"
+msgstr ""
+
+#: functions.php:81
+msgid "Sidebar"
+msgstr ""
+
+#: functions.php:90
+msgid "Footer Widgets"
+msgstr ""
+
+#: functions.php:91
+msgid ""
+"Footer widgets area appears, not surprisingly, in the footer of the site."
+msgstr ""
+
+#: header.php:47
+msgid "Menu"
+msgstr ""
+
+#: header.php:48
+msgid "Skip to content"
+msgstr ""
+
+#: header.php:54
+msgid "Search"
+msgstr ""
+
+#: inc/author-box.php:10
+msgid "Hide Author Bio"
+msgstr ""
+
+#: inc/author-box.php:21
+#, php-format
+msgid "About %s"
+msgstr ""
+
+#: inc/author-box.php:26
+msgid "One article and counting. "
+msgstr ""
+
+#: inc/author-box.php:27
+#, php-format
+msgid "%s articles and counting. "
+msgstr ""
+
+#: inc/author-box.php:37
+#, php-format
+msgid "Follow %s on social media: "
+msgstr ""
+
+#: inc/author-box.php:38
+msgid "Follow "
+msgstr ""
+
+#: inc/author-box.php:38
+msgid " on Twitter"
+msgstr ""
+
+#: inc/author-box.php:39
+msgid "Add "
+msgstr ""
+
+#: inc/author-box.php:39
+msgid " to your Google+ circles"
+msgstr ""
+
+#: inc/author-box.php:40
+msgid "Like "
+msgstr ""
+
+#: inc/author-box.php:40
+msgid " on Facebook"
+msgstr ""
+
+#: inc/author-box.php:55
+#, php-format
+msgid "All posts by %s  <i class=\"fa fa-arrow-circle-o-right\"></i>"
+msgstr ""
+
+#: inc/customizer.php:46
+msgid "Header Color"
+msgstr ""
+
+#: inc/customizer.php:65
+msgid "Link Color"
+msgstr ""
+
+#: inc/extras.php:63
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: inc/template-tags.php:45
+msgid "&larr; Previous"
+msgstr ""
+
+#: inc/template-tags.php:46
+msgid "Next &rarr;"
+msgstr ""
+
+#: inc/template-tags.php:54
+msgid "Posts navigation"
+msgstr ""
+
+#: inc/template-tags.php:79
+msgid "Post navigation"
+msgstr ""
+
+#: inc/template-tags.php:104 inc/template-tags.php:106
+msgid "F jS, Y"
+msgstr ""
+
+#: inc/template-tags.php:109
+#, php-format
+msgid ""
+"<span class=\"byline\">Written by %1$s</span><span class=\"posted-on\">%2$s</"
+"span>"
+msgstr ""
+
+#: search.php:16
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: sidebar.php:23
+msgid "Meta"
+msgstr ""
