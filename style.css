@@ -1313,7 +1313,8 @@ blockquote cite {
     }
     
     .single .byline,
-    .single .posted-on {
+    .single .posted-on,
+    .single .comments-link {
         display: block;
         margin-bottom: 1em;
     }
