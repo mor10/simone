@@ -1,299 +1,304 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Simone 1.0\n"
+"Project-Id-Version: \n"
 "POT-Creation-Date: 2014-05-02 20:15-0800\n"
-"PO-Revision-Date: 2014-05-02 20:16-0800\n"
+"PO-Revision-Date: 2014-05-02 20:49-0800\n"
 "Last-Translator: \n"
-"Language-Team: lynda.com <morten@lynda.com>\n"
-"Language: en\n"
+"Language-Team: \n"
+"Language: nb\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 1.6.4\n"
-"X-Poedit-Basepath: ../\n"
+"X-Poedit-Basepath: .\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Poedit-KeywordsList: __;_e\n"
-"X-Poedit-SearchPath-0: .\n"
 
 #: archive.php:21
 msgid "Posts in the "
-msgstr ""
+msgstr "Innlegg kategorisert under "
 
 #: archive.php:24
 msgid " category"
-msgstr ""
+msgstr "kategorien"
 
 #: archive.php:27
 msgid "Posts with the "
-msgstr ""
+msgstr "Innlegg merket med "
 
 #: archive.php:30
 msgid "tag"
-msgstr ""
+msgstr "stikkord"
 
 #: archive.php:33
 #, php-format
 msgid "Author: %s"
-msgstr ""
+msgstr "Forfatter: %s"
 
 #: archive.php:36 archive.php:39 archive.php:42
 #, php-format
 msgid "Posts from %s"
-msgstr ""
+msgstr "Innlegg fra %s"
 
 #: archive.php:45
 msgid "Asides"
-msgstr ""
+msgstr "Innspill"
 
 #: archive.php:48
 msgid "Archives"
-msgstr ""
+msgstr "Arkiv"
 
 #: comments.php:45
 msgid "Comment navigation"
-msgstr ""
+msgstr "Kommentarnavigasjon"
 
 #: comments.php:46
 msgid "<i class=\"fa fa-arrow-circle-o-left\"></i> Older Comments"
-msgstr ""
+msgstr "<i class=\"fa fa-arrow-circle-o-left\"></i> Eldre kommentarer"
 
 #: comments.php:47
 msgid "Newer Comments <i class=\"fa fa-arrow-circle-o-right\"></i>"
-msgstr ""
+msgstr "Nyere kommentarer <i class=\"fa fa-arrow-circle-o-right\"></i>"
 
 #: comments.php:57
 msgid "Comments are closed."
-msgstr ""
+msgstr "Kommentarfunksjonen er lukket."
 
 #: content-aside.php:17 content.php:61
 msgid " | Edit"
-msgstr ""
+msgstr "| Rediger"
 
 #: content-none.php:16
 msgid "Page not available"
-msgstr ""
+msgstr "Siden er ikke tilgjengelig"
 
 #: content-none.php:17
 msgid "Nothing found for <em>"
-msgstr ""
+msgstr "Ingenting funnet for <em>"
 
 #: content-none.php:18
 msgid "Nothing Found"
-msgstr ""
+msgstr "Ingenting funnet"
 
 #: content-none.php:26
 #, php-format
 msgid ""
 "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
 msgstr ""
+"Klar til å publisere ditt første innlegg? <a href=\"%1$s\">Klikk her for å "
+"begynne</a>."
 
 #: content-none.php:30
 msgid ""
 "You seem to be lost. To find what you are looking for check out the most "
 "recent articles below or try a search:"
 msgstr ""
+"Det ser ut til at du har gått deg vill. Ta en titt på de siste publiserte "
+"innleggene nedenfor eller prøv et søk:"
 
 #: content-none.php:35
 msgid ""
 "Nothing matched your search terms. Check out the most recent articles below "
 "or try searching for something else:"
 msgstr ""
+"Ingenting funnet basert på søket ditt. Tan en titt på de siste innleggene "
+"nedenfor eller prøv et nytt søk:"
 
 #: content-none.php:40
 msgid ""
 "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
 "searching can help."
-msgstr ""
+msgstr "Det du leter etter finnes ikke her. Prøv et søk."
 
 #: content-none.php:51
 msgid "Most recent posts:"
-msgstr ""
+msgstr "Siste innlegg:"
 
 #: content-page.php:27 content-single.php:50 image.php:48
 msgid "Pages:"
-msgstr ""
+msgstr "Sider:"
 
 #: content-page.php:32 content-single.php:42
 msgid "Edit"
-msgstr ""
+msgstr "Rediger"
 
 #. translators: used between list items, there is a space after the comma
 #: content-single.php:25 content.php:43
 msgid ", "
-msgstr ""
+msgstr ", "
 
 #: content-single.php:38 content.php:57
 msgid "Leave a comment"
-msgstr ""
+msgstr "Legg igjen en kommentar"
 
 #: content-single.php:38 content.php:57
 msgid "1 Comment"
-msgstr ""
+msgstr "Én kommentar"
 
 #: content-single.php:38 content.php:57
 msgid "% Comments"
-msgstr ""
+msgstr "% kommentarer"
 
 #: content.php:13 content.php:26 content.php:72
 msgid "Read "
-msgstr ""
+msgstr "Les "
 
 #: content.php:79
 msgid "Continue Reading "
-msgstr ""
+msgstr "Les mer "
 
 #: footer.php:17
 msgid "http://wordpress.org/"
-msgstr ""
+msgstr "http://wordpress.org/"
 
 #: footer.php:17
 #, php-format
 msgid "Proudly powered by %s"
-msgstr ""
+msgstr "Laget med %s"
 
 #: footer.php:19
 #, php-format
 msgid ""
 "Theme: Simone by <a href=\"%1$s\" rel=\"designer nofollow\">mor10.com</a>."
 msgstr ""
+"Tema: Simone av <a href=\"%1$s\" rel=\"designer nofollow\">mor10.com</a>."
 
 #: functions.php:51
 msgid "Primary Menu"
-msgstr ""
+msgstr "Hovedmeny"
 
 #: functions.php:52
 msgid "Social Menu"
-msgstr ""
+msgstr "Meny for sosiale media"
 
 #: functions.php:81
 msgid "Sidebar"
-msgstr ""
+msgstr "Sidekolonne"
 
 #: functions.php:90
 msgid "Footer Widgets"
-msgstr ""
+msgstr "Bunnwidgeter"
 
 #: functions.php:91
 msgid ""
 "Footer widgets area appears, not surprisingly, in the footer of the site."
-msgstr ""
+msgstr "Bunnwidgeter vises i bunntekstområdet på siden."
 
 #: header.php:47
 msgid "Menu"
-msgstr ""
+msgstr "Meny"
 
 #: header.php:48
 msgid "Skip to content"
-msgstr ""
+msgstr "Hopp til hovedinnhold"
 
 #: header.php:54
 msgid "Search"
-msgstr ""
+msgstr "Søk"
 
 #: image.php:25
 msgid "Featured in: "
-msgstr ""
+msgstr "Fremhevet i: "
 
 #: image.php:26
 msgid "Full size image: "
-msgstr ""
+msgstr "Bilde i full størrelse: "
 
 #: image.php:27
 msgid "Edit attachment post"
-msgstr ""
+msgstr "Rediger vedleggsinnlegg"
 
 #: inc/author-box.php:10
 msgid "Hide Author Bio"
-msgstr ""
+msgstr "Gjem forfatterinformasjon"
 
 #: inc/author-box.php:21
 #, php-format
 msgid "About %s"
-msgstr ""
+msgstr "Om %s"
 
 #: inc/author-box.php:26
 msgid "One article and counting. "
-msgstr ""
+msgstr "Én innlegg så langt."
 
 #: inc/author-box.php:27
 #, php-format
 msgid "%s articles and counting. "
-msgstr ""
+msgstr "%s innlegg så langt."
 
 #: inc/author-box.php:37
 #, php-format
 msgid "Follow %s on social media: "
-msgstr ""
+msgstr "Følg %s på sosiale medier: "
 
 #: inc/author-box.php:38
 msgid "Follow "
-msgstr ""
+msgstr "Følg "
 
 #: inc/author-box.php:38
 msgid " on Twitter"
-msgstr ""
+msgstr " på Twitter"
 
 #: inc/author-box.php:39
 msgid "Add "
-msgstr ""
+msgstr "Legg til "
 
 #: inc/author-box.php:39
 msgid " to your Google+ circles"
-msgstr ""
+msgstr " i Google+ sirklene dine"
 
 #: inc/author-box.php:40
 msgid "Like "
-msgstr ""
+msgstr "Lik "
 
 #: inc/author-box.php:40
 msgid " on Facebook"
-msgstr ""
+msgstr " på Facebook"
 
 #: inc/author-box.php:55
 #, php-format
 msgid "All posts by %s  <i class=\"fa fa-arrow-circle-o-right\"></i>"
-msgstr ""
+msgstr "Alle innlegg fra %s  <i class=\"fa fa-arrow-circle-o-right\"></i>"
 
 #: inc/customizer.php:46
 msgid "Header Color"
-msgstr ""
+msgstr "Bakgrunnsfarge for toppområde"
 
 #: inc/customizer.php:65
 msgid "Link Color"
-msgstr ""
+msgstr "Lenkefarge"
 
 #: inc/extras.php:63
 #, php-format
 msgid "Page %s"
-msgstr ""
+msgstr "Side %s"
 
 #: inc/template-tags.php:45
 msgid "&larr; Previous"
-msgstr ""
+msgstr "&larr; Forrige"
 
 #: inc/template-tags.php:46
 msgid "Next &rarr;"
-msgstr ""
+msgstr "Neste &rarr;"
 
 #: inc/template-tags.php:54
 msgid "Posts navigation"
-msgstr ""
+msgstr "Innleggsnavigasjon"
 
 #: inc/template-tags.php:79 inc/template-tags.php:101
 msgid "Post navigation"
-msgstr ""
+msgstr "Innleggsnavigasjon"
 
 #: inc/template-tags.php:104
 msgid "Previous Image"
-msgstr ""
+msgstr "Forrige bilde"
 
 #: inc/template-tags.php:105
 msgid "Next Image"
-msgstr ""
+msgstr "Neste bilde"
 
 #: inc/template-tags.php:126 inc/template-tags.php:128
 msgid "F jS, Y"
-msgstr ""
+msgstr "j. F,  Y"
 
 #: inc/template-tags.php:131
 #, php-format
@@ -301,8 +306,10 @@ msgid ""
 "<span class=\"byline\">Written by %1$s</span><span class=\"posted-on\">%2$s</"
 "span>"
 msgstr ""
+"<span class=\"byline\">Skrevet av %1$s</span><span class=\"posted-on\">%2$s</"
+"span>"
 
 #: search.php:16
 #, php-format
 msgid "Search Results for: %s"
-msgstr ""
+msgstr "Søkeresultat for: %s"
