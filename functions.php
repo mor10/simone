@@ -5,13 +5,6 @@
  * @package Simone
  */
 
-/**
- * Set the content width based on the theme's design and stylesheet.
- */
-if ( ! isset( $content_width ) ) {
-	$content_width = 700; /* pixels */
-}
-
 if ( ! function_exists( 'simone_setup' ) ) :
 /**
  * Sets up theme defaults and registers support for various WordPress features.
@@ -30,8 +23,15 @@ function simone_setup() {
 	 */
 	load_theme_textdomain( 'simone', get_template_directory() . '/languages' );
         
+        /**
+        * Set the content width based on the theme's design and stylesheet.
+        */
+        if ( ! isset( $content_width ) ) {
+               $content_width = 700; /* pixels */
+        }
+        
         // This theme styles the visual editor to resemble the theme style.
-        $font_url = 'http://fonts.googleapis.com/css?family=Lato:300,400,400italic,700,900,900italic|PT+Serif:400,700,400italic,700italic';
+        $font_url = '//fonts.googleapis.com/css?family=Lato:300,400,400italic,700,900,900italic|PT+Serif:400,700,400italic,700italic';
         add_editor_style( array( 'inc/editor-style.css', str_replace( ',', '%2C', $font_url ) ) );
 
 	// Add default posts and comments RSS feed links to head.
@@ -111,10 +111,10 @@ function simone_scripts() {
         }
         
         // Lato http://www.google.com/fonts/specimen/Lato + PT Serif http://www.google.com/fonts/specimen/PT+Serif
-        wp_enqueue_style( 'simone-google-fonts', 'http://fonts.googleapis.com/css?family=Lato:100,300,400,400italic,700,900,900italic|PT+Serif:400,700,400italic,700italic' );
+        wp_enqueue_style( 'simone-google-fonts', '//fonts.googleapis.com/css?family=Lato:100,300,400,400italic,700,900,900italic|PT+Serif:400,700,400italic,700italic' );
         
         // FontAwesome
-        wp_enqueue_style('simone_fontawesome', 'http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css');
+        wp_enqueue_style('simone_fontawesome', get_template_directory_uri() . '/fonts/font-awesome/css/font-awesome.min.css');
 
 	wp_enqueue_script( 'simone-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20120206', true );
         
