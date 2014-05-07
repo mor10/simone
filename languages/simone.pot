@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Simone 1.0\n"
-"POT-Creation-Date: 2014-05-02 20:15-0800\n"
-"PO-Revision-Date: 2014-05-02 20:16-0800\n"
+"POT-Creation-Date: 2014-05-07 16:49-0800\n"
+"PO-Revision-Date: 2014-05-07 16:50-0800\n"
 "Last-Translator: \n"
 "Language-Team: lynda.com <morten@lynda.com>\n"
 "Language: en\n"
@@ -134,12 +134,20 @@ msgstr ""
 msgid "% Comments"
 msgstr ""
 
-#: content.php:13 content.php:26 content.php:72
+#: content.php:13 content.php:26
 msgid "Read "
+msgstr ""
+
+#: content.php:72
+msgid "Read <span aria-hidden=\"true\">the article</span>"
 msgstr ""
 
 #: content.php:79
 msgid "Continue Reading "
+msgstr ""
+
+#: content.php:79
+msgid "Continue Reading"
 msgstr ""
 
 #: footer.php:17
@@ -178,12 +186,12 @@ msgid ""
 "Footer widgets area appears, not surprisingly, in the footer of the site."
 msgstr ""
 
-#: header.php:47
-msgid "Menu"
+#: header.php:25 header.php:48
+msgid "Skip to content"
 msgstr ""
 
-#: header.php:48
-msgid "Skip to content"
+#: header.php:47
+msgid "Menu"
 msgstr ""
 
 #: header.php:54
