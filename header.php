@@ -22,7 +22,7 @@
 <div id="page" class="hfeed site">
 
 	<header id="masthead" class="site-header" role="banner">
-            
+            <a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'simone' ); ?></a>
                 <?php if ( get_header_image() && ('blank' == get_header_textcolor()) ) { ?>
                 <figure class="header-image">
                     <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
@@ -44,7 +44,7 @@
 		</div>
 
 		<nav id="site-navigation" class="main-navigation clear" role="navigation">
-			<h1 class="menu-toggle"><?php _e( 'Menu', 'simone' ); ?></h1>
+                    <h1 class="menu-toggle"><a href="#"><?php _e( 'Menu', 'simone' ); ?></a></h1>
 			<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'simone' ); ?></a>
 
 			<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>

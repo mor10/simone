@@ -4,7 +4,7 @@ Theme URI: http://github.com/mor10/simone
 Author: Morten Rand-Hendriksen
 Author URI: http://mor10.com/
 Description: Simone is a responsive, accessible, high-resolution theme featuring custom header and custom link colors, large images, and easy to read typography that scales to fit all screens. Other features include keyboard accessible navigation, optional social menu, sidebar- and footer widgets, no-sidebar page template, Aside post format, and collapsible author profile box. Simone is translation ready and ships in English and Norwegian.
-Version: 0.9.8
+Version: 0.9.9
 License: GNU General Public License
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: simone
@@ -126,6 +126,10 @@ a:active {
 }
 a img {
 	border: 0;
+}
+
+a:focus img {
+    outline: 3px dotted #2c86ba;
 }
 
 /*--------------------------------------------------------------
@@ -433,7 +437,8 @@ a:active {
 
 .main-navigation ul ul li { }
 
-.main-navigation li:hover > a {
+.main-navigation li:hover > a,
+.main-navigation li > a:focus {
     color: #fff;
     color: hsl(0, 0%, 100%);
     background: #4d4d4d;
@@ -442,7 +447,8 @@ a:active {
 
 .main-navigation ul ul :hover > a { }
 
-.main-navigation ul ul a:hover {
+.main-navigation ul ul a:hover,
+.main-navigation ul ul a:focus {
     background: #313131;
     background: hsl(0, 0%, 19%);
 }
@@ -452,7 +458,9 @@ a:active {
 .main-navigation .current_page_item > a,
 .main-navigation .current-menu-item > a,
 .main-navigation .current_page_item > a:hover,
-.main-navigation .current-menu-item > a:hover {
+.main-navigation .current-menu-item > a:hover,
+.main-navigation .current_page_item > a:focus,
+.main-navigation .current-menu-item > a:focus {
     color: #313131;
     color: hsl(0, 0%, 19%);
     background: white;
@@ -479,8 +487,8 @@ a:active {
 
 @media screen and (max-width: 600px) {
     .menu-toggle {
-        display: block;
-        height: 3.75em;
+        display: inline-block;
+        height: 3.9em;
         padding: 0 1em;
         font-weight: normal;
         font-size: 14px;
@@ -488,6 +496,12 @@ a:active {
         text-decoration: none;
         line-height: 3.75em;
         color: white;
+    }
+      
+    .menu-toggle a:hover,
+    .menu-toggle a:focus {
+        background: #4d4d4d;
+    background: hsl(0, 0%, 30%);
     }
 
     .main-navigation.toggled .nav-menu {
@@ -510,7 +524,8 @@ a:active {
 
     .main-navigation li li li a { padding-left: 6em; }
 
-    .main-navigation li:hover > a {
+    .main-navigation li:hover > a,
+    .main-navigation li > a:focus {
         background: #313131;
         background: hsl(0, 0%, 19%);
     }
@@ -529,7 +544,9 @@ a:active {
     .main-navigation ul ul a { width: 100%; }
 
     .main-navigation ul a:hover,
-    .main-navigation ul ul a:hover {
+    .main-navigation ul ul a:hover,
+    .main-navigation ul a:focus,
+    .main-navigation ul ul a:focus{
         background: #4d4d4d;
         background: hsl(0, 0%, 30%);
     }
@@ -544,6 +561,8 @@ a:active {
     .main-navigation .current_page_item > a,
     .main-navigation .current_page_item > a:hover,
     .main-navigation .current_page_item li:hover,
+    .main-navigation .current_page_item > a:focus,
+    .main-navigation .current_page_item li:focus,
     .main-navigation .current_page_parent .current_page_item > a  {
         color: #fff;
         color: hsl(0, 0%, 100%);
@@ -691,7 +710,8 @@ span.page-numbers {
     color: hsl(0, 0%, 20%);
 }
 
-a:hover.page-numbers {
+a:hover.page-numbers,
+a:focus.page-numbers{
     color: #000;
     color: hsl(0, 0%, 0%);
 }
@@ -1012,7 +1032,8 @@ a:hover.page-numbers {
 .footer-widgets { margin: 0 auto; }
 
 .footer-widgets .widget-title,
-.footer-widgets .widget a:hover {
+.footer-widgets .widget a:hover,
+.footer-widgets .widget a:focus {
     color: #fff;
     color: hsl(0, 0%, 100%);
     border-color: #fff;
@@ -1266,7 +1287,7 @@ blockquote cite {
 
 .border-custom {
     border: #6DBCDB solid 1px;
-    border: hsl(19, 95%, 38%) solid 1px;*/
+    border: hsl(19, 95%, 38%) solid 1px;
 }
 
 /* Meta */
@@ -1282,7 +1303,8 @@ blockquote cite {
     color: hsl(0, 0%, 10%);
 }
 
-.category-list a:hover {
+.category-list a:hover,
+.category-list a:focus {
     color: #000;
     color: hsl(0, 0%, 0%);
 }
@@ -1527,7 +1549,8 @@ ol.children { list-style-type: none; }
     text-align: center;
 }
 
-.reveal-bio a:hover {
+.reveal-bio a:hover,
+.reveal-bio a:focus {
     text-decoration: none;
     color: #000;
     color: hsl(0, 0%, 0%);
@@ -1581,7 +1604,8 @@ ol.children { list-style-type: none; }
     color: hsl(0, 0%, 0%);
 }
 
-.author-social-media a:hover { text-decoration: none; }
+.author-social-media a:hover,
+.author-social-media a:focus { text-decoration: none; }
 
 a.author-link {
     font-weight: 900;
@@ -1666,7 +1690,8 @@ a.author-link {
     opacity: 0;
 }
 
-.gallery-item:hover .gallery-caption { opacity: 1; }
+.gallery-item:hover .gallery-caption,
+.gallery-item:focus .gallery-caption{ opacity: 1; }
 
 .site-main .gallery a img {
     display: block;
