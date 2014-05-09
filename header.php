@@ -45,7 +45,6 @@
 
 		<nav id="site-navigation" class="main-navigation clear" role="navigation">
                     <h1 class="menu-toggle"><a href="#"><?php _e( 'Menu', 'simone' ); ?></a></h1>
-			<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'simone' ); ?></a>
 
 			<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
                         
