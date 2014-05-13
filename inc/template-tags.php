@@ -270,18 +270,30 @@ endif;
 
 function simone_the_responsive_thumbnail($post_id) {
     $attachment_id = get_post_thumbnail_id($post_id);
-    $thumb_original = wp_get_attachment_image_src ($attachment_id, 'full' );
-    $thumb_large  = wp_get_attachment_image_src ($attachment_id, 'large-thumb' );
-    $thumb_medium = wp_get_attachment_image_src( $attachment_id, 'medium-thumb' );
-    $thumb_small  = wp_get_attachment_image_src( $attachment_id, 'small-thumb' );
-    $alt_text = get_post_meta($attachment_id , '_wp_attachment_image_alt', true);
+    
+    // Set transient so we don't have to run all these image queries every time we load a post
+    if ( false === ( $thumb_data = get_transient( 'featured_image_' . $post_id ) ) ) {
+        // Get all the images and the alt tag if any
+        $alt_text = get_post_meta($attachment_id, '_wp_attachment_image_alt', true);
+        if ( !$alt_text ) { $alt_text = esc_html( get_the_title($post_id) ); }
 
+        $thumb_data = array(
+            'thumb_original' => wp_get_attachment_image_src ( $attachment_id, 'full' )[0],
+            'thumb_large'    => wp_get_attachment_image_src ( $attachment_id, 'large-thumb' )[0],
+            'thumb_medium'   => wp_get_attachment_image_src ( $attachment_id, 'medium-thumb' )[0],
+            'thumb_small'    => wp_get_attachment_image_src ( $attachment_id, 'small-thumb' )[0],
+            'thumb_alt'      => $alt_text
+        );
+        
+        set_transient( 'featured_image_' . $post_id, $thumb_data, WEEK_IN_SECONDS );
+    }
+    
     echo '<picture>';
     echo '<!--[if IE 9]><video style="display: none;"><![endif]-->';
-    echo '<source srcset="' . $thumb_large[0] . ', ' . $thumb_original[0] . ' x2" media="(min-width: 800px)">';
-    echo '<source srcset="' . $thumb_medium[0] . ', ' . $thumb_large[0] . ' x2" media="(min-width: 400px)">'; 
-    echo '<source srcset="' . $thumb_small[0] . ', ' . $thumb_medium[0] . ' x2">'; 
+    echo '<source srcset="' . $thumb_data['thumb_large'] . ', ' . $thumb_data['thumb_original'] . ' x2" media="(min-width: 800px)">';
+    echo '<source srcset="' . $thumb_data['thumb_medium'] . ', ' . $thumb_data['thumb_large'] . ' x2" media="(min-width: 400px)">'; 
+    echo '<source srcset="' . $thumb_data['thumb_small'] . ', ' . $thumb_data['thumb_medium'] . ' x2">'; 
     echo '<!--[if IE 9]></video><![endif]-->';
-    echo '<img srcset="' . $thumb_small[0] . ', ' . $thumb_medium[0] . ' x2" alt="' . $alt_text . '">';
+    echo '<img srcset="' . $thumb_data['thumb_small'] . ', ' . $thumb_data['thumb_medium'] . ' x2" alt="' . $thumb_data['thumb_alt'] . '">';
     echo '</picture>';
 }
