@@ -11,7 +11,7 @@
     if (has_post_thumbnail()) {
         echo '<div class="single-post-thumbnail clear">';
         echo '<div class="image-shifter">';
-        echo the_post_thumbnail('large-thumb');
+        simone_the_responsive_thumbnail( get_the_ID() );
         echo '</div>';
         echo '</div>';
     }

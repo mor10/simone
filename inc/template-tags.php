@@ -261,3 +261,27 @@ function simone_the_attached_image() {
 	);
 }
 endif;
+
+/**
+ * Function for responsive featured images.
+ * Creates a <picture> tag and populate it with appropriate image sizes for different screen widths.
+ * Works in place of the_post_thumbnail();
+ */
+
+function simone_the_responsive_thumbnail($post_id) {
+    $attachment_id = get_post_thumbnail_id($post_id);
+    $thumb_original = wp_get_attachment_image_src ($attachment_id, 'full' );
+    $thumb_large  = wp_get_attachment_image_src ($attachment_id, 'large-thumb' );
+    $thumb_medium = wp_get_attachment_image_src( $attachment_id, 'medium-thumb' );
+    $thumb_small  = wp_get_attachment_image_src( $attachment_id, 'small-thumb' );
+    $alt_text = get_post_meta($attachment_id , '_wp_attachment_image_alt', true);
+
+    echo '<picture>';
+    echo '<!--[if IE 9]><video style="display: none;"><![endif]-->';
+    echo '<source srcset="' . $thumb_large[0] . ', ' . $thumb_original[0] . ' x2" media="(min-width: 800px)">';
+    echo '<source srcset="' . $thumb_medium[0] . ', ' . $thumb_large[0] . ' x2" media="(min-width: 400px)">'; 
+    echo '<source srcset="' . $thumb_small[0] . ', ' . $thumb_medium[0] . ' x2">'; 
+    echo '<!--[if IE 9]></video><![endif]-->';
+    echo '<img srcset="' . $thumb_small[0] . ', ' . $thumb_medium[0] . ' x2" alt="' . $alt_text . '">';
+    echo '</picture>';
+}
