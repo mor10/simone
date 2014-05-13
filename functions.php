@@ -43,7 +43,11 @@ function simone_setup() {
 	 * @link http://codex.wordpress.org/Function_Reference/add_theme_support#Post_Thumbnails
 	 */
 	add_theme_support( 'post-thumbnails' );
+        // Featured image sizes for resesponsive display
         add_image_size('large-thumb', 1060, 650, true);
+        add_image_size('medium-thumb', 800, 490);
+        add_image_size('small-thumb', 400, 245);
+        // Featured image size for small image in archives
         add_image_size('index-thumb', 780, 250, true);
 
 	// This theme uses wp_nav_menu() in one location.
@@ -127,6 +131,8 @@ function simone_scripts() {
         wp_enqueue_script( 'simone-masonry', get_template_directory_uri() . '/js/masonry-settings.js', array('masonry'), '20140401', true );
         
         wp_enqueue_script( 'simone-enquire', get_template_directory_uri() . '/js/enquire.min.js', false, '20140429', true );
+        
+        wp_enqueue_script( 'simone-picturefill', get_template_directory_uri() . '/js/picturefill.min.js', false, '20140512', false );
         
         if (is_single() || is_author() ) {
             	wp_enqueue_script( 'simone-hide', get_template_directory_uri() . '/js/hide.js', array('jquery'), '20140310', true );
