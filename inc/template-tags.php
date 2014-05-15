@@ -285,7 +285,7 @@ function simone_the_responsive_thumbnail($post_id) {
             'thumb_alt'      => $alt_text
         );
         
-        set_transient( 'featured_image_' . $post_id, $thumb_data, WEEK_IN_SECONDS );
+        set_transient( 'featured_image_' . $post_id, $thumb_data, 52 * WEEK_IN_SECONDS );
     }
     
     echo '<picture>';
@@ -297,3 +297,15 @@ function simone_the_responsive_thumbnail($post_id) {
     echo '<img srcset="' . $thumb_data['thumb_small'] . ', ' . $thumb_data['thumb_medium'] . ' x2" alt="' . $thumb_data['thumb_alt'] . '">';
     echo '</picture>';
 }
+
+/**
+ * Reset featured image transient when featured image is updated
+ */
+
+function simone_reset_thumb_data_transient($meta_id, $post_id, $meta_key) {
+    delete_transient( 'featured_image_' . $post_id );
+}
+
+add_action('added_post_meta', 'simone_reset_thumb_data_transient', 10, 4);
+add_action('updated_post_meta', 'simone_reset_thumb_data_transient', 10, 4);
+add_action('deleted_post_meta', 'simone_reset_thumb_data_transient', 10, 4);
