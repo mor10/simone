@@ -262,30 +262,18 @@ function simone_the_attached_image() {
 }
 endif;
 
+
 /**
  * Function for responsive featured images.
  * Creates a <picture> tag and populate it with appropriate image sizes for different screen widths.
  * Works in place of the_post_thumbnail();
  */
-
 function simone_the_responsive_thumbnail($post_id) {
-    $attachment_id = get_post_thumbnail_id($post_id);
     
-    // Set transient so we don't have to run all these image queries every time we load a post
+    // Check to see if there is a transient available. If there is, use it.
     if ( false === ( $thumb_data = get_transient( 'featured_image_' . $post_id ) ) ) {
-        // Get all the images and the alt tag if any
-        $alt_text = get_post_meta($attachment_id, '_wp_attachment_image_alt', true);
-        if ( !$alt_text ) { $alt_text = esc_html( get_the_title($post_id) ); }
-
-        $thumb_data = array(
-            'thumb_original' => wp_get_attachment_image_src ( $attachment_id, 'full' )[0],
-            'thumb_large'    => wp_get_attachment_image_src ( $attachment_id, 'large-thumb' )[0],
-            'thumb_medium'   => wp_get_attachment_image_src ( $attachment_id, 'medium-thumb' )[0],
-            'thumb_small'    => wp_get_attachment_image_src ( $attachment_id, 'small-thumb' )[0],
-            'thumb_alt'      => $alt_text
-        );
-        
-        set_transient( 'featured_image_' . $post_id, $thumb_data, 52 * WEEK_IN_SECONDS );
+        simone_set_image_transient($post_id);  
+        $thumb_data = get_transient( 'featured_image_' . $post_id );
     }
     
     echo '<picture>';
@@ -299,13 +287,39 @@ function simone_the_responsive_thumbnail($post_id) {
 }
 
 /**
- * Reset featured image transient when featured image is updated
+ * Create image transient to avoid looping through multiple image queries every time a post loads
+ * Called any time a post is saved or updated right after existing transient is flushed.
+ * Called by simone_the_responsive_thumbnail when no transient is set.
+ * 
+ * - Get the featured image ID
+ * - Get the alt text (if no alt text is defined, set the alt text to the post title)
+ * - Build an array with each of the available image sizes + the alt text
+ * - Set a transient with the label "featured_image_[post_id] that expires in 12 months
  */
+function simone_set_image_transient($post_id) {
+    $attachment_id = get_post_thumbnail_id($post_id);
+    $alt_text = get_post_meta($attachment_id, '_wp_attachment_image_alt', true);
+    if ( !$alt_text ) { $alt_text = esc_html( get_the_title($post_id) ); }
 
-function simone_reset_thumb_data_transient($meta_id, $post_id, $meta_key) {
-    delete_transient( 'featured_image_' . $post_id );
+    $thumb_data = array(
+        'thumb_original' => wp_get_attachment_image_src ( $attachment_id, 'full' )[0],
+        'thumb_large'    => wp_get_attachment_image_src ( $attachment_id, 'large-thumb' )[0],
+        'thumb_medium'   => wp_get_attachment_image_src ( $attachment_id, 'medium-thumb' )[0],
+        'thumb_small'    => wp_get_attachment_image_src ( $attachment_id, 'small-thumb' )[0],
+        'thumb_alt'      => $alt_text
+    );
+
+    set_transient( 'featured_image_' . $post_id, $thumb_data, 52 * WEEK_IN_SECONDS );
 }
 
-add_action('added_post_meta', 'simone_reset_thumb_data_transient', 10, 4);
-add_action('updated_post_meta', 'simone_reset_thumb_data_transient', 10, 4);
-add_action('deleted_post_meta', 'simone_reset_thumb_data_transient', 10, 4);
+/**
+ * Reset featured image transient when the post is updated
+ */
+add_action('save_post', 'simone_reset_thumb_data_transient');
+
+function simone_reset_thumb_data_transient( $post_id ) {
+    delete_transient( 'featured_image_' . $post_id );
+    if ( has_post_thumbnail($post_id) ) {
+        simone_set_image_transient($post_id);
+    }
+}
