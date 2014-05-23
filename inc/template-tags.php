@@ -301,11 +301,16 @@ function simone_set_image_transient($post_id) {
     $alt_text = get_post_meta($attachment_id, '_wp_attachment_image_alt', true);
     if ( !$alt_text ) { $alt_text = esc_html( get_the_title($post_id) ); }
 
+    $thumb_original = wp_get_attachment_image_src($attachment_id, 'full');
+    $thumb_large    = wp_get_attachment_image_src($attachment_id, 'large-thumb');
+    $thumb_medium   = wp_get_attachment_image_src($attachment_id, 'medium-thumb');
+    $thumb_small    = wp_get_attachment_image_src($attachment_id, 'small-thumb');
+        
     $thumb_data = array(
-        'thumb_original' => wp_get_attachment_image_src ( $attachment_id, 'full' )[0],
-        'thumb_large'    => wp_get_attachment_image_src ( $attachment_id, 'large-thumb' )[0],
-        'thumb_medium'   => wp_get_attachment_image_src ( $attachment_id, 'medium-thumb' )[0],
-        'thumb_small'    => wp_get_attachment_image_src ( $attachment_id, 'small-thumb' )[0],
+        'thumb_original' => $thumb_original[0],
+        'thumb_large'    => $thumb_large[0],
+        'thumb_medium'   => $thumb_medium[0],
+        'thumb_small'    => $thumb_small[0],
         'thumb_alt'      => $alt_text
     );
 
