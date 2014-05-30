@@ -1,8 +1,8 @@
 # Simone
 
-Simone is a responsive modern design theme designed and developed by [Morten Rand-Hendriksen](http://mor10.com). 
+Simone is a responsive modern design theme designed and developed by [Morten Rand-Hendriksen](http://mor10.com) available from the [WordPress Theme Directory](http://wordpress.org/themes/simone/).
 
-Simone's design is focussed on typography and aims to put the content front and center. Fonts are large and clear and scale according to screen width. On wider screens blockquotes and images can be aligned left and right to break out of the main stream and get a pull-quote effect.
+Simone's design is focused on typography and aims to put the content front and center. Fonts are large and clear and scale according to screen width. On wider screens blockquotes and images can be aligned left and right to break out of the main stream and get a pull-quote effect. The featured images are responsive through the use of the <picture> element resulting in appropriate image sizes being loaded to fit individual screen sizes.
 
 ## Features
 ### Customizer options
@@ -42,7 +42,12 @@ The theme features three custom fonts:
 
 The accessible main menu is powered by [SuperFish](http://users.tpg.com.au/j_birch/plugins/superfish/). [MIT License](https://github.com/joeldbirch/superfish/blob/master/MIT-LICENSE.txt)
 Responsive triggers for Superfish and Masonry powered by [Enquire.js](http://wicky.nillia.ms/enquire.js/). [MIT Licence](http://wicky.nillia.ms/enquire.js/#license)
+Responsive featured images powered by [Picturefill](http://scottjehl.github.io/picturefill/)
 
 ## Namesake
-
 Simone is named after philosopher [Simone de Beauvoir](http://en.wikipedia.org/wiki/Simone_de_Beauvoir)
+
+## Changelog
+### 1.0.3
+- Featured image on single posts and pages and the first post on index page now responsive with <picture> element
+- Fixed .screen-reader-text based on http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
