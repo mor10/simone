@@ -1303,7 +1303,7 @@ blockquote cite {
 
 .category-list a {
     color: #333;
-    color: hsl(0, 0%, 10%);
+    color: hsl(0, 0%, 20%);
 }
 
 .category-list a:hover,
