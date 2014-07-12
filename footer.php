@@ -14,7 +14,7 @@
             <?php get_sidebar( 'footer' ); ?>
 		<div class="site-info">
 			<?php do_action( 'simone_credits' ); ?>
-			<a href="<?php echo esc_url( __( 'http://wordpress.org/', 'my-simone' ) ); ?>" rel="generator"><?php printf( __( 'Proudly powered by %s', 'simone' ), 'WordPress' ); ?></a>
+			<a href="<?php echo esc_url( __( 'http://wordpress.org/', 'simone' ) ); ?>" rel="generator"><?php printf( __( 'Proudly powered by %s', 'simone' ), 'WordPress' ); ?></a>
 			<span class="sep"> | </span>
 			<?php printf( __( 'Theme: Simone by <a href="%1$s" rel="designer nofollow">mor10.com</a>.', 'simone' ), esc_url('http://mor10.com/') ); ?>
 		</div><!-- .site-info -->
