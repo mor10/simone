@@ -48,6 +48,9 @@ Responsive featured images powered by [Picturefill](http://scottjehl.github.io/p
 Simone is named after philosopher [Simone de Beauvoir](http://en.wikipedia.org/wiki/Simone_de_Beauvoir)
 
 ## Changelog
+### 1.0.4
+- Various translation improvements courtesy of Caspar Hübinger (@glueckpress). See https://github.com/mor10/simone/pull/5 for details.
+
 ### 1.0.3
 - Featured image on single posts and pages and the first post on index page now responsive with <picture> element
 - Fixed .screen-reader-text based on http://snook.ca/archives/html_and_css/hiding-content-for-accessibility

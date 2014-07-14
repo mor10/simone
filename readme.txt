@@ -1,5 +1,5 @@
 === Simone ===
-Contributors: Morten Rand-Hendriksen
+Contributors: Morten Rand-Hendriksen,  Caspar Hübinger
 Tags: white, black, blue, light, one-column, two-columns, right-sidebar, responsive-layout, accessibility-ready, custom-colors, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, sticky-post, threaded-comments, translation-ready
 Requires at least: 3.8
 Tested up to: 3.9
@@ -12,6 +12,9 @@ Simone\'s design is focussed on typography and aims to put the content front and
 
 
 == Changelog ==
+=== 1.0.4 ===
+- Various translation improvements courtesy of Caspar Hübinger (@glueckpress). See https://github.com/mor10/simone/pull/5 for details.
+
 === 1.0.2 ===
 - Featured image on single posts and pages and the first post on index page now responsive with <picture> element
 - Fixed .screen-reader-text based on http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
