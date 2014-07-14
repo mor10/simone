@@ -30,56 +30,56 @@ add_action( 'customize_preview_init', 'simone_customize_preview_js' );
  */
 
 function simone_register_theme_customizer( $wp_customize ) {
- 
+
     $wp_customize->add_setting(
         'simone_header_color',
         array(
             'default'     => '#0587BF'
         )
     );
- 
+
     $wp_customize->add_control(
         new WP_Customize_Color_Control(
             $wp_customize,
             'header_color',
             array(
-                'label'      => __( 'Header Color', 'tcx' ),
+                'label'      => __( 'Header Color', 'simone' ),
                 'section'    => 'colors',
                 'settings'   => 'simone_header_color'
             )
         )
     );
-    
+
     $wp_customize->add_setting(
         'simone_link_color',
         array(
             'default'     => '#000000'
         )
     );
- 
+
     $wp_customize->add_control(
         new WP_Customize_Color_Control(
             $wp_customize,
             'link_color',
             array(
-                'label'      => __( 'Link Color', 'tcx' ),
+                'label'      => __( 'Link Color', 'simone' ),
                 'section'    => 'colors',
                 'settings'   => 'simone_link_color'
             )
         )
     );
- 
+
 }
 add_action( 'customize_register', 'simone_register_theme_customizer' );
 
 function simone_customizer_css() {
     ?>
     <style type="text/css">
-        .site-branding { 
-            background: <?php echo get_theme_mod( 'simone_header_color' ); ?>; 
+        .site-branding {
+            background: <?php echo get_theme_mod( 'simone_header_color' ); ?>;
         }
-        
-        .category-list a:hover, 
+
+        .category-list a:hover,
         .entry-meta a:hover,
         .tag-links a:hover,
         .widget-area a:hover,
@@ -88,14 +88,14 @@ function simone_customizer_css() {
         .continue-reading a,
         .entry-title a:hover,
         .entry-content a,
-        .comment-content a { 
-            color: <?php echo get_theme_mod( 'simone_link_color' ); ?>; 
+        .comment-content a {
+            color: <?php echo get_theme_mod( 'simone_link_color' ); ?>;
         }
-        
+
         .border-custom {
             border: <?php echo get_theme_mod( 'simone_link_color' ); ?> solid 1px;
         }
-        
+
     </style>
     <?php
 }

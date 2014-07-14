@@ -4,7 +4,7 @@
  *
  * Eventually, some of the functionality here could be replaced by core features.
  *
- * @package my-simone
+ * @package simone
  */
 
 if ( ! function_exists( 'simone_paging_nav' ) ) :
@@ -128,7 +128,7 @@ function simone_posted_on() {
 		esc_html( get_the_modified_date( __('F jS, Y', 'simone') ) )
 	);
 
-	printf( __( '<span class="byline">Written by %1$s</span><span class="posted-on">%2$s</span>', 'my-simone' ),
+	printf( __( '<span class="byline">Written by %1$s</span><span class="posted-on">%2$s</span>', 'simone' ),
 		sprintf( '<span class="author vcard"><a class="url fn n" href="%1$s">%2$s</a></span>',
 			esc_url( get_author_posts_url( get_the_author_meta( 'ID' ) ) ),
 			esc_html( get_the_author() )
