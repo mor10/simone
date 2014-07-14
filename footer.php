@@ -14,9 +14,18 @@
             <?php get_sidebar( 'footer' ); ?>
 		<div class="site-info">
 			<?php do_action( 'simone_credits' ); ?>
-			<a href="<?php echo esc_url( __( 'http://wordpress.org/', 'my-simone' ) ); ?>" rel="generator"><?php printf( __( 'Proudly powered by %s', 'simone' ), 'WordPress' ); ?></a>
+			<?php
+			printf(
+				/* translators: %s = text link: WordPress, URL: http://wordpress.org/ */
+				__( 'Proudly powered by %s', 'simone' ),
+				'<a href="http://wordpress.org/" rel="generator">' . esc_attr__( 'WordPress', 'simone' ) . '</a>'
+				); ?>
 			<span class="sep"> | </span>
-			<?php printf( __( 'Theme: Simone by <a href="%1$s" rel="designer nofollow">mor10.com</a>.', 'simone' ), esc_url('http://mor10.com/') ); ?>
+			<?php
+			printf(
+				/* translators: %s = text link: mor10.com, URL: http://mor10.com/ */
+				__( 'Theme: Simone by %s', 'simone' ),
+				'<a href="http://mor10.com/" rel="designer nofollow">' . esc_attr__( 'mor10.com', 'simone' ) . '</a>' ); ?>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->

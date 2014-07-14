@@ -4,7 +4,7 @@
  *
  * Eventually, some of the functionality here could be replaced by core features
  *
- * @package my-simone
+ * @package simone
  */
 
 /**
@@ -60,7 +60,7 @@ function simone_wp_title( $title, $sep ) {
 
 	// Add a page number if necessary:
 	if ( $paged >= 2 || $page >= 2 ) {
-		$title .= " $sep " . sprintf( __( 'Page %s', 'my-simone' ), max( $paged, $page ) );
+		$title .= " $sep " . sprintf( __( 'Page %s', 'simone' ), max( $paged, $page ) );
 	}
 
 	return $title;

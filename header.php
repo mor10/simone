@@ -30,9 +30,9 @@
                     </a>
                 </figure>
                 <?php } // End header image check. ?>
-            <?php 
-                if ( get_header_image() && !('blank' == get_header_textcolor()) ) { 
-                    echo '<div class="site-branding header-background-image" style="background-image: url(' . get_header_image() . ')">'; 
+            <?php
+                if ( get_header_image() && !('blank' == get_header_textcolor()) ) {
+                    echo '<div class="site-branding header-background-image" style="background-image: url(' . get_header_image() . ')">';
                 } else {
                     echo '<div class="site-branding">';
                 }
@@ -47,13 +47,13 @@
                     <h1 class="menu-toggle"><a href="#"><?php _e( 'Menu', 'simone' ); ?></a></h1>
 
 			<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
-                        
+
                         <div class="search-toggle">
                             <i class="fa fa-search"></i>
-                            <a href="#search-container" class="screen-reader-text"><?php _e( 'Search', 'twentyfourteen' ); ?></a>
+                            <a href="#search-container" class="screen-reader-text"><?php _e( 'Search', 'simone' ); ?></a>
                         </div>
                         <?php simone_social_menu(); ?>
-                        
+
 
 		</nav><!-- #site-navigation -->
 
@@ -62,7 +62,7 @@
 				<?php get_search_form(); ?>
 			</div>
 		</div>
-                
+
 	</header><!-- #masthead -->
 
 	<div id="content" class="site-content">
