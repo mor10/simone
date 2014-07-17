@@ -79,8 +79,8 @@ function simone_post_nav() {
 		<h1 class="screen-reader-text"><?php _e( 'Post navigation', 'simone' ); ?></h1>
 		<div class="nav-links">
 			<?php
-				previous_post_link( '<div class="nav-previous"><div class="nav-indicator">' . _x( 'Previous Post:', 'Previous post', 'simone' ) . '</div><h1>%link</h1></div>', '%title' );
-				next_post_link(     '<div class="nav-next"><div class="nav-indicator">' . _x( 'Next Post:', 'Next post', 'simone' ) . '</div><h1>%link</h1></div>', '%title' );
+				previous_post_link( '<div class="nav-previous"><div class="nav-indicator">' . __( 'Previous Post:', 'simone' ) . '</div><h1>%link</h1></div>', '%title' );
+				next_post_link(     '<div class="nav-next"><div class="nav-indicator">' . __( 'Next Post:', 'simone' ) . '</div><h1>%link</h1></div>', '%title' );
 			?>
 		</div><!-- .nav-links -->
             </div><!-- .post-nav-box -->
