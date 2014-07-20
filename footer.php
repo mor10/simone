@@ -23,8 +23,9 @@
 			<span class="sep"> | </span>
 			<?php
 			printf(
-				/* translators: %s = text link: mor10.com, URL: http://mor10.com/ */
-				__( 'Theme: Simone by %s', 'simone' ),
+				/* translators: %1$s = text link: Simone, URL: http://wordpress.org/themes/simone/, %2$s = text link: mor10.com, URL: http://mor10.com/ */
+				__( 'Theme: %1$s by %2$s', 'simone' ),
+                                '<a href="http://wordpress.org/themes/simone/" rel="nofollow">' . esc_attr( 'Simone', 'simone' ) . '</a>',
 				'<a href="http://mor10.com/" rel="designer nofollow">' . esc_attr__( 'mor10.com', 'simone' ) . '</a>' ); ?>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->

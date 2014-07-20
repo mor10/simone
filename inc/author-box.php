@@ -23,9 +23,16 @@
             <?php
             // Change language depending on number of posts
             $posts_posted = get_the_author_posts();
-            if ( $posts_posted == 1) { printf(__( 'One article and counting. ', 'simone' ) ); }
-            else { printf(__( '%s articles and counting. ', 'simone' ), the_author_posts() ); }
-
+            if ( $posts_posted == 1) { 
+                printf(
+                        /* translators: May be followed by another sentence. There is a space after the punctuation mark.  */
+                        __( 'One article and counting. ', 'simone' ) ); 
+            }
+            else { 
+                printf(
+                    /* translators: May be followed by another sentence. There is a space after the punctuation mark.  */
+                    __( '%s articles and counting. ', 'simone' ), the_author_posts() ); 
+            }
             $author_firstname = get_the_author_meta('first_name');
             // Check if social media info is collected in user profile
             // Usually handled by a plugin like WordPress SEO by Yoast
@@ -46,9 +53,6 @@
                 }
                 echo '</div>';
             }
-
-
-
             ?>
         </div>
     </div>

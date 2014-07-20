@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Simone 1.0\n"
-"POT-Creation-Date: 2014-05-07 16:49-0800\n"
-"PO-Revision-Date: 2014-05-07 16:50-0800\n"
+"Project-Id-Version: Simone 1.0.5\n"
+"POT-Creation-Date: 2014-07-16 17:00-0800\n"
+"PO-Revision-Date: 2014-07-16 17:01-0800\n"
 "Last-Translator: \n"
 "Language-Team: lynda.com <morten@lynda.com>\n"
 "Language: en\n"
@@ -12,40 +12,44 @@ msgstr ""
 "X-Generator: Poedit 1.6.4\n"
 "X-Poedit-Basepath: ../\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-KeywordsList: __;_e;_x\n"
 "X-Poedit-SearchPath-0: .\n"
 
-#: archive.php:21
-msgid "Posts in the "
+#. translators: %s = single category title
+#: archive.php:22
+#, php-format
+msgid "Posts in the %s category:"
 msgstr ""
 
-#: archive.php:24
-msgid " category"
+#. translators: %s = single tag title
+#: archive.php:26
+#, php-format
+msgid "Posts with the %s tag"
 msgstr ""
 
-#: archive.php:27
-msgid "Posts with the "
-msgstr ""
-
-#: archive.php:30
-msgid "tag"
-msgstr ""
-
-#: archive.php:33
+#: archive.php:29
 #, php-format
 msgid "Author: %s"
 msgstr ""
 
-#: archive.php:36 archive.php:39 archive.php:42
+#: archive.php:33 archive.php:36 archive.php:39
 #, php-format
 msgid "Posts from %s"
 msgstr ""
 
-#: archive.php:45
+#: archive.php:36
+msgid "F Y"
+msgstr ""
+
+#: archive.php:39
+msgid "Y"
+msgstr ""
+
+#: archive.php:42
 msgid "Asides"
 msgstr ""
 
-#: archive.php:48
+#: archive.php:45
 msgid "Archives"
 msgstr ""
 
@@ -54,67 +58,66 @@ msgid "Comment navigation"
 msgstr ""
 
 #: comments.php:46
-msgid "<i class=\"fa fa-arrow-circle-o-left\"></i> Older Comments"
+msgid "Older Comments"
 msgstr ""
 
 #: comments.php:47
-msgid "Newer Comments <i class=\"fa fa-arrow-circle-o-right\"></i>"
+msgid "Newer Comments"
 msgstr ""
 
 #: comments.php:57
 msgid "Comments are closed."
 msgstr ""
 
-#: content-aside.php:17 content.php:61
-msgid " | Edit"
+#: content-aside.php:17 content-page.php:32 content-single.php:42
+#: content.php:61
+msgid "Edit"
 msgstr ""
 
 #: content-none.php:16
 msgid "Page not available"
 msgstr ""
 
-#: content-none.php:17
-msgid "Nothing found for <em>"
+#. translators: %s = search query
+#: content-none.php:20
+#, php-format
+msgid "Nothing found for %s"
 msgstr ""
 
-#: content-none.php:18
+#: content-none.php:22
 msgid "Nothing Found"
 msgstr ""
 
-#: content-none.php:26
+#: content-none.php:31
 #, php-format
 msgid ""
 "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
 msgstr ""
 
-#: content-none.php:30
+#: content-none.php:35
 msgid ""
 "You seem to be lost. To find what you are looking for check out the most "
 "recent articles below or try a search:"
 msgstr ""
 
-#: content-none.php:35
+#: content-none.php:40
 msgid ""
 "Nothing matched your search terms. Check out the most recent articles below "
 "or try searching for something else:"
 msgstr ""
 
-#: content-none.php:40
+#: content-none.php:45
 msgid ""
 "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
 "searching can help."
 msgstr ""
 
-#: content-none.php:51
+#: content-none.php:56
 msgid "Most recent posts:"
 msgstr ""
 
 #: content-page.php:27 content-single.php:50 image.php:48
 msgid "Pages:"
-msgstr ""
-
-#: content-page.php:32 content-single.php:42
-msgid "Edit"
 msgstr ""
 
 #. translators: used between list items, there is a space after the comma
@@ -134,7 +137,7 @@ msgstr ""
 msgid "% Comments"
 msgstr ""
 
-#: content.php:13 content.php:26
+#: content.php:13 content.php:26 content.php:72
 msgid "Read "
 msgstr ""
 
@@ -150,43 +153,40 @@ msgstr ""
 msgid "Continue Reading"
 msgstr ""
 
-#: footer.php:17
-msgid "http://wordpress.org/"
-msgstr ""
-
-#: footer.php:17
+#. translators: %s = text link: WordPress, URL: http://wordpress.org/
+#: footer.php:20
 #, php-format
 msgid "Proudly powered by %s"
 msgstr ""
 
-#: footer.php:19
+#. translators: %s = text link: mor10.com, URL: http://mor10.com/
+#: footer.php:27
 #, php-format
-msgid ""
-"Theme: Simone by <a href=\"%1$s\" rel=\"designer nofollow\">mor10.com</a>."
+msgid "Theme: Simone by %s"
 msgstr ""
 
-#: functions.php:51
+#: functions.php:55
 msgid "Primary Menu"
 msgstr ""
 
-#: functions.php:52
+#: functions.php:56
 msgid "Social Menu"
 msgstr ""
 
-#: functions.php:81
+#: functions.php:85
 msgid "Sidebar"
 msgstr ""
 
-#: functions.php:90
+#: functions.php:94
 msgid "Footer Widgets"
 msgstr ""
 
-#: functions.php:91
+#: functions.php:95
 msgid ""
 "Footer widgets area appears, not surprisingly, in the footer of the site."
 msgstr ""
 
-#: header.php:25 header.php:48
+#: header.php:25
 msgid "Skip to content"
 msgstr ""
 
@@ -194,7 +194,7 @@ msgstr ""
 msgid "Menu"
 msgstr ""
 
-#: header.php:54
+#: header.php:53
 msgid "Search"
 msgstr ""
 
@@ -233,33 +233,36 @@ msgstr ""
 msgid "Follow %s on social media: "
 msgstr ""
 
-#: inc/author-box.php:38
-msgid "Follow "
-msgstr ""
-
-#: inc/author-box.php:38
-msgid " on Twitter"
-msgstr ""
-
 #: inc/author-box.php:39
-msgid "Add "
-msgstr ""
-
-#: inc/author-box.php:39
-msgid " to your Google+ circles"
-msgstr ""
-
-#: inc/author-box.php:40
-msgid "Like "
-msgstr ""
-
-#: inc/author-box.php:40
-msgid " on Facebook"
-msgstr ""
-
-#: inc/author-box.php:55
 #, php-format
-msgid "All posts by %s  <i class=\"fa fa-arrow-circle-o-right\"></i>"
+msgid "Follow %s on Twitter"
+msgstr ""
+
+#: inc/author-box.php:39
+msgid "Twitter"
+msgstr ""
+
+#: inc/author-box.php:42
+#, php-format
+msgid "Add %s to your Google+ circles"
+msgstr ""
+
+#: inc/author-box.php:42
+msgid "Google+"
+msgstr ""
+
+#: inc/author-box.php:45
+#, php-format
+msgid "Like %s on Facebook"
+msgstr ""
+
+#: inc/author-box.php:45
+msgid "Facebook"
+msgstr ""
+
+#: inc/author-box.php:61
+#, php-format
+msgid "All posts by %s"
 msgstr ""
 
 #: inc/customizer.php:46
@@ -289,6 +292,14 @@ msgstr ""
 
 #: inc/template-tags.php:79 inc/template-tags.php:101
 msgid "Post navigation"
+msgstr ""
+
+#: inc/template-tags.php:82
+msgid "Previous Post:"
+msgstr ""
+
+#: inc/template-tags.php:83
+msgid "Next Post:"
 msgstr ""
 
 #: inc/template-tags.php:104

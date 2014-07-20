@@ -12,6 +12,11 @@ Simone\'s design is focussed on typography and aims to put the content front and
 
 
 == Changelog ==
+=== 1.0.5 ===
+- Translation files updated to reflect recent changes.
+- Various translation improvements throughout
+- Norwegian Bokmål translation updated
+
 === 1.0.4 ===
 - Various translation improvements courtesy of Caspar Hübinger (@glueckpress). See https://github.com/mor10/simone/pull/5 for details.
 
