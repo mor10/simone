@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Simone v1.0.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2014-07-20 14:04:41+0000\n"
+"PO-Revision-Date: 2014-07-20 14:15:07+0000\n"
 "Last-Translator: glueckpress <caspar@glueckpress.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -165,8 +165,8 @@ msgstr "Mit %s betrieben."
 msgctxt "comments title"
 msgid "One comment:"
 msgid_plural "%1$s comments:"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Ein Kommentar:"
+msgstr[1] "%1$s Kommentare:"
 
 #: content-none.php:16
 #@ simone
@@ -420,7 +420,7 @@ msgstr "Teile bei Facebook, dass  %s dir gefällt"
 #: inc/author-box.php:52
 #@ simone
 msgid "Facebook"
-msgstr ""
+msgstr "Facebook"
 
 #: inc/author-box.php:65
 #, php-format
