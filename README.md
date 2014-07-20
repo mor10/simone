@@ -5,6 +5,12 @@ Simone is a responsive modern design theme designed and developed by [Morten Ran
 Simone's design is focused on typography and aims to put the content front and center. Fonts are large and clear and scale according to screen width. On wider screens blockquotes and images can be aligned left and right to break out of the main stream and get a pull-quote effect. The featured images are responsive through the use of the <picture> element resulting in appropriate image sizes being loaded to fit individual screen sizes.
 
 ## Features
+
+## Translations
+Simone ships with English as the default language. Translations are available for:
+- Norwegian Bokmål (nb_NO)
+- German (de_DE via Caspar Hübinger)
+
 ### Customizer options
 Extended options available from the Customizer:
 
@@ -48,6 +54,9 @@ Responsive featured images powered by [Picturefill](http://scottjehl.github.io/p
 Simone is named after philosopher [Simone de Beauvoir](http://en.wikipedia.org/wiki/Simone_de_Beauvoir)
 
 ## Changelog
+### 1.0.6
+- German translation courtesy of Caspar Hübinger
+
 ### 1.0.5
 - Translation files updated to reflect recent changes.
 - Various translation improvements throughout

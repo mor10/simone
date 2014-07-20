@@ -12,6 +12,9 @@ Simone\'s design is focussed on typography and aims to put the content front and
 
 
 == Changelog ==
+=== 1.0.6 ===
+- German translation courtesy of Caspar Hübinger
+
 === 1.0.5 ===
 - Translation files updated to reflect recent changes.
 - Various translation improvements throughout
@@ -25,7 +28,13 @@ Simone\'s design is focussed on typography and aims to put the content front and
 - Fixed .screen-reader-text based on http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
 
 
-== Description ==
+== Features ==
+
+=== Translations ===
+Simone ships with English as the default language. Translations are available for:
+- Norwegian Bokmål (nb_NO)
+- German (de_DE via Caspar Hübinger)
+
 === Customizer Options ===
 Extended options available from the Customizer:
 
