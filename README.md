@@ -6,7 +6,7 @@ Simone's design is focused on typography and aims to put the content front and c
 
 ## Features
 
-## Translations
+### Translations
 Simone ships with English as the default language. Translations are available for:
 - Norwegian Bokmål (nb_NO)
 - German (de_DE via Caspar Hübinger)
