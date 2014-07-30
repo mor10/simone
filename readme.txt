@@ -12,6 +12,9 @@ Simone\'s design is focussed on typography and aims to put the content front and
 
 
 == Changelog ==
+=== 1.0.7 ===
+- French translation courtesy of Christine Rondeau
+
 === 1.0.6 ===
 - German translation courtesy of Caspar Hübinger
 
