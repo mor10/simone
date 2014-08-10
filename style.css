@@ -4,7 +4,7 @@ Theme URI: http://mor10.com/simone-wordpress-theme/
 Author: Morten Rand-Hendriksen
 Author URI: http://mor10.com/
 Description: Simone is a responsive, accessible, high-resolution theme featuring custom header and custom link colors, large images, and easy to read typography that scales to fit all screens. Other features include keyboard accessible navigation, optional social menu, sidebar- and footer widgets, no-sidebar page template, Aside post format, and collapsible author profile box. Simone is translation ready and ships in English with translations in French, German, and Norwegian Bokmål.
-Version: 1.0.7
+Version: 1.0.7.1
 License: GNU General Public License
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: simone
@@ -1322,11 +1322,10 @@ blockquote cite {
 
 .entry-meta a { font-weight: 600; }
 
-/* Pseudo content to make meta list look pretty on smaller screens */
-.posted-on:before { content: ' on '; }
-
-.posted-on:after,
-.comments-link:after { content: '. '; }
+/* Hides 'on' and '.' in post meta on wide screens. */
+.mobile-hide {
+    display: inline;
+}
 
 /* Meta responsive */
 @media screen and (min-width: 1320px) {
@@ -1346,9 +1345,9 @@ blockquote cite {
     
     .single .author { display: block; }
     
-    .single .posted-on:before,
-    .single .posted-on:after,
-    .entry-meta .comments-link:after { content: none; }
+    .single .mobile-hide {
+        display: none;
+    }
 }
 
 .entry-footer {
