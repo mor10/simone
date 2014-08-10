@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Simone 1.0.5\n"
-"POT-Creation-Date: 2014-07-16 17:27-0800\n"
-"PO-Revision-Date: 2014-07-16 17:28-0800\n"
+"POT-Creation-Date: 2014-08-10 11:37-0800\n"
+"PO-Revision-Date: 2014-08-10 12:20-0800\n"
 "Last-Translator: \n"
 "Language-Team: lynda.com <morten@lynda.com>\n"
 "Language: nb\n"
@@ -12,7 +12,7 @@ msgstr ""
 "X-Generator: Poedit 1.6.4\n"
 "X-Poedit-Basepath: ../\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-KeywordsList: __;_e;_x;_n:1,2;_n_noop:1,2;_nx:1,2\n"
 "X-Poedit-SearchPath-0: .\n"
 
 #. translators: %s = single category title
@@ -32,6 +32,19 @@ msgstr "Artikler med %s taggen"
 msgid "Author: %s"
 msgstr "Forfatter: %s"
 
+#: archive.php:33 archive.php:36 archive.php:39
+#, php-format
+msgid "Posts from %s"
+msgstr "Artikler publisert %s"
+
+#: archive.php:36
+msgid "F Y"
+msgstr "j F, Y"
+
+#: archive.php:39
+msgid "Y"
+msgstr "Y"
+
 #: archive.php:42
 msgid "Asides"
 msgstr "Oppdateringer"
@@ -40,19 +53,26 @@ msgstr "Oppdateringer"
 msgid "Archives"
 msgstr "Arkiver"
 
-#: comments.php:45
+#: comments.php:29
+#, php-format
+msgid "One comment:"
+msgid_plural "%1$s comments:"
+msgstr[0] "Én kommentar:"
+msgstr[1] "%1$s kommentarer:"
+
+#: comments.php:47
 msgid "Comment navigation"
 msgstr "Kommentarnavigasjon"
 
-#: comments.php:46
+#: comments.php:48
 msgid "Older Comments"
 msgstr "Eldre kommentarer"
 
-#: comments.php:47
+#: comments.php:49
 msgid "Newer Comments"
 msgstr "Nyere kommentarer"
 
-#: comments.php:57
+#: comments.php:59
 msgid "Comments are closed."
 msgstr "Kommentarfeltet er stengt."
 
@@ -129,7 +149,7 @@ msgstr "Én kommentar"
 msgid "% Comments"
 msgstr "% kommentarer"
 
-#: content.php:13 content.php:26
+#: content.php:13 content.php:26 content.php:72
 msgid "Read "
 msgstr "Les"
 
@@ -311,13 +331,19 @@ msgstr "j F, Y"
 #: inc/template-tags.php:131
 #, php-format
 msgid ""
-"<span class=\"byline\">Written by %1$s</span><span class=\"posted-on\">%2$s</"
+"<span class=\"byline\">Written by %1$s</span><span class=\"mobile-hide\"> on "
+"</span><span class=\"posted-on\">%2$s</span><span class=\"mobile-hide\">.</"
 "span>"
 msgstr ""
-"<span class=\"byline\">Skrevet av %1$s</span><span class=\"posted-on\">%2$s</"
-"span>"
+"<span class=\"byline\">Skrevet av %1$s</span><span class=\"mobile-hide\"> "
+"den </span><span class=\"posted-on\">%2$s</span><span class=\"mobile-hide\">."
+"</span>"
 
 #: search.php:16
 #, php-format
 msgid "Search Results for: %s"
 msgstr "Søkeresultat for: %s"
+
+#, fuzzy
+#~ msgid " comments:"
+#~ msgstr "En kommentar:"
