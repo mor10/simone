@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Simone\n"
 "POT-Creation-Date: 2014-08-10 17:08-0800\n"
-"PO-Revision-Date: 2014-08-11 08:23-0800\n"
+"PO-Revision-Date: 2014-08-11 08:43-0800\n"
 "Last-Translator: Beata Kozma <beata@kozma.la>\n"
 "Language-Team: lynda.com <mrh@lynda.com>\n"
 "MIME-Version: 1.0\n"
@@ -308,7 +308,7 @@ msgstr "Facebook"
 #: inc/author-box.php:65
 #, php-format
 msgid "All posts by %s"
-msgstr "Összes bejegyzés a szerzőtől:  %s "
+msgstr "Összes bejegyzés a szerzőtől:  %s"
 
 #: inc/customizer.php:46
 msgid "Header Color"
