@@ -1,47 +1,70 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Simone 1.0.5\n"
-"POT-Creation-Date: 2014-08-10 11:37-0800\n"
-"PO-Revision-Date: 2014-08-10 12:20-0800\n"
+"Project-Id-Version: Simone\n"
+"POT-Creation-Date: 2014-08-10 17:13-0800\n"
+"PO-Revision-Date: 2014-08-10 20:59-0800\n"
 "Last-Translator: \n"
-"Language-Team: lynda.com <morten@lynda.com>\n"
+"Language-Team: lynda.com <mrh@lynda.com>\n"
 "Language: nb\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 1.6.4\n"
-"X-Poedit-Basepath: ../\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Poedit-KeywordsList: __;_e;_x;_n:1,2;_n_noop:1,2;_nx:1,2\n"
 "X-Poedit-SearchPath-0: .\n"
 
 #. translators: %s = single category title
 #: archive.php:22
 #, php-format
 msgid "Posts in the %s category:"
-msgstr "Artikler kategorisert under %s"
+msgstr "Arikler i kategorien %s:"
 
 #. translators: %s = single tag title
 #: archive.php:26
 #, php-format
 msgid "Posts with the %s tag"
-msgstr "Artikler med %s taggen"
+msgstr "Artikler med taggen %s:"
 
 #: archive.php:29
 #, php-format
 msgid "Author: %s"
 msgstr "Forfatter: %s"
 
-#: archive.php:33 archive.php:36 archive.php:39
+#: archive.php:33
 #, php-format
+msgctxt "archive for a day"
+msgid "Posts from %s"
+msgstr "Artikler publisert %s"
+
+#: archive.php:33
+msgctxt "Daily archives date format"
+msgid "F j, Y"
+msgstr "j F, Y"
+
+#: archive.php:36
+#, php-format
+msgctxt "archive for a month"
 msgid "Posts from %s"
 msgstr "Artikler publisert %s"
 
 #: archive.php:36
+msgctxt "monthly archives date format"
 msgid "F Y"
-msgstr "j F, Y"
+msgstr "F Y"
 
 #: archive.php:39
+#, php-format
+msgctxt "archive for a year"
+msgid "Posts from %s"
+msgstr "Artikler publisert i %s"
+
+#: archive.php:39
+msgctxt "yearly archives date format"
 msgid "Y"
 msgstr "Y"
 
@@ -55,6 +78,7 @@ msgstr "Arkiver"
 
 #: comments.php:29
 #, php-format
+msgctxt "comments title"
 msgid "One comment:"
 msgid_plural "%1$s comments:"
 msgstr[0] "Én kommentar:"
@@ -74,7 +98,7 @@ msgstr "Nyere kommentarer"
 
 #: comments.php:59
 msgid "Comments are closed."
-msgstr "Kommentarfeltet er stengt."
+msgstr "Lukket for kommentarer."
 
 #: content-aside.php:17 content-page.php:32 content-single.php:42
 #: content.php:61
@@ -83,7 +107,7 @@ msgstr "Rediger"
 
 #: content-none.php:16
 msgid "Page not available"
-msgstr "Denne siden er ikke tilgjengelig"
+msgstr "Siden er ikke tilgjengelig"
 
 #. translators: %s = search query
 #: content-none.php:20
@@ -100,29 +124,29 @@ msgstr "Ingenting funnet"
 msgid ""
 "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
 msgstr ""
-"Klar til å publisere din første artikkel? <a href=\"%1$s\">Start her</a>."
+"Klar til å publisere din første artikkel? <a href=\"%1$s\">Start her!</a>."
 
 #: content-none.php:35
 msgid ""
 "You seem to be lost. To find what you are looking for check out the most "
 "recent articles below or try a search:"
 msgstr ""
-"Det ser ut til at du har gått deg vill. Se om du finner det du leter etter i "
-"de nyeste artiklene nedenfor eller prøv et nytt søk:"
+"Det ser ut til at du har gått deg vill. Ta en titt på de sist publiserte "
+"artiklene nedenfor eller prøv et søk for å finne det du leter etter:"
 
 #: content-none.php:40
 msgid ""
 "Nothing matched your search terms. Check out the most recent articles below "
 "or try searching for something else:"
 msgstr ""
-"Ingenting passer med søket ditt. Ta en titt på de siste artiklene nedenfor "
-"eller prøv å søke etter noe annet:"
+"Ingenting ble funnet med søket ditt. Ta en titt på de sist publiserte "
+"artiklene nedenfor eller prøv et søk for å finne det du leter etter:"
 
 #: content-none.php:45
 msgid ""
 "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
 "searching can help."
-msgstr "Vi finner ikke det du leter etter. Prøv et søk isteden."
+msgstr "Vi finner ikke det du leter etter. Prøv et søk og se om det hjelper."
 
 #: content-none.php:56
 msgid "Most recent posts:"
@@ -149,9 +173,14 @@ msgstr "Én kommentar"
 msgid "% Comments"
 msgstr "% kommentarer"
 
-#: content.php:13 content.php:26 content.php:72
+#: content.php:13 content.php:26
 msgid "Read "
-msgstr "Les"
+msgstr "Les "
+
+#: content.php:72
+msgctxt "First part of \"Read *article title* in title tag of Read more link"
+msgid "Read "
+msgstr "Les "
 
 #: content.php:72
 msgid "Read <span aria-hidden=\"true\">the article</span>"
@@ -159,17 +188,21 @@ msgstr "Les <span aria-hidden=\"true\">artikkelen</span>"
 
 #: content.php:79
 msgid "Continue Reading "
-msgstr "Les videre"
+msgstr "Les videre "
 
 #: content.php:79
 msgid "Continue Reading"
-msgstr "Les videre"
+msgstr "Les videre "
 
 #. translators: %s = text link: WordPress, URL: http://wordpress.org/
 #: footer.php:20
 #, php-format
 msgid "Proudly powered by %s"
-msgstr "Presentert med %s"
+msgstr "Publisert med %s"
+
+#: footer.php:21
+msgid "WordPress"
+msgstr "WordPress"
 
 #. translators: %1$s = text link: Simone, URL: http://wordpress.org/themes/simone/, %2$s = text link: mor10.com, URL: http://mor10.com/
 #: footer.php:27
@@ -177,17 +210,21 @@ msgstr "Presentert med %s"
 msgid "Theme: %1$s by %2$s"
 msgstr "Tema: %1$s av %2$s"
 
+#: footer.php:29
+msgid "mor10.com"
+msgstr "mor10.com"
+
 #: functions.php:55
 msgid "Primary Menu"
 msgstr "Hovedmeny"
 
 #: functions.php:56
 msgid "Social Menu"
-msgstr "Meny for sosiale medier"
+msgstr "Sosialmeny"
 
 #: functions.php:85
 msgid "Sidebar"
-msgstr "Sidebar"
+msgstr "Sideområde"
 
 #: functions.php:94
 msgid "Footer Widgets"
@@ -196,11 +233,11 @@ msgstr "Bunnwidgeter"
 #: functions.php:95
 msgid ""
 "Footer widgets area appears, not surprisingly, in the footer of the site."
-msgstr "Bunnwidgetområdet ligger på bunnen av siden."
+msgstr "Bunnwidgeter vises i bunnområdet på siden."
 
 #: header.php:25
 msgid "Skip to content"
-msgstr "Hopp direkte til innholdet"
+msgstr "Gå direkte til innholdet"
 
 #: header.php:47
 msgid "Menu"
@@ -212,11 +249,11 @@ msgstr "Søk"
 
 #: image.php:25
 msgid "Featured in: "
-msgstr "Presentert i:"
+msgstr "Vist i: "
 
 #: image.php:26
 msgid "Full size image: "
-msgstr "Bilde i full størrelse:"
+msgstr "Bilde i full størrelse: "
 
 #: image.php:27
 msgid "Edit attachment post"
@@ -224,7 +261,7 @@ msgstr "Rediger vedleggspost"
 
 #: inc/author-box.php:10
 msgid "Hide Author Bio"
-msgstr "Gjem forfatterens biografi"
+msgstr "Gjem forfatterbiografien"
 
 #: inc/author-box.php:21
 #, php-format
@@ -240,12 +277,12 @@ msgstr "En artikkel så langt. "
 #: inc/author-box.php:34
 #, php-format
 msgid "%s articles and counting. "
-msgstr "%s artikkler så langt. "
+msgstr "%s artikler så langt. "
 
 #: inc/author-box.php:44
 #, php-format
 msgid "Follow %s on social media: "
-msgstr "Følg %s på sosiale medier:"
+msgstr "Følg %s på sosiale medier: "
 
 #: inc/author-box.php:46
 #, php-format
@@ -259,7 +296,7 @@ msgstr "Twitter"
 #: inc/author-box.php:49
 #, php-format
 msgid "Add %s to your Google+ circles"
-msgstr "Legg til %s i Google+ sirklene dine"
+msgstr "Legg til %s i dine Google+ sirkler"
 
 #: inc/author-box.php:49
 msgid "Google+"
@@ -277,7 +314,7 @@ msgstr "Facebook"
 #: inc/author-box.php:65
 #, php-format
 msgid "All posts by %s"
-msgstr "Artikler skrevet av %s"
+msgstr "Alle artikler skrevet av %s"
 
 #: inc/customizer.php:46
 msgid "Header Color"
@@ -302,11 +339,11 @@ msgstr "Neste &rarr;"
 
 #: inc/template-tags.php:54
 msgid "Posts navigation"
-msgstr "Postnavigasjon"
+msgstr "Artikkelnavigasjon"
 
 #: inc/template-tags.php:79 inc/template-tags.php:101
 msgid "Post navigation"
-msgstr "Postnavigasjon"
+msgstr "Artikkelnavigasjon"
 
 #: inc/template-tags.php:82
 msgid "Previous Post:"
@@ -324,26 +361,31 @@ msgstr "Forrige bilde"
 msgid "Next Image"
 msgstr "Neste bilde"
 
-#: inc/template-tags.php:126 inc/template-tags.php:128
+#: inc/template-tags.php:126
+msgctxt "Public posted on date"
+msgid "F jS, Y"
+msgstr "j F, Y"
+
+#: inc/template-tags.php:128
+msgctxt "Public modified on date"
 msgid "F jS, Y"
 msgstr "j F, Y"
 
 #: inc/template-tags.php:131
 #, php-format
+msgctxt ""
+"mobile-hide class is used to hide connecting elements like \"on\" and \".\" "
+"on wider screens."
 msgid ""
 "<span class=\"byline\">Written by %1$s</span><span class=\"mobile-hide\"> on "
 "</span><span class=\"posted-on\">%2$s</span><span class=\"mobile-hide\">.</"
 "span>"
 msgstr ""
-"<span class=\"byline\">Skrevet av %1$s</span><span class=\"mobile-hide\"> "
-"den </span><span class=\"posted-on\">%2$s</span><span class=\"mobile-hide\">."
-"</span>"
+"<span class=\"byline\">Skrevet av %1$s</span><span class=\"mobile-hide\">, </"
+"span><span class=\"posted-on\">%2$s</span><span class=\"mobile-hide\">.</"
+"span>"
 
 #: search.php:16
 #, php-format
 msgid "Search Results for: %s"
 msgstr "Søkeresultat for: %s"
-
-#, fuzzy
-#~ msgid " comments:"
-#~ msgstr "En kommentar:"
