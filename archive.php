@@ -30,7 +30,7 @@ get_header(); ?>
 
 						/* Prepending string for day, month and year needs context in order to be individually translatable. */
 						elseif ( is_day() ) :
-							printf( _x( 'Posts from %s', 'archive for a day', 'simone' ), '<span>' . get_the_date() . '</span>' );
+							printf( _x( 'Posts from %s', 'archive for a day', 'simone' ), '<span>' . get_the_date( _x( 'F j, Y', 'Daily archives date format', 'simone')) . '</span>' );
 
 						elseif ( is_month() ) :
 							printf( _x( 'Posts from %s', 'archive for a month', 'simone' ), '<span>' . get_the_date( _x( 'F Y', 'monthly archives date format', 'simone' ) ) . '</span>' );

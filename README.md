@@ -56,6 +56,9 @@ Responsive featured images powered by [Picturefill](http://scottjehl.github.io/p
 Simone is named after philosopher [Simone de Beauvoir](http://en.wikipedia.org/wiki/Simone_de_Beauvoir)
 
 ## Changelog
+### 1.0.7.2
+- Full refactoring of translation files including updated nb_NO translation.
+
 ### 1.0.7.1
 - Minor translation updates to address date formatting and wider language support. Stop-gap while waiting for more translation files to come online.
 
