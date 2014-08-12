@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Simone v1.0.6\n"
+"Project-Id-Version: Simone v1.0.7.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2014-07-29 22:22:02+0000\n"
+"PO-Revision-Date: 2014-08-12 01:42:13+0000\n"
 "Last-Translator: christine <christine@bluelimemedia.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -83,31 +83,31 @@ msgstr "A coté"
 msgid "Archives"
 msgstr "Archives"
 
-#: comments.php:28
+#: comments.php:29
 #, php-format
 #@ simone
 msgctxt "comments title"
 msgid "One comment:"
 msgid_plural "%1$s comments:"
-msgstr[0] "Un commentaire: "
+msgstr[0] "Un commentaire:"
 msgstr[1] "%1$s commentaires:"
 
-#: comments.php:45
+#: comments.php:47
 #@ simone
 msgid "Comment navigation"
 msgstr "Parcourir les commentaires"
 
-#: comments.php:46
+#: comments.php:48
 #@ simone
 msgid "Older Comments"
 msgstr "Commentaires plus anciens"
 
-#: comments.php:47
+#: comments.php:49
 #@ simone
 msgid "Newer Comments"
 msgstr "Commentaires plus récents"
 
-#: comments.php:57
+#: comments.php:59
 #@ simone
 msgid "Comments are closed."
 msgstr "Les commentaires sont fermés."
@@ -199,13 +199,13 @@ msgstr "% Commentaires"
 #: content.php:26
 #@ simone
 msgid "Read "
-msgstr "Lire"
+msgstr "Lire "
 
 #: content.php:72
 #@ simone
 msgctxt "First part of \"Read *article title* in title tag of Read more link"
 msgid "Read "
-msgstr "Lire"
+msgstr "Lire "
 
 #: content.php:72
 #@ simone
@@ -215,7 +215,7 @@ msgstr "Lire <span aria-hidden=\"true\">l'article</span>"
 #: content.php:79
 #@ simone
 msgid "Continue Reading "
-msgstr "Lire la suite"
+msgstr "Lire la suite "
 
 #: content.php:79
 #@ simone
@@ -289,12 +289,12 @@ msgstr "Rechercher"
 #: image.php:25
 #@ simone
 msgid "Featured in: "
-msgstr "Présenté dans:"
+msgstr "Présenté dans: "
 
 #: image.php:26
 #@ simone
 msgid "Full size image: "
-msgstr "Image en taille réelle:"
+msgstr "Image en taille réelle: "
 
 #: image.php:27
 #@ simone
@@ -427,21 +427,34 @@ msgstr "Image précédente"
 msgid "Next Image"
 msgstr "Image suivante"
 
-#: inc/template-tags.php:126
-#: inc/template-tags.php:128
-#@ simone
-msgid "F jS, Y"
-msgstr "F jS, Y"
-
-#: inc/template-tags.php:131
-#, php-format
-#@ simone
-msgid "<span class=\"byline\">Written by %1$s</span><span class=\"posted-on\">%2$s</span>"
-msgstr "<span class=\"byline\">Rédigé par %1$s</span><span class=\"posted-on\">%2$s</span>"
-
 #: search.php:16
 #, php-format
 #@ simone
 msgid "Search Results for: %s"
 msgstr "Résultats de recherche pour : %s"
+
+#: archive.php:33
+#@ simone
+msgctxt "Daily archives date format"
+msgid "F j, Y"
+msgstr "j F, Y"
+
+#: inc/template-tags.php:126
+#@ simone
+msgctxt "Public posted on date"
+msgid "F jS, Y"
+msgstr "j F, Y"
+
+#: inc/template-tags.php:128
+#@ simone
+msgctxt "Public modified on date"
+msgid "F jS, Y"
+msgstr "j F, Y"
+
+#: inc/template-tags.php:131
+#, php-format
+#@ simone
+msgctxt "mobile-hide class is used to hide connecting elements like \"on\" and \".\" on wider screens."
+msgid "<span class=\"byline\">Written by %1$s</span><span class=\"mobile-hide\"> on </span><span class=\"posted-on\">%2$s</span><span class=\"mobile-hide\">.</span>"
+msgstr "<span class=\"byline\">Rédigé par %1$s</span><span class=\"mobile-hide\"> le </span><span class=\"posted-on\">%2$s</span><span class=\"mobile-hide\">.</span>"
 
