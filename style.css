@@ -413,7 +413,7 @@ a:active {
     font-size: 1.4rem;
     text-decoration: none;
     line-height: 1.3em;
-    color: white;
+    color: #FFF;
     color: hsl(0, 0%, 100%);
 }
 
@@ -463,7 +463,7 @@ a:active {
 .main-navigation .current-menu-item > a:focus {
     color: #313131;
     color: hsl(0, 0%, 19%);
-    background: white;
+    background: #FFF;
 }
 
 .main-navigation .current_page_ancestor {
@@ -495,7 +495,7 @@ a:active {
         font-size: 1.4rem;
         text-decoration: none;
         line-height: 3.75em;
-        color: white;
+        color: #FFF;
     }
       
     .menu-toggle a:hover,
