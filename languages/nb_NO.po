@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Simone\n"
 "POT-Creation-Date: 2014-08-10 17:13-0800\n"
-"PO-Revision-Date: 2014-08-12 15:39-0800\n"
+"PO-Revision-Date: 2014-08-12 15:41-0800\n"
 "Last-Translator: \n"
 "Language-Team: lynda.com <mrh@lynda.com>\n"
 "Language: nb\n"
@@ -44,7 +44,7 @@ msgstr "Artikler publisert %s"
 #: archive.php:33
 msgctxt "Daily archives date format"
 msgid "F j, Y"
-msgstr "j. F, Y"
+msgstr "j. F Y"
 
 #: archive.php:36
 #, php-format
@@ -364,12 +364,12 @@ msgstr "Neste bilde"
 #: inc/template-tags.php:126
 msgctxt "Public posted on date"
 msgid "F jS, Y"
-msgstr "j. F, Y"
+msgstr "j. F Y"
 
 #: inc/template-tags.php:128
 msgctxt "Public modified on date"
 msgid "F jS, Y"
-msgstr "j. F, Y"
+msgstr "j. F Y"
 
 #: inc/template-tags.php:131
 #, php-format
