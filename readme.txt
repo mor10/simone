@@ -12,6 +12,9 @@ Simone\'s design is focussed on typography and aims to put the content front and
 
 
 == Changelog ==
+=== 1.0.8.1 ===
+- New translations for Finnish (courtesy of Sami Keijonen) and Italian (courtesy of  Giorgio Riccardi).
+
 === 1.0.8 ===
 - New translations for French, German, and Norwegian. Hungarian translation added courtesy of Beata Kozma.
 
@@ -44,9 +47,11 @@ Simone\'s design is focussed on typography and aims to put the content front and
 
 === Translations ===
 Simone ships with English as the default language. Translations are available for:
+- Finnish (fi via Sami Keijonen)
 - French (fr_FR via Christine Rondeau)
 - German (de_DE via Caspar Hübinger)
 - Hungarian (hu_HU via Beata Kozma)
+- Italian (it_IT via  Giorgio Riccardi)
 - Norwegian Bokmål (nb_NO)
 
 
