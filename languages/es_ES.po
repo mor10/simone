@@ -1,0 +1,390 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Simone\n"
+"POT-Creation-Date: 2014-08-10 17:08-0800\n"
+"PO-Revision-Date: 2014-08-13 13:22-0600\n"
+"Last-Translator: \n"
+"Language-Team: lynda.com <mrh@lynda.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.7\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#. translators: %s = single category title
+#: archive.php:22
+#, php-format
+msgid "Posts in the %s category:"
+msgstr "Entradas en la categoría %s"
+
+#. translators: %s = single tag title
+#: archive.php:26
+#, php-format
+msgid "Posts with the %s tag"
+msgstr "Entradas con la etiqueta %s"
+
+#: archive.php:29
+#, php-format
+msgid "Author: %s"
+msgstr "Autor: %s"
+
+#: archive.php:33
+#, php-format
+msgctxt "archive for a day"
+msgid "Posts from %s"
+msgstr "Entradas de %s"
+
+#: archive.php:36
+#, php-format
+msgctxt "archive for a month"
+msgid "Posts from %s"
+msgstr "Entradas desde %s"
+
+#: archive.php:36
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "F Y"
+
+#: archive.php:39
+#, php-format
+msgctxt "archive for a year"
+msgid "Posts from %s"
+msgstr "Entradas de %s"
+
+#: archive.php:39
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+#: archive.php:42
+msgid "Asides"
+msgstr "Aparte"
+
+#: archive.php:45
+msgid "Archives"
+msgstr "Archivos"
+
+#: comments.php:29
+#, php-format
+msgctxt "comments title"
+msgid "One comment:"
+msgid_plural "%1$s comments:"
+msgstr[0] "Un Comentario:"
+msgstr[1] "%1$s comentarios"
+
+#: comments.php:47
+msgid "Comment navigation"
+msgstr "Navegar en los comentarios"
+
+#: comments.php:48
+msgid "Older Comments"
+msgstr "Comentarios Anteriores"
+
+#: comments.php:49
+msgid "Newer Comments"
+msgstr "Nuevos Comentarios"
+
+#: comments.php:59
+msgid "Comments are closed."
+msgstr "Comentarios cerrados"
+
+#: content-aside.php:17 content-page.php:32 content-single.php:42
+#: content.php:61
+msgid "Edit"
+msgstr "Editar"
+
+#: content-none.php:16
+msgid "Page not available"
+msgstr "Pagina no disponible"
+
+#. translators: %s = search query
+#: content-none.php:20
+#, php-format
+msgid "Nothing found for %s"
+msgstr "No hay resultados para %s"
+
+#: content-none.php:22
+msgid "Nothing Found"
+msgstr "Nada encontrado"
+
+#: content-none.php:31
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+"¿Listo para publicar tu primer entrada? <a href=\"%1$s\">Comienza aquí</a>."
+
+#: content-none.php:35
+msgid ""
+"You seem to be lost. To find what you are looking for check out the most "
+"recent articles below or try a search:"
+msgstr ""
+"Parece que te has perdido. Para encontrar lo que estas buscando busca los "
+"artículos recientes o realiza una búsqueda:"
+
+#: content-none.php:40
+msgid ""
+"Nothing matched your search terms. Check out the most recent articles below "
+"or try searching for something else:"
+msgstr ""
+"No hay ningún resultado para tu búsqueda. Revisa las entradas nuevas o "
+"intenta buscando algo más:"
+
+#: content-none.php:45
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+"Parece que no hemos encontrado lo que buscas. Tal vez una búsqueda pueda "
+"ayudar."
+
+#: content-none.php:56
+msgid "Most recent posts:"
+msgstr "Entradas recientes:"
+
+#: content-page.php:27 content-single.php:50 image.php:48
+msgid "Pages:"
+msgstr "Páginas:"
+
+#. translators: used between list items, there is a space after the comma
+#: content-single.php:25 content.php:43
+msgid ", "
+msgstr ","
+
+#: content-single.php:38 content.php:57
+msgid "Leave a comment"
+msgstr "Deja un comentario"
+
+#: content-single.php:38 content.php:57
+msgid "1 Comment"
+msgstr "1 Comentario"
+
+#: content-single.php:38 content.php:57
+msgid "% Comments"
+msgstr "% Comentarios"
+
+#: content.php:13 content.php:26
+msgid "Read "
+msgstr "Leer"
+
+#: content.php:72
+msgctxt "First part of \"Read *article title* in title tag of Read more link"
+msgid "Read "
+msgstr "Leer"
+
+#: content.php:72
+msgid "Read <span aria-hidden=\"true\">the article</span>"
+msgstr "Leer"
+
+#: content.php:79
+msgid "Continue Reading "
+msgstr "Seguir leyendo"
+
+#: content.php:79
+msgid "Continue Reading"
+msgstr "Seguir leyendo"
+
+#. translators: %s = text link: WordPress, URL: http://wordpress.org/
+#: footer.php:20
+#, php-format
+msgid "Proudly powered by %s"
+msgstr "Con la tecnología de %s"
+
+#: footer.php:21
+msgid "WordPress"
+msgstr "WordPress"
+
+#. translators: %1$s = text link: Simone, URL: http://wordpress.org/themes/simone/, %2$s = text link: mor10.com, URL: http://mor10.com/
+#: footer.php:27
+#, php-format
+msgid "Theme: %1$s by %2$s"
+msgstr "Tema: %1$s por %2$s"
+
+#: footer.php:29
+msgid "mor10.com"
+msgstr "mor10.com"
+
+#: functions.php:55
+msgid "Primary Menu"
+msgstr "Menu Principal"
+
+#: functions.php:56
+msgid "Social Menu"
+msgstr "Menu Social"
+
+#: functions.php:85
+msgid "Sidebar"
+msgstr "Barra Lateral"
+
+#: functions.php:94
+msgid "Footer Widgets"
+msgstr "Widget Pie de página"
+
+#: functions.php:95
+msgid ""
+"Footer widgets area appears, not surprisingly, in the footer of the site."
+msgstr ""
+"Los widgets del pie de página aparecen, sin sorpresas, en el pie de página "
+"del sitio web."
+
+#: header.php:25
+msgid "Skip to content"
+msgstr "Ir al contenido"
+
+#: header.php:47
+msgid "Menu"
+msgstr "Menú"
+
+#: header.php:53
+msgid "Search"
+msgstr "Buscar"
+
+#: image.php:25
+msgid "Featured in: "
+msgstr "Destacado en:"
+
+#: image.php:26
+msgid "Full size image: "
+msgstr "Imagen a tamaño completo:"
+
+#: image.php:27
+msgid "Edit attachment post"
+msgstr "Editar adjuntos de la entrada"
+
+#: inc/author-box.php:10
+msgid "Hide Author Bio"
+msgstr "Ocultar Información del Autor"
+
+#: inc/author-box.php:21
+#, php-format
+msgid "About %s"
+msgstr "Sobre %s"
+
+#. translators: May be followed by another sentence. There is a space after the punctuation mark.
+#: inc/author-box.php:29
+msgid "One article and counting. "
+msgstr "Un artículo y contando "
+
+#. translators: May be followed by another sentence. There is a space after the punctuation mark.
+#: inc/author-box.php:34
+#, php-format
+msgid "%s articles and counting. "
+msgstr "%s artículos y contando."
+
+#: inc/author-box.php:44
+#, php-format
+msgid "Follow %s on social media: "
+msgstr "Seguir %s  en las redes sociales:"
+
+#: inc/author-box.php:46
+#, php-format
+msgid "Follow %s on Twitter"
+msgstr "Seguir %s  en Twitter"
+
+#: inc/author-box.php:46
+msgid "Twitter"
+msgstr "Twitter"
+
+#: inc/author-box.php:49
+#, php-format
+msgid "Add %s to your Google+ circles"
+msgstr "Agregar %s a tus cÍrculos de Google+"
+
+#: inc/author-box.php:49
+msgid "Google+"
+msgstr "Google+"
+
+#: inc/author-box.php:52
+#, php-format
+msgid "Like %s on Facebook"
+msgstr "Me Gusta %s en Facebook"
+
+#: inc/author-box.php:52
+msgid "Facebook"
+msgstr "Facebook"
+
+#: inc/author-box.php:65
+#, php-format
+msgid "All posts by %s"
+msgstr "Todas las entradas por %s"
+
+#: inc/customizer.php:46
+msgid "Header Color"
+msgstr "Color de la cabecera"
+
+#: inc/customizer.php:65
+msgid "Link Color"
+msgstr "Color de hipervínculos"
+
+#: inc/extras.php:63
+#, php-format
+msgid "Page %s"
+msgstr "Página %s"
+
+#: inc/template-tags.php:45
+msgid "&larr; Previous"
+msgstr "&larr; Anterior"
+
+#: inc/template-tags.php:46
+msgid "Next &rarr;"
+msgstr "Siguiente &rarr;"
+
+#: inc/template-tags.php:54
+msgid "Posts navigation"
+msgstr "Navegar en las entradas"
+
+#: inc/template-tags.php:79 inc/template-tags.php:101
+msgid "Post navigation"
+msgstr "Navegar en las entradas"
+
+#: inc/template-tags.php:82
+msgid "Previous Post:"
+msgstr "Entrada Anterior:"
+
+#: inc/template-tags.php:83
+msgid "Next Post:"
+msgstr "Entrada siguiente:"
+
+#: inc/template-tags.php:104
+msgid "Previous Image"
+msgstr "Imagen Anterior"
+
+#: inc/template-tags.php:105
+msgid "Next Image"
+msgstr "Imagen Siguiente"
+
+#: inc/template-tags.php:126
+msgctxt "Public posted on date"
+msgid "F jS, Y"
+msgstr "F jS, Y"
+
+#: inc/template-tags.php:128
+msgctxt "Public modified on date"
+msgid "F jS, Y"
+msgstr "F jS, Y"
+
+#: inc/template-tags.php:131
+#, php-format
+msgctxt ""
+"mobile-hide class is used to hide connecting elements like \"on\" and \".\" "
+"on wider screens."
+msgid ""
+"<span class=\"byline\">Written by %1$s</span><span class=\"mobile-hide\"> on "
+"</span><span class=\"posted-on\">%2$s</span><span class=\"mobile-hide\">.</"
+"span>"
+msgstr ""
+"<span class=\"byline\">Escrito por %1$s</span><span class=\"mobile-hide\"> "
+"en </span><span class=\"posted-on\">%2$s</span><span class=\"mobile-hide\">."
+"</span>"
+
+#: search.php:16
+#, php-format
+msgid "Search Results for: %s"
+msgstr "Resultados de la búsqueda: %s"
