@@ -1483,8 +1483,6 @@ ol.children { list-style-type: none; }
     font-family: 'Lato', sans-serif;
 }
 
-.comment-content a { word-wrap: break-word; }
-
 .comment-content ol { margin-left: 1.5em; }
 
 .bypostauthor > .comment-body {
