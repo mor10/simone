@@ -1,0 +1,461 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Simone v1.0.8.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2014-08-21 20:07:47+0000\n"
+"Last-Translator: Vlad S. <vsamoletov@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%100/10==1 ? 2 : n%10==1 ? 0 : (n+9)%10>3 ? 2 : 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: Russian\n"
+"X-Poedit-Country: RUSSIA\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#. translators: %s = single category title
+#: archive.php:22
+#, php-format
+#@ simone
+msgid "Posts in the %s category:"
+msgstr "Записи из категории %s:"
+
+#. translators: %s = single tag title
+#: archive.php:26
+#, php-format
+#@ simone
+msgid "Posts with the %s tag"
+msgstr "Записи с тегом %s"
+
+#: archive.php:29
+#, php-format
+#@ simone
+msgid "Author: %s"
+msgstr "Автор: %s"
+
+#: archive.php:33
+#, php-format
+#@ simone
+msgctxt "archive for a day"
+msgid "Posts from %s"
+msgstr "Записи за %s"
+
+#: archive.php:33
+#@ simone
+msgctxt "Daily archives date format"
+msgid "F j, Y"
+msgstr "F j, Y"
+
+#: archive.php:36
+#, php-format
+#@ simone
+msgctxt "archive for a month"
+msgid "Posts from %s"
+msgstr "Записи за %s"
+
+#: archive.php:36
+#@ simone
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "F Y"
+
+#: archive.php:39
+#, php-format
+#@ simone
+msgctxt "archive for a year"
+msgid "Posts from %s"
+msgstr "Записи за %s"
+
+#: archive.php:39
+#@ simone
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+#: archive.php:42
+#@ simone
+msgid "Asides"
+msgstr "В стороне"
+
+#: archive.php:45
+#@ simone
+msgid "Archives"
+msgstr "Архивы"
+
+#: comments.php:29
+#, php-format
+#@ simone
+msgctxt "comments title"
+msgid "One comment:"
+msgid_plural "%1$s comments:"
+msgstr[0] "Один комментарий:"
+msgstr[1] "%1$s комментария:"
+msgstr[2] "%1$s комментариев:"
+
+#: comments.php:47
+#@ simone
+msgid "Comment navigation"
+msgstr "Навигация по комментариям"
+
+#: comments.php:48
+#@ simone
+msgid "Older Comments"
+msgstr "Старые комментарии"
+
+#: comments.php:49
+#@ simone
+msgid "Newer Comments"
+msgstr "Новые комментарии"
+
+#: comments.php:59
+#@ simone
+msgid "Comments are closed."
+msgstr "Комментарии отключены."
+
+#: content-aside.php:17
+#: content-page.php:32
+#: content-single.php:42
+#: content.php:61
+#@ simone
+msgid "Edit"
+msgstr "Редактировать"
+
+#: content-none.php:16
+#@ simone
+msgid "Page not available"
+msgstr "Страница недоступна"
+
+#. translators: %s = search query
+#: content-none.php:20
+#, php-format
+#@ simone
+msgid "Nothing found for %s"
+msgstr "Ничего не найдено для %s"
+
+#: content-none.php:22
+#@ simone
+msgid "Nothing Found"
+msgstr "Ничего не найдено"
+
+#: content-none.php:31
+#, php-format
+#@ simone
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Готовы опубликовать свою первую запись? <a href=\"%1$s\">Начните отсюда</a>."
+
+#: content-none.php:35
+#@ simone
+msgid "You seem to be lost. To find what you are looking for check out the most recent articles below or try a search:"
+msgstr "Вы, кажется, заблудились. Чтобы найти то, что Вы ищете просмотрите самые последние записи ниже или попробуйте поиск:"
+
+#: content-none.php:40
+#@ simone
+msgid "Nothing matched your search terms. Check out the most recent articles below or try searching for something else:"
+msgstr "Ничего не соответствует условиям поиска. Посмотрите самые последние записи или попробуйте найти что-то другое:"
+
+#: content-none.php:45
+#@ simone
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Кажется, мы не можем найти то, что вы ищете. Возможно, поиск может помочь."
+
+#: content-none.php:56
+#@ simone
+msgid "Most recent posts:"
+msgstr "Самые последние записи:"
+
+#: content-page.php:27
+#: content-single.php:50
+#: image.php:48
+#@ simone
+msgid "Pages:"
+msgstr "Страницы:"
+
+#. translators: used between list items, there is a space after the comma
+#: content-single.php:25
+#: content.php:43
+#@ simone
+msgid ", "
+msgstr ", "
+
+#: content-single.php:38
+#: content.php:57
+#@ simone
+msgid "Leave a comment"
+msgstr "Оставьте комментарий"
+
+#: content-single.php:38
+#: content.php:57
+#@ simone
+msgid "1 Comment"
+msgstr "1 Комментарий"
+
+#: content-single.php:38
+#: content.php:57
+#@ simone
+msgid "% Comments"
+msgstr "% Комментариев"
+
+#: content.php:13
+#: content.php:26
+#@ simone
+msgid "Read "
+msgstr "Читать "
+
+#: content.php:72
+#@ simone
+msgctxt "First part of \"Read *article title* in title tag of Read more link"
+msgid "Read "
+msgstr "Читать "
+
+#: content.php:72
+#@ simone
+msgid "Read <span aria-hidden=\"true\">the article</span>"
+msgstr "Читать <span aria-hidden=\"true\">запись</span>"
+
+#: content.php:79
+#@ simone
+msgid "Continue Reading "
+msgstr "Продолжить чтение "
+
+#: content.php:79
+#@ simone
+msgid "Continue Reading"
+msgstr "Продолжить чтение"
+
+#. translators: %s = text link: WordPress, URL: http://wordpress.org/
+#: footer.php:20
+#, php-format
+#@ simone
+msgid "Proudly powered by %s"
+msgstr "С гордостью работает на %s"
+
+#: footer.php:21
+#@ simone
+msgid "WordPress"
+msgstr "WordPress"
+
+#. translators: %1$s = text link: Simone, URL: http://wordpress.org/themes/simone/, %2$s = text link: mor10.com, URL: http://mor10.com/
+#: footer.php:27
+#, php-format
+#@ simone
+msgid "Theme: %1$s by %2$s"
+msgstr "Тема: %1$s от %2$s"
+
+#: footer.php:29
+#@ simone
+msgid "mor10.com"
+msgstr "mor10.com"
+
+#: functions.php:55
+#@ simone
+msgid "Primary Menu"
+msgstr "Основное меню"
+
+#: functions.php:56
+#@ simone
+msgid "Social Menu"
+msgstr "Социальное меню"
+
+#: functions.php:85
+#@ simone
+msgid "Sidebar"
+msgstr "Боковая панель"
+
+#: functions.php:94
+#@ simone
+msgid "Footer Widgets"
+msgstr "Виджеты футера"
+
+#: functions.php:95
+#@ simone
+msgid "Footer widgets area appears, not surprisingly, in the footer of the site."
+msgstr "Виджеты футера появляются, как это не удивительно, в нижней части сайта."
+
+#: header.php:25
+#@ simone
+msgid "Skip to content"
+msgstr "Перейти к содержанию"
+
+#: header.php:47
+#@ simone
+msgid "Menu"
+msgstr "Меню"
+
+#: header.php:53
+#@ simone
+msgid "Search"
+msgstr "Поиск"
+
+#: image.php:25
+#@ simone
+msgid "Featured in: "
+msgstr "Избранное в: "
+
+#: image.php:26
+#@ simone
+msgid "Full size image: "
+msgstr "Полный размер изображения: "
+
+#: image.php:27
+#@ simone
+msgid "Edit attachment post"
+msgstr "Редактировать запись вложения"
+
+#: inc/author-box.php:10
+#@ simone
+msgid "Hide Author Bio"
+msgstr "Скрыть био автора"
+
+#: inc/author-box.php:21
+#, php-format
+#@ simone
+msgid "About %s"
+msgstr "О %s"
+
+#. translators: May be followed by another sentence. There is a space after the punctuation mark.
+#: inc/author-box.php:29
+#@ simone
+msgid "One article and counting. "
+msgstr "Одна запись и будет еще больше. "
+
+#. translators: May be followed by another sentence. There is a space after the punctuation mark.
+#: inc/author-box.php:34
+#, php-format
+#@ simone
+msgid "%s articles and counting. "
+msgstr "%s записей и будет еще больше. "
+
+#: inc/author-box.php:44
+#, php-format
+#@ simone
+msgid "Follow %s on social media: "
+msgstr "Следите за %s в социальных медиа. "
+
+#: inc/author-box.php:46
+#, php-format
+#@ simone
+msgid "Follow %s on Twitter"
+msgstr "Следите за %s в Твиттере"
+
+#: inc/author-box.php:46
+#@ simone
+msgid "Twitter"
+msgstr "Твиттер"
+
+#: inc/author-box.php:49
+#, php-format
+#@ simone
+msgid "Add %s to your Google+ circles"
+msgstr ""
+
+#: inc/author-box.php:49
+#@ simone
+msgid "Google+"
+msgstr "Google+"
+
+#: inc/author-box.php:52
+#, php-format
+#@ simone
+msgid "Like %s on Facebook"
+msgstr "Следите за %s на Facebook"
+
+#: inc/author-box.php:52
+#@ simone
+msgid "Facebook"
+msgstr "Facebook"
+
+#: inc/author-box.php:65
+#, php-format
+#@ simone
+msgid "All posts by %s"
+msgstr "Все записи от %s"
+
+#: inc/customizer.php:46
+#@ simone
+msgid "Header Color"
+msgstr "Цвет заголовка"
+
+#: inc/customizer.php:65
+#@ simone
+msgid "Link Color"
+msgstr "Цвет ссылок"
+
+#: inc/extras.php:63
+#, php-format
+#@ simone
+msgid "Page %s"
+msgstr "Страница %s"
+
+#: inc/template-tags.php:45
+#@ simone
+msgid "&larr; Previous"
+msgstr "&larr; Предыдущая"
+
+#: inc/template-tags.php:46
+#@ simone
+msgid "Next &rarr;"
+msgstr "Следующая &rarr;"
+
+#: inc/template-tags.php:54
+#@ simone
+msgid "Posts navigation"
+msgstr "Навигация по записям"
+
+#: inc/template-tags.php:79
+#: inc/template-tags.php:101
+#@ simone
+msgid "Post navigation"
+msgstr "Навигация по записи"
+
+#: inc/template-tags.php:82
+#@ simone
+msgid "Previous Post:"
+msgstr "Предыдущая запись:"
+
+#: inc/template-tags.php:83
+#@ simone
+msgid "Next Post:"
+msgstr "Следующая запись:"
+
+#: inc/template-tags.php:104
+#@ simone
+msgid "Previous Image"
+msgstr "Предыдущее изображение"
+
+#: inc/template-tags.php:105
+#@ simone
+msgid "Next Image"
+msgstr "Следующее изображение"
+
+#: inc/template-tags.php:126
+#@ simone
+msgctxt "Public posted on date"
+msgid "F jS, Y"
+msgstr "F jS, Y"
+
+#: inc/template-tags.php:128
+#@ simone
+msgctxt "Public modified on date"
+msgid "F jS, Y"
+msgstr "F jS, Y"
+
+#: inc/template-tags.php:131
+#, php-format
+#@ simone
+msgctxt "mobile-hide class is used to hide connecting elements like \"on\" and \".\" on wider screens."
+msgid "<span class=\"byline\">Written by %1$s</span><span class=\"mobile-hide\"> on </span><span class=\"posted-on\">%2$s</span><span class=\"mobile-hide\">.</span>"
+msgstr "<span class=\"byline\">Опубликовано %1$s</span><span class=\"mobile-hide\"> </span><span class=\"posted-on\">%2$s</span><span class=\"mobile-hide\">.</span>"
+
+#: search.php:16
+#, php-format
+#@ simone
+msgid "Search Results for: %s"
+msgstr "Результаты поиска для: %s"
+
