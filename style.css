@@ -602,15 +602,25 @@ a:active {
 
 .menu-social li a[href*="flickr.com"]::before { content: '\f16e'; }
 
+.menu-social li a[href*="foursquare.com"]::before { content: '\f180'; }
+
 .menu-social li a[href*="github.com"]::before { content: '\f09b'; }
 
 .menu-social li a[href*="plus.google.com"]::before { content: '\f0d5'; }
 
 .menu-social li a[href*="instagram.com"]::before { content: '\f16d'; }
 
+.menu-social li a[href*="jsfiddle.com"]::before { content: '\f1cc'; }
+
 .menu-social li a[href*="linkedin.com"]::before { content: '\f0e1'; }
 
 .menu-social li a[href*="pinterest.com"]::before { content: '\f0d2'; }
+
+.menu-social li a[href*="reddit.com"]::before { content: '\f1a1'; }
+
+.menu-social li a[href*="soundcloud.com"]::before { content: '\f1be'; }
+
+.menu-social li a[href*="stackoverflow.com"]::before { content: '\f16c'; }
 
 .menu-social li a[href*="tumblr.com"]::before { content: '\f173'; }
 
@@ -618,7 +628,15 @@ a:active {
 
 .menu-social li a[href*="vimeo.com"]::before { content: '\f194'; }
 
+.menu-social li a[href*="vine.co"]::before { content: '\f1ca'; }
+
+.menu-social li a[href*="yelp.com"]::before { content: '\f1e9'; }
+
 .menu-social li a[href*="youtube.com"]::before { content: '\f167'; }
+
+.menu-social li a[href*="wordpress.com"]::before { content: '\f19a'; }
+
+
 
 @media screen and (max-width: 600px) {
     #menu-social ul {
