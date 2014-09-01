@@ -1,8 +1,8 @@
 === Simone ===
-Contributors: Morten Rand-Hendriksen,  Caspar Hübinger
+Contributors: Morten Rand-Hendriksen et.al.
 Tags: white, black, blue, light, one-column, two-columns, right-sidebar, responsive-layout, accessibility-ready, custom-colors, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, sticky-post, threaded-comments, translation-ready
 Requires at least: 3.8
-Tested up to: 3.9
+Tested up to: 4.0
 License: GPL 2.0
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -12,6 +12,12 @@ Simone\'s design is focussed on typography and aims to put the content front and
 
 
 == Changelog ==
+=== 1.0.9 ===
+- Font Awesome updated to 4.2.0
+- New social menu icons for Foursquare, JSFiddle, Reddit, SoundCloud, Stack Overflow, Vine, Yelp, WordPress.com
+- New translations for Spanish (courtesy of Juan Pablo), Portugese (courtesy of João Gomes), and Russian (courtesy of Vladimir Samoletov).
+- Various CSS and HTML updates.
+
 === 1.0.8.1 ===
 - New translations for Finnish (courtesy of Sami Keijonen) and Italian (courtesy of  Giorgio Riccardi).
 
@@ -53,6 +59,9 @@ Simone ships with English as the default language. Translations are available fo
 - Hungarian (hu_HU via Beata Kozma)
 - Italian (it_IT via  Giorgio Riccardi)
 - Norwegian Bokmål (nb_NO)
+- Portugese (pt_PT via João Gomes)
+- Russian (ru_RU via Vladimir Samoletov)
+- Spanish (es_ES via Juan Pablo)
 
 
 === Customizer Options ===

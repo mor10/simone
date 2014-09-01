@@ -14,6 +14,9 @@ Simone ships with English as the default language. Translations are available fo
 - Hungarian (hu_HU via Beata Kozma)
 - Italian (it_IT via  Giorgio Riccardi)
 - Norwegian Bokmål (nb_NO)
+- Portugese (pt_PT via João Gomes)
+- Russian (ru_RU via Vladimir Samoletov)
+- Spanish (es_ES via Juan Pablo)
 
 
 ### Customizer options
@@ -59,6 +62,12 @@ Responsive featured images powered by [Picturefill](http://scottjehl.github.io/p
 Simone is named after philosopher [Simone de Beauvoir](http://en.wikipedia.org/wiki/Simone_de_Beauvoir)
 
 ## Changelog
+### 1.0.9
+- Font Awesome updated to 4.2.0
+- New social menu icons for Foursquare, JSFiddle, Reddit, SoundCloud, Stack Overflow, Vine, Yelp, WordPress.com
+- New translations for Spanish (courtesy of Juan Pablo), Portugese (courtesy of João Gomes), and Russian (courtesy of Vladimir Samoletov).
+- Various CSS and HTML updates.
+
 ### 1.0.8.1
 - New translations for Finnish (courtesy of Sami Keijonen) and Italian (courtesy of  Giorgio Riccardi).
 
