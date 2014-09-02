@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Simone\n"
 "POT-Creation-Date: 2014-08-10 17:08-0800\n"
-"PO-Revision-Date: 2014-09-02 14:38-0800\n"
+"PO-Revision-Date: 2014-09-02 16:13-0800\n"
 "Last-Translator: Jerry Wang <2bearstudio@gmail.com>\n"
 "Language-Team: Jerry Wang <2bearstudio@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -353,12 +353,12 @@ msgstr "下一个图像"
 #: inc/template-tags.php:126
 msgctxt "Public posted on date"
 msgid "F jS, Y"
-msgstr "F jS, Y"
+msgstr "F j, Y"
 
 #: inc/template-tags.php:128
 msgctxt "Public modified on date"
 msgid "F jS, Y"
-msgstr "F jS, Y"
+msgstr "F j, Y"
 
 #: inc/template-tags.php:131
 #, php-format
