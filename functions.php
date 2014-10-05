@@ -109,9 +109,9 @@ function simone_scripts() {
 	wp_enqueue_style( 'simone-style', get_stylesheet_uri() );
         
         if (is_page_template('page-templates/page-nosidebar.php') || ! is_active_sidebar( 'sidebar-1' )) {
-            wp_enqueue_style( 'my-sinome-layout-style' , get_template_directory_uri() . '/layouts/no-sidebar.css');
+            wp_enqueue_style( 'my-simone-layout-style' , get_template_directory_uri() . '/layouts/no-sidebar.css');
         } else {
-            wp_enqueue_style( 'my-sinome-layout-style' , get_template_directory_uri() . '/layouts/content-sidebar.css');
+            wp_enqueue_style( 'my-simone-layout-style' , get_template_directory_uri() . '/layouts/content-sidebar.css');
         }
         
         // Lato http://www.google.com/fonts/specimen/Lato + PT Serif http://www.google.com/fonts/specimen/PT+Serif
