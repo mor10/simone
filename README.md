@@ -8,6 +8,7 @@ Simone's design is focused on typography and aims to put the content front and c
 
 ### Translations
 Simone ships with English as the default language. Translations are available for:
+- Chinese (simplified) (zh_CN via Jerry Wang)
 - Finnish (fi via Sami Keijonen)
 - French (fr_FR via Christine Rondeau)
 - German (de_DE via Caspar Hübinger)
@@ -62,6 +63,12 @@ Responsive featured images powered by [Picturefill](http://scottjehl.github.io/p
 Simone is named after philosopher [Simone de Beauvoir](http://en.wikipedia.org/wiki/Simone_de_Beauvoir)
 
 ## Changelog
+### 1.0.10 
+- New translation for Simplified Chinese (courtesy of Jerry Wang)
+- Updated Portugese translation (courtesy of João Gomes)
+- Heavier font in site description for improved accessibility
+- Various code fixes and cleanups
+
 ### 1.0.9
 - Font Awesome updated to 4.2.0
 - New social menu icons for Foursquare, JSFiddle, Reddit, SoundCloud, Stack Overflow, Vine, Yelp, WordPress.com

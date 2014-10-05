@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Simone\n"
 "POT-Creation-Date: 2014-08-27 10:00-0000\n"
-"PO-Revision-Date: 2014-08-27 11:14-0000\n"
+"PO-Revision-Date: 2014-10-02 12:13-0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: pt_PT\n"
@@ -22,13 +22,13 @@ msgstr ""
 #: archive.php:22
 #, php-format
 msgid "Posts in the %s category:"
-msgstr "Artigos na %s categoria:"
+msgstr "Artigos na categoria %s:"
 
 #. translators: %s = single tag title
 #: archive.php:26
 #, php-format
 msgid "Posts with the %s tag"
-msgstr "Artigos com a %s tag"
+msgstr "Artigos com a tag %s "
 
 #: archive.php:29
 #, php-format
@@ -44,7 +44,7 @@ msgstr "Artigos de %s "
 #: archive.php:33
 msgctxt "Daily archives date format"
 msgid "F j, Y"
-msgstr "F j, Y "
+msgstr "j \\d\\e F \\d\\e Y"
 
 #: archive.php:36
 #, php-format
@@ -55,7 +55,7 @@ msgstr "Artigos de %s"
 #: archive.php:36
 msgctxt "monthly archives date format"
 msgid "F Y"
-msgstr "F Y "
+msgstr "F \\d\\e Y"
 
 #: archive.php:39
 #, php-format
@@ -201,7 +201,7 @@ msgstr "Continuar a Ler"
 #: footer.php:20
 #, php-format
 msgid "Proudly powered by %s"
-msgstr "Orgulhosamente fornecido por %s"
+msgstr "Orgulhosamente criado em %s"
 
 #: footer.php:21
 msgid "WordPress"
@@ -369,12 +369,12 @@ msgstr "Imagem Seguinte"
 #: inc/template-tags.php:126
 msgctxt "Public posted on date"
 msgid "F jS, Y"
-msgstr "F jS, Y"
+msgstr "j \\d\\e F \\d\\e Y"
 
 #: inc/template-tags.php:128
 msgctxt "Public modified on date"
 msgid "F jS, Y"
-msgstr "F jS, Y"
+msgstr "j \\d\\e F \\d\\e Y"
 
 #: inc/template-tags.php:131
 #, php-format
