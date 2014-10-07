@@ -24,7 +24,7 @@ msgstr ""
 #: archive.php:22
 #, php-format
 msgid "Posts in the %s category:"
-msgstr "Berichten in de categorie %s:"
+msgstr "Berichten in categorie %s:"
 
 # @ simone
 #. translators: %s = single tag title
