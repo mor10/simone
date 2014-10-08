@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Simone v1.0.7.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-08-12 08:24+0100\n"
-"PO-Revision-Date: 2014-10-07 16:02+0100\n"
+"POT-Creation-Date: 2014-10-08 09:16+0100\n"
+"PO-Revision-Date: 2014-10-08 09:16+0100\n"
 "Last-Translator: Richard van Naamen <richard@vannaamen.nl>\n"
 "Language-Team: \n"
 "Language: de_DE\n"
@@ -24,7 +24,7 @@ msgstr ""
 #: archive.php:22
 #, php-format
 msgid "Posts in the %s category:"
-msgstr "Berichten in categorie %s:"
+msgstr "Berichten in de categorie %s:"
 
 # @ simone
 #. translators: %s = single tag title
@@ -182,7 +182,7 @@ msgstr "Meest recente berichten:"
 # @ simone
 #: content-page.php:27 content-single.php:50 image.php:48
 msgid "Pages:"
-msgstr "Paginas:"
+msgstr "Pagina's:"
 
 # @ simone
 #. translators: used between list items, there is a space after the comma
@@ -224,7 +224,7 @@ msgstr "Lees  <span aria-hidden=\"true\">het artikel</span>"
 # @ simone
 #: content.php:79
 msgid "Continue Reading "
-msgstr "Lees verder"
+msgstr "Lees verder "
 
 # @ simone
 #: content.php:79
@@ -316,14 +316,14 @@ msgstr "Over %s"
 #. translators: May be followed by another sentence. There is a space after the punctuation mark.
 #: inc/author-box.php:29
 msgid "One article and counting. "
-msgstr "Een Artikel en volgend"
+msgstr "Een Artikel en er zullen er meer volgen"
 
 # @ simone
 #. translators: May be followed by another sentence. There is a space after the punctuation mark.
 #: inc/author-box.php:34
 #, php-format
 msgid "%s articles and counting. "
-msgstr "%s Artikels en volgend"
+msgstr "%s Artikels en er zullen er meer volgen. "
 
 # @ simone
 #: inc/author-box.php:44
