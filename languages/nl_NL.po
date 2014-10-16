@@ -1,0 +1,460 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Simone v1.0.7.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-10-08 09:16+0100\n"
+"PO-Revision-Date: 2014-10-08 09:16+0100\n"
+"Last-Translator: Richard van Naamen <richard@vannaamen.nl>\n"
+"Language-Team: \n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.6.9\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: ../\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+
+# @ simone
+#. translators: %s = single category title
+#: archive.php:22
+#, php-format
+msgid "Posts in the %s category:"
+msgstr "Berichten in de categorie %s:"
+
+# @ simone
+#. translators: %s = single tag title
+#: archive.php:26
+#, php-format
+msgid "Posts with the %s tag"
+msgstr "Berichten met het label %s:"
+
+# @ simone
+#: archive.php:29
+#, php-format
+msgid "Author: %s"
+msgstr "Auteur: %s"
+
+# @ simone
+#: archive.php:33
+#, php-format
+msgctxt "archive for a day"
+msgid "Posts from %s"
+msgstr "Berichten van %s"
+
+#: archive.php:33
+msgctxt "Daily archives date format"
+msgid "F j, Y"
+msgstr "d F Y"
+
+# @ simone
+#: archive.php:36
+#, php-format
+msgctxt "archive for a month"
+msgid "Posts from %s"
+msgstr "Berichten van %s"
+
+# @ simone
+#: archive.php:36
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "F Y"
+
+# @ simone
+#: archive.php:39
+#, php-format
+msgctxt "archive for a year"
+msgid "Posts from %s"
+msgstr "Berichten van %s"
+
+# @ simone
+#: archive.php:39
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+# @ simone
+#: archive.php:42
+msgid "Asides"
+msgstr "Kort bericht zonder titel"
+
+# @ simone
+#: archive.php:45
+msgid "Archives"
+msgstr "Archieven"
+
+# @ simone
+#: comments.php:29
+#, php-format
+msgctxt "comments title"
+msgid "One comment:"
+msgid_plural "%1$s comments:"
+msgstr[0] "Een reactie:"
+msgstr[1] "%1$s reacties:"
+
+# @ simone
+#: comments.php:47
+msgid "Comment navigation"
+msgstr "Reactie navigatie"
+
+# @ simone
+#: comments.php:48
+msgid "Older Comments"
+msgstr "Oudere reacties"
+
+# @ simone
+#: comments.php:49
+msgid "Newer Comments"
+msgstr "Nieuwe reacties"
+
+# @ simone
+#: comments.php:59
+msgid "Comments are closed."
+msgstr "Reacties zijn gesloten."
+
+# @ simone
+#: content-aside.php:17 content-page.php:32 content-single.php:42
+#: content.php:61
+msgid "Edit"
+msgstr "Wijzigen"
+
+# @ simone
+#: content-none.php:16
+msgid "Page not available"
+msgstr "Pagina niet beschikbaar"
+
+# @ simone
+#. translators: %s = search query
+#: content-none.php:20
+#, php-format
+msgid "Nothing found for %s"
+msgstr "Niets gevonden voor %s"
+
+# @ simone
+#: content-none.php:22
+msgid "Nothing Found"
+msgstr "Niets gevonden"
+
+# @ simone
+#: content-none.php:31
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+"Klaar om je eerste bericht te plaatsen? <a href=\"%1$s\">Begin hier</a>."
+
+# @ simone
+#: content-none.php:35
+msgid ""
+"You seem to be lost. To find what you are looking for check out the most "
+"recent articles below or try a search:"
+msgstr ""
+"Het lijkt erop dat u verdwaalt bent. Probeer eens een zoekopdracht of een "
+"van de recente berichten:"
+
+# @ simone
+#: content-none.php:40
+msgid ""
+"Nothing matched your search terms. Check out the most recent articles below "
+"or try searching for something else:"
+msgstr ""
+"U zoekopdracht komt met niets overeen. Probeer eens een van de recente "
+"berichten of een andere zoekopdracht:"
+
+# @ simone
+#: content-none.php:45
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+"Het lijkt erop dat we niet kunnen vinden waar u naar zoekt. Misschien helpt "
+"een zoekopdracht?"
+
+# @ simone
+#: content-none.php:56
+msgid "Most recent posts:"
+msgstr "Meest recente berichten:"
+
+# @ simone
+#: content-page.php:27 content-single.php:50 image.php:48
+msgid "Pages:"
+msgstr "Pagina's:"
+
+# @ simone
+#. translators: used between list items, there is a space after the comma
+#: content-single.php:25 content.php:43
+msgid ", "
+msgstr ", "
+
+# @ simone
+#: content-single.php:38 content.php:57
+msgid "Leave a comment"
+msgstr "Schrijf een reactie"
+
+# @ simone
+#: content-single.php:38 content.php:57
+msgid "1 Comment"
+msgstr "1 Reactie"
+
+# @ simone
+#: content-single.php:38 content.php:57
+msgid "% Comments"
+msgstr "%s Reacties"
+
+# @ simone
+#: content.php:13 content.php:26
+msgid "Read "
+msgstr "Lees "
+
+# @ simone
+#: content.php:72
+msgctxt "First part of \"Read *article title* in title tag of Read more link"
+msgid "Read "
+msgstr "Lees "
+
+# @ simone
+#: content.php:72
+msgid "Read <span aria-hidden=\"true\">the article</span>"
+msgstr "Lees  <span aria-hidden=\"true\">het artikel</span>"
+
+# @ simone
+#: content.php:79
+msgid "Continue Reading "
+msgstr "Lees verder "
+
+# @ simone
+#: content.php:79
+msgid "Continue Reading"
+msgstr "Lees Verder"
+
+# @ simone
+#. translators: %s = text link: WordPress, URL: http://wordpress.org/
+#: footer.php:20
+#, php-format
+msgid "Proudly powered by %s"
+msgstr "Met trots ondersteund door %s"
+
+# @ simone
+#. translators: %1$s = text link: Simone, URL: http://wordpress.org/themes/simone/, %2$s = text link: mor10.com, URL: http://mor10.com/
+#: footer.php:27
+#, php-format
+msgid "Theme: %1$s by %2$s"
+msgstr "Thema: %1$s door %2$s"
+
+# @ simone
+#: functions.php:55
+msgid "Primary Menu"
+msgstr "Hoofd Menu"
+
+# @ simone
+#: functions.php:56
+msgid "Social Menu"
+msgstr "Sociaal Menu"
+
+# @ simone
+#: functions.php:85
+msgid "Sidebar"
+msgstr "Zijbalk"
+
+# @ simone
+#: functions.php:94
+msgid "Footer Widgets"
+msgstr "Footer Widgets"
+
+# @ simone
+#: functions.php:95
+msgid ""
+"Footer widgets area appears, not surprisingly, in the footer of the site."
+msgstr "De „Footer“ Widget, is zichtbaar onderin de website"
+
+# @ simone
+#: header.php:25
+msgid "Skip to content"
+msgstr "Ga door naar de inhoud"
+
+# @ simone
+#: header.php:47
+msgid "Menu"
+msgstr "Menu"
+
+# @ simone
+#: header.php:53
+msgid "Search"
+msgstr "Zoek"
+
+# @ simone
+#: image.php:25
+msgid "Featured in: "
+msgstr "Prominent gebruikt in: "
+
+# @ simone
+#: image.php:26
+msgid "Full size image: "
+msgstr "Maximale grootte plaatje:"
+
+# @ simone
+#: image.php:27
+msgid "Edit attachment post"
+msgstr "Wijzigen bijvoegsel bericht"
+
+# @ simone
+#: inc/author-box.php:10
+msgid "Hide Author Bio"
+msgstr "Verberg Auteur Biografie"
+
+# @ simone
+#: inc/author-box.php:21
+#, php-format
+msgid "About %s"
+msgstr "Over %s"
+
+# @ simone
+#. translators: May be followed by another sentence. There is a space after the punctuation mark.
+#: inc/author-box.php:29
+msgid "One article and counting. "
+msgstr "Een Artikel en er zullen er meer volgen"
+
+# @ simone
+#. translators: May be followed by another sentence. There is a space after the punctuation mark.
+#: inc/author-box.php:34
+#, php-format
+msgid "%s articles and counting. "
+msgstr "%s Artikels en er zullen er meer volgen. "
+
+# @ simone
+#: inc/author-box.php:44
+#, php-format
+msgid "Follow %s on social media: "
+msgstr "Volg %s op social media:"
+
+# @ simone
+#: inc/author-box.php:46
+#, php-format
+msgid "Follow %s on Twitter"
+msgstr "Volg %s op twitter"
+
+# @ simone
+#: inc/author-box.php:46
+msgid "Twitter"
+msgstr "Twitter"
+
+# @ simone
+#: inc/author-box.php:49
+#, php-format
+msgid "Add %s to your Google+ circles"
+msgstr "Voeg %s toe aan uw Google+ kringen"
+
+# @ simone
+#: inc/author-box.php:49
+msgid "Google+"
+msgstr "Google+"
+
+# @ simone
+#: inc/author-box.php:52
+#, php-format
+msgid "Like %s on Facebook"
+msgstr "Like %s op Facebook"
+
+# @ simone
+#: inc/author-box.php:52
+msgid "Facebook"
+msgstr "Facebook"
+
+# @ simone
+#: inc/author-box.php:65
+#, php-format
+msgid "All posts by %s"
+msgstr "Alle berichten door %s"
+
+# @ simone
+#: inc/customizer.php:46
+msgid "Header Color"
+msgstr "Header Kleur"
+
+# @ simone
+#: inc/customizer.php:65
+msgid "Link Color"
+msgstr "Link Kleur"
+
+# @ simone
+#: inc/extras.php:63
+#, php-format
+msgid "Page %s"
+msgstr "Pagina %s"
+
+# @ simone
+#: inc/template-tags.php:45
+msgid "&larr; Previous"
+msgstr "&larr; Vorige"
+
+# @ simone
+#: inc/template-tags.php:46
+msgid "Next &rarr;"
+msgstr "Volgende &rarr;"
+
+# @ simone
+#: inc/template-tags.php:54
+msgid "Posts navigation"
+msgstr "Berichten navigatie"
+
+# @ simone
+#: inc/template-tags.php:79 inc/template-tags.php:101
+msgid "Post navigation"
+msgstr "Bericht navigatie"
+
+# @ simone
+#: inc/template-tags.php:82
+msgid "Previous Post:"
+msgstr "Vorig bericht:"
+
+# @ simone
+#: inc/template-tags.php:83
+msgid "Next Post:"
+msgstr "Volgende bericht:"
+
+# @ simone
+#: inc/template-tags.php:104
+msgid "Previous Image"
+msgstr "Vorige plaatje"
+
+# @ simone
+#: inc/template-tags.php:105
+msgid "Next Image"
+msgstr "Volgende plaatje"
+
+# @ simone
+#: inc/template-tags.php:126
+msgctxt "Public posted on date"
+msgid "F jS, Y"
+msgstr "d F Y"
+
+# @ simone
+#: inc/template-tags.php:128
+msgctxt "Public modified on date"
+msgid "F jS, Y"
+msgstr "d F Y"
+
+# @ simone
+#: inc/template-tags.php:131
+#, php-format
+msgctxt ""
+"mobile-hide class is used to hide connecting elements like \"on\" and \".\" "
+"on wider screens."
+msgid ""
+"<span class=\"byline\">Written by %1$s</span><span class=\"mobile-hide\"> on "
+"</span><span class=\"posted-on\">%2$s</span><span class=\"mobile-hide\">.</"
+"span>"
+msgstr ""
+"<span class=\"byline\">Geschreven door %1$s</span><span class=\"mobile-hide"
+"\"> op </span><span class=\"posted-on\">%2$s</span><span class=\"mobile-hide"
+"\">.</span>"
+
+# @ simone
+#: search.php:16
+#, php-format
+msgid "Search Results for: %s"
+msgstr "Zoek resultaten voor: %s"
