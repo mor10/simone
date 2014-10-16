@@ -12,6 +12,10 @@ Simone\'s design is focussed on typography and aims to put the content front and
 
 
 == Changelog ==
+=== 1.0.11 ===
+- New translation for Catalan (courtesy of Faleg)
+- New translation for Dutch (courtesy of Richard van Naamen)
+
 === 1.0.10 ===
 - New translation for Simplified Chinese (courtesy of Jerry Wang)
 - Updated Portugese translation (courtesy of João Gomes)

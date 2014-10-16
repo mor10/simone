@@ -8,7 +8,9 @@ Simone's design is focused on typography and aims to put the content front and c
 
 ### Translations
 Simone ships with English as the default language. Translations are available for:
+- Catalan (CA via Faleg)
 - Chinese (simplified) (zh_CN via Jerry Wang)
+- Dutch (nl_NL via Richard van Naamen)
 - Finnish (fi via Sami Keijonen)
 - French (fr_FR via Christine Rondeau)
 - German (de_DE via Caspar Hübinger)
@@ -63,6 +65,10 @@ Responsive featured images powered by [Picturefill](http://scottjehl.github.io/p
 Simone is named after philosopher [Simone de Beauvoir](http://en.wikipedia.org/wiki/Simone_de_Beauvoir)
 
 ## Changelog
+### 1.0.11
+- New translation for Catalan (courtesy of Faleg)
+- New translation for Dutch (courtesy of Richard van Naamen)
+
 ### 1.0.10 
 - New translation for Simplified Chinese (courtesy of Jerry Wang)
 - Updated Portugese translation (courtesy of João Gomes)
