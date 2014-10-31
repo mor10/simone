@@ -106,6 +106,17 @@ add_action( 'widgets_init', 'simone_widgets_init' );
  * Enqueue scripts and styles.
  */
 function simone_scripts() {
+       /**
+        * For child theme authors: To inherit styles and layouts from Simone properly, 
+        * add the following code to your child theme functions.php file:
+        * 
+        * <?php
+        * add_action( 'wp_enqueue_scripts', 'enqueue_child_theme_styles', PHP_INT_MAX);
+        * function enqueue_child_theme_styles() {
+        *     wp_enqueue_style( 'child-style', get_stylesheet_uri(), array('simone-style') );
+        * }
+        * 
+        */
         wp_register_style( 'simone-style', get_template_directory_uri().'/style.css' );
         
         if (is_page_template('page-templates/page-nosidebar.php') || ! is_active_sidebar( 'sidebar-1' )) {
