@@ -5,6 +5,18 @@
  * @package Simone
  */
 
+/**
+ * For child theme authors: To inherit styles and layouts from Simone properly, 
+ * add the following code to your child theme functions.php file:
+ * 
+ * <?php
+ * add_action( 'wp_enqueue_scripts', 'enqueue_child_theme_styles', PHP_INT_MAX);
+ * function enqueue_child_theme_styles() {
+ *     wp_enqueue_style( 'child-style', get_stylesheet_uri(), array('simone-style') );
+ * }
+ * 
+ */
+
 if ( ! function_exists( 'simone_setup' ) ) :
 /**
  * Sets up theme defaults and registers support for various WordPress features.
@@ -106,22 +118,17 @@ add_action( 'widgets_init', 'simone_widgets_init' );
  * Enqueue scripts and styles.
  */
 function simone_scripts() {
-       /**
-        * For child theme authors: To inherit styles and layouts from Simone properly, 
-        * add the following code to your child theme functions.php file:
-        * 
-        * <?php
-        * add_action( 'wp_enqueue_scripts', 'enqueue_child_theme_styles', PHP_INT_MAX);
-        * function enqueue_child_theme_styles() {
-        *     wp_enqueue_style( 'child-style', get_stylesheet_uri(), array('simone-style') );
-        * }
-        * 
-        */
+        
+        $simone_layout = get_option( 'simone_settings' );
+
         wp_register_style( 'simone-style', get_template_directory_uri().'/style.css' );
         
         if (is_page_template('page-templates/page-nosidebar.php') || ! is_active_sidebar( 'sidebar-1' )) {
             wp_enqueue_style( 'simone-layout' , get_template_directory_uri() . '/layouts/no-sidebar.css', array('simone-style') );
-        } else {
+        } elseif ( $simone_layout['layout_setting'] == 'left-sidebar' ) {
+            wp_enqueue_style( 'simone-layout' , get_template_directory_uri() . '/layouts/sidebar-content.css', array('simone-style') );
+        }
+        else {
             wp_enqueue_style( 'simone-layout' , get_template_directory_uri() . '/layouts/content-sidebar.css', array('simone-style') );
         }
         
