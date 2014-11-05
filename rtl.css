@@ -3,6 +3,11 @@ RTL styles for right-to-left languages.
 Can be used with all layouts.
 */
 
+/* Global */
+ul, ol { margin: 0 1.5em 1.5em 0; }
+
+caption, th, td { text-align: right; }
+
 /* Main Menu */
 
 .main-navigation li { float: right; }
@@ -64,10 +69,34 @@ Can be used with all layouts.
 }
 
 .entry-footer i {
-    margin-right: 0;
-    margin-left: .5rem;
+    margin-left: 0;
+    margin-right: .5rem;
 }
 
+.author-avatar {
+    float: right;
+    margin: 0 0 0 2rem;
+}
+
+.author-meta, .author-description {
+    margin-right: 12rem;
+    margin-left: 0;
+}
+
+.author-title { clear: none; }
+
+.author-social-media a {
+    margin-right: 1.5rem;
+    margin-left: 0;
+}
+
+
+
+.comment-author .avatar {
+    float: right;
+    margin-right: 0;
+    margin-left: 20px;
+}
 /* Sidebars */
 .widget_recent_entries li:before, 
 .widget_recent_comments li:before, 

@@ -52,40 +52,7 @@ Layout: Sidebar left
     .paging-navigation { padding: 0 2rem; }
 }
 
-@media screen and (min-width: 1160px) and (max-width: 1556px) {
-    .entry-header,
-    .page-header,
-    .entry-content,
-    .entry-footer,
-    .tag-links,
-    .post-navigation,
-    .comments-area,
-    .paging-navigation { margin: inherit; }
-    
-    .index-box,
-    .entry-header,
-    .page-header,
-    .entry-content,
-    .entry-footer,
-    .tag-links,
-    .post-navigation,
-    .comments-area,
-    .paging-navigation,
-    .author-index { margin-right: 0; }
 
-}
-
-
-@media screen and (min-width: 1540px) and (max-width: 1740px) {
-    .entry-header,
-    .page-header,
-    .entry-content,
-    .entry-footer,
-    .tag-links,
-    .post-navigation,
-    .comments-area,
-    .paging-navigation { margin-bottom: 3rem; }
-}
 
 .page-header,
 .paging-navigation {
@@ -111,12 +78,36 @@ Layout: Sidebar left
     background: hsl(0, 0%, 100%);
 }
 
+
 @media screen and (min-width: 1160px) and (max-width: 1556px) {
+    
     .index-box,
-    .author-index {
-        margin: 0 0 2em;
+    .entry-header,
+    .page-header,
+    .entry-content,
+    .entry-footer,
+    .tag-links,
+    .post-navigation,
+    .comments-area,
+    .paging-navigation,
+    .author-index { 
+        margin-right: auto; 
+        margin-left: 0;
     }
+
 }
+
+.entry-header,
+.page-header,
+.entry-content,
+.entry-footer,
+.tag-links,
+.post-navigation,
+.comments-area,
+.paging-navigation { margin-bottom: 3rem; }
+
+.entry-meta { margin-bottom: 0; }
+
 
 @media screen and (min-width: 1440px) and (max-width: 1820px) {
     .front-index-thumbnail { margin-bottom: 0; }
@@ -150,6 +141,7 @@ Layout: Sidebar left
 
     .site-content .widget-area {
         position: absolute;
+        left: 0;
     }   
 }
 
@@ -177,21 +169,22 @@ Layout: Sidebar left
 @media screen and (max-width: 1556px) {
     .single-post-thumbnail img,
     .front-index-thumbnail img {
-        margin: inherit;
+        margin: 0 auto 0 0;
     }
 }
 
+@media screen and (min-width: 1557px) and (max-width: 1820px) {
+    .single-post-thumbnail img,
+    .front-index-thumbnail img {
+        margin: 0 auto 0 380px;
+    }
+}
 
 @media screen and (min-width: 1160px) and (max-width: 1740px) {
     .single .entry-meta {
         position: relative;
         width: 100%;
         margin: 0;
-        text-align: left;
-    }
-    
-    .entry-meta {
-        margin-bottom: 0;
     }
     
     .single .byline, 
@@ -202,4 +195,15 @@ Layout: Sidebar left
         display: inline;
         margin: 0;
     }
+}
+
+
+/* Image and blockquote alignments */
+@media screen and (min-width: 1320px) {
+    .alignright { margin-right: -160px; }
+    .alignleft { margin-left: 0; }
+}
+
+@media screen and (min-width: 1820px) {
+    .alignleft { margin-left: -160px; }
 }
