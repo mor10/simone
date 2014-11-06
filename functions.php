@@ -74,7 +74,7 @@ function simone_setup() {
 	// Setup the WordPress core custom background feature.
 	add_theme_support( 'custom-background', apply_filters( 'simone_custom_background_args', array(
 		'default-color' => 'b2b2b2',
-		'default-image' => get_stylesheet_directory_uri() . '/images/pattern.svg',
+		'default-image' => get_template_directory_uri() . '/images/pattern.svg',
 	) ) );
 
 	// Enable support for HTML5 markup.

@@ -155,7 +155,6 @@ Layout: Sidebar left
 }
 
 
-
 @media screen and (min-width: 1820px) {
     .image-shifter {
         float: none;
@@ -163,7 +162,6 @@ Layout: Sidebar left
         margin: 0 auto;
     }
 }
-
 
 
 @media screen and (max-width: 1556px) {
