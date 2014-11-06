@@ -12,6 +12,11 @@ caption, th, td { text-align: right; }
 
 .main-navigation li { float: right; }
 
+.main-navigation ul ul ul { 
+    right: 100%;
+    left: inherit;
+}
+
 .menu-social ul,
 .search-toggle { float: left; }
 
@@ -69,8 +74,8 @@ caption, th, td { text-align: right; }
 }
 
 .entry-footer i {
-    margin-left: 0;
-    margin-right: .5rem;
+    margin-left: .5rem;
+    margin-right: 0;
 }
 
 .author-avatar {
