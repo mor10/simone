@@ -68,6 +68,44 @@ function simone_register_theme_customizer( $wp_customize ) {
             )
         )
     );
+    
+    // Add option to select sidebar position in the theme
+    $wp_customize->add_section(
+	// ID
+	'layout_section',
+	// Arguments array
+	array(
+            'title' => __( 'Layout', 'simone' ),
+            'capability' => 'edit_theme_options',
+            'description' => __( 'Change the layout of your theme.', 'simone' )
+        )
+    );
+    
+    $wp_customize->add_setting(
+        // ID
+        'simone_settings[layout_setting]',
+        // Arguments array
+        array(
+            'default' => 'right-sidebar',
+            'type' => 'option'
+        )
+    );
+    $wp_customize->add_control(
+	// ID
+	'layout_control',
+	// Arguments array
+	array(
+            'type' => 'radio',
+            'label' => __( 'Sidebar position', 'simone' ),
+            'section' => 'layout_section',
+            'choices' => array(
+                'left-sidebar' => __( 'Left sidebar', 'simone' ),
+                'right-sidebar' => __( 'Right sidebar', 'simone' )
+            ),
+            // This last one must match setting ID from above
+            'settings' => 'simone_settings[layout_setting]'
+        )
+    );
 
 }
 add_action( 'customize_register', 'simone_register_theme_customizer' );

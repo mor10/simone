@@ -1,0 +1,118 @@
+/*
+RTL styles for right-to-left languages.
+Can be used with all layouts.
+*/
+
+/* Global */
+ul, ol { margin: 0 1.5em 1.5em 0; }
+
+caption, th, td { text-align: right; }
+
+/* Main Menu */
+
+.main-navigation li { float: right; }
+
+.main-navigation ul ul ul { 
+    right: 100%;
+    left: inherit;
+}
+
+.menu-social ul,
+.search-toggle { float: left; }
+
+.main-navigation ul ul { 
+    right: 0;
+    left: inherit;
+}
+
+.search-box .search-field { float: left; }
+
+@media screen and (max-width: 600px) {
+    .search-toggle {
+        right: inherit;
+        left: 0
+    }
+    
+    #menu-social ul {
+        right: inherit;
+        left: 6rem;
+    }
+    
+    .main-navigation li { float: none; }
+    
+    .main-navigation li li a { padding-right: 4em; }
+}
+
+/* Index */
+
+.sticky-post {
+    right: inherit;
+    left: 3rem;
+}
+
+.fa-arrow-circle-o-right:before {
+    content: "\f190";
+}
+
+/* Posts */
+
+.single .entry-meta {
+    position: relative; 
+    width: 100%; 
+    margin-left: 0; 
+}
+
+.single .byline,
+.single .posted-on, 
+.single .comments-link, 
+.single .mobile-hide,
+.single .author { display: inline; }
+
+.entry-footer li { 
+    margin-right: 0;
+    margin-left: 4rem;
+}
+
+.entry-footer i {
+    margin-left: .5rem;
+    margin-right: 0;
+}
+
+.author-avatar {
+    float: right;
+    margin: 0 0 0 2rem;
+}
+
+.author-meta, .author-description {
+    margin-right: 12rem;
+    margin-left: 0;
+}
+
+.author-title { clear: none; }
+
+.author-social-media a {
+    margin-right: 1.5rem;
+    margin-left: 0;
+}
+
+
+
+.comment-author .avatar {
+    float: right;
+    margin-right: 0;
+    margin-left: 20px;
+}
+/* Sidebars */
+.widget_recent_entries li:before, 
+.widget_recent_comments li:before, 
+.widget_archive li:before {
+    float: right;
+    margin-right: -2.5em;
+    margin-left: 0;
+}
+
+.widget_recent_entries li, 
+.widget_recent_comments li,
+.widget_archive li {
+    margin: 0 2.5em .5em 0;
+}
