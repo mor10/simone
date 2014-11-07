@@ -21,6 +21,9 @@ Simone ships with English as the default language. Translations are available fo
 - Russian (ru_RU via Vladimir Samoletov)
 - Spanish (es_ES via Juan Pablo)
 
+### RTL language support
+Simone ships with full RTL language support. All relevant content is reversed including menus, menu position, search bars, and other features. Sidebar can be left in its default position or moved to the left through the customizer.
+
 
 ### Customizer options
 Extended options available from the Customizer:
@@ -29,9 +32,10 @@ Extended options available from the Customizer:
 2. Header text color
 3. Link color (changes link colors throughout the site including site title. Also sets color of .border-custom class.)
 4. Optional Header image of 1280px x 300px
+5. Sidebar position: Simone can be configured to display the sidebar on the right (default) or on the left.
 
 ### Widgetized areas
-1. Right sidebar, max content width 300px.
+1. Sidebar, max content width 300px.
 2. Footer, max content width 320px.
 
 ### Post Formats
