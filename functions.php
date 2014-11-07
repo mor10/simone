@@ -118,20 +118,44 @@ add_action( 'widgets_init', 'simone_widgets_init' );
  * Enqueue scripts and styles.
  */
 function simone_scripts() {
+
+       /**
+        * For child theme authors: To disable the styles and layouts from Simone properly, 
+        * add the following code to your child theme functions.php file:
+        *
+        * <?php
+        * add_action( 'wp_enqueue_scripts', 'dequeue_parent_theme_styles', 11 );
+        * function dequeue_parent_theme_styles() {
+        *     wp_dequeue_style( 'simone-parent-style' );
+        *     wp_dequeue_style( 'simone-layout' );
+        * }
+        *
+        */
         
+        // Get the current layout setting (sidebar left or right)
         $simone_layout = get_option( 'simone_settings' );
 
-        wp_register_style( 'simone-style', get_template_directory_uri().'/style.css' );
-        
+        // Load parent theme stylesheet even when child theme is active
+        if ( is_child_theme() ) {
+                wp_enqueue_style( 'simone-parent-style', trailingslashit( get_template_directory_uri() ) . 'style.css' );
+        } else {
+                wp_enqueue_style( 'simone-style', get_stylesheet_uri() );
+        }
+
         if (is_page_template('page-templates/page-nosidebar.php') || ! is_active_sidebar( 'sidebar-1' )) {
-            wp_enqueue_style( 'simone-layout' , get_template_directory_uri() . '/layouts/no-sidebar.css', array('simone-style') );
+            wp_enqueue_style( 'simone-layout' , get_template_directory_uri() . '/layouts/no-sidebar.css' );
         } elseif ( $simone_layout['layout_setting'] == 'left-sidebar' ) {
-            wp_enqueue_style( 'simone-layout' , get_template_directory_uri() . '/layouts/sidebar-content.css', array('simone-style') );
+            wp_enqueue_style( 'simone-layout' , get_template_directory_uri() . '/layouts/sidebar-content.css' );
+        } else {
+            wp_enqueue_style( 'simone-layout' , get_template_directory_uri() . '/layouts/content-sidebar.css' );
+
         }
-        else {
-            wp_enqueue_style( 'simone-layout' , get_template_directory_uri() . '/layouts/content-sidebar.css', array('simone-style') );
+
+        // Load child theme stylesheet
+        if ( is_child_theme() ) {
+                wp_enqueue_style( 'simone-style', get_stylesheet_uri() );
         }
-        
+
         // Lato http://www.google.com/fonts/specimen/Lato + PT Serif http://www.google.com/fonts/specimen/PT+Serif
         wp_enqueue_style( 'simone-google-fonts', '//fonts.googleapis.com/css?family=Lato:100,300,400,400italic,700,900,900italic|PT+Serif:400,700,400italic,700italic' );
         

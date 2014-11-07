@@ -84,7 +84,9 @@ html {
 	-moz-box-sizing:    border-box; /* Still needed for Firefox 28; see http://caniuse.com/#search=box-sizing */
 	box-sizing:         border-box;
 }
+
 body { background: #b2b2b2; }
+
 article,
 aside,
 details,
