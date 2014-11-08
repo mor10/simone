@@ -72,18 +72,20 @@ function simone_register_theme_customizer( $wp_customize ) {
     // Add option to select sidebar position in the theme
     $wp_customize->add_section(
 	// ID
-	'layout_section',
+	'option_section',
 	// Arguments array
 	array(
-            'title' => __( 'Layout', 'simone' ),
+            'title' => __( 'Theme Options', 'simone' ),
             'capability' => 'edit_theme_options',
-            'description' => __( 'Change the layout of your theme.', 'simone' )
+            'description' => __( 'Change the default display options for the theme.', 'simone' )
         )
     );
     
+    // Sidebar layout
+    
     $wp_customize->add_setting(
         // ID
-        'simone_settings[layout_setting]',
+        'layout_setting',
         // Arguments array
         array(
             'default' => 'right-sidebar',
@@ -97,13 +99,41 @@ function simone_register_theme_customizer( $wp_customize ) {
 	array(
             'type' => 'radio',
             'label' => __( 'Sidebar position', 'simone' ),
-            'section' => 'layout_section',
+            'section' => 'option_section',
             'choices' => array(
                 'left-sidebar' => __( 'Left sidebar', 'simone' ),
                 'right-sidebar' => __( 'Right sidebar', 'simone' )
             ),
             // This last one must match setting ID from above
-            'settings' => 'simone_settings[layout_setting]'
+            'settings' => 'layout_setting'
+        )
+    );
+    
+    // Archive content display
+    $wp_customize->add_setting(
+        // ID
+        'archive_setting',
+        // Arguments array
+        array(
+            'default' => 'excerpt',
+            'type' => 'option'
+        )
+    );
+    $wp_customize->add_control(
+	// ID
+	'archive_control',
+	// Arguments array
+	array(
+            'type' => 'radio',
+            'label' => __( 'Archive display', 'simone' ),
+            'description' => __( 'Display excerpts or full content with optional "More" tag in the blog index and archive pages.', 'simone' ),
+            'section' => 'option_section',
+            'choices' => array(
+                'excerpt' => __( 'Excerpt', 'simone' ),
+                'content' => __( 'Full content', 'simone' )
+            ),
+            // This last one must match setting ID from above
+            'settings' => 'archive_setting'
         )
     );
 

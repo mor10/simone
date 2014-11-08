@@ -73,13 +73,26 @@
             echo '</footer><!-- .entry-footer -->';
         } else { ?>
             <div class="entry-content">
-                    <?php the_excerpt(); ?>
+                
+                <?php 
+                $simone_archive_content = get_option( 'archive_setting' );
+                if ( $simone_archive_content == 'content' ) {
+                    the_content( __( '', 'simone' ) );
+                } else {
+                    the_excerpt(); 
+                }
+                ?>
             </div><!-- .entry-content -->
             <footer class="entry-footer continue-reading">
-		<?php echo '<a href="' . get_permalink() . '" title="' . __('Continue Reading ', 'simone') . get_the_title() . '" rel="bookmark">' . __('Continue Reading', 'simone') . '<i class="fa fa-arrow-circle-o-right"></i><span class="screen-reader-text"> ' . get_the_title() . '</span></a>'; ?>
+		<?php 
+                if ( $simone_archive_content == 'content' ) {
+                    echo '<a href="' . get_permalink() . '" title="' . _x('Read ', 'First part of "Read *article title* in title tag of Read more link', 'simone') . get_the_title() . '" rel="bookmark">' . __('Read <span aria-hidden="true">the article</span>', 'simone') . '<i class="fa fa-arrow-circle-o-right"></i><span class="screen-reader-text"> ' . get_the_title() . '</span></a>';
+                } else {
+                    echo '<a href="' . get_permalink() . '" title="' . __('Continue Reading ', 'simone') . get_the_title() . '" rel="bookmark">' . __('Continue Reading', 'simone') . '<i class="fa fa-arrow-circle-o-right"></i><span class="screen-reader-text"> ' . get_the_title() . '</span></a>'; 
+                }
+                ?>
             </footer><!-- .entry-footer -->
         <?php } ?>
-
 
     </div>
 </article><!-- #post-## -->
