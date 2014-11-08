@@ -1,15 +1,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Simone\n"
-"POT-Creation-Date: 2014-11-07 22:18-0800\n"
-"PO-Revision-Date: 2014-11-07 22:18-0800\n"
+"POT-Creation-Date: 2014-08-10 17:13-0800\n"
+"PO-Revision-Date: 2014-11-05 13:34+0100\n"
 "Last-Translator: \n"
 "Language-Team: lynda.com <mrh@lynda.com>\n"
-"Language: en\n"
+"Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.6.4\n"
+"X-Generator: Poedit 1.6.10\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
@@ -22,387 +22,355 @@ msgstr ""
 #: archive.php:22
 #, php-format
 msgid "Posts in the %s category:"
-msgstr ""
+msgstr "Ariklar i kategorin %s:"
 
 #. translators: %s = single tag title
 #: archive.php:26
 #, php-format
 msgid "Posts with the %s tag"
-msgstr ""
+msgstr "Artiklar med taggen %s:"
 
 #: archive.php:29
 #, php-format
 msgid "Author: %s"
-msgstr ""
+msgstr "Forfattare: %s"
 
 #: archive.php:33
 #, php-format
 msgctxt "archive for a day"
 msgid "Posts from %s"
-msgstr ""
+msgstr "Inlägg från %s"
 
 #: archive.php:33
 msgctxt "Daily archives date format"
 msgid "F j, Y"
-msgstr ""
+msgstr "j. F Y"
 
 #: archive.php:36
 #, php-format
 msgctxt "archive for a month"
 msgid "Posts from %s"
-msgstr ""
+msgstr "Inlägg från %s"
 
 #: archive.php:36
 msgctxt "monthly archives date format"
 msgid "F Y"
-msgstr ""
+msgstr "F Y"
 
 #: archive.php:39
 #, php-format
 msgctxt "archive for a year"
 msgid "Posts from %s"
-msgstr ""
+msgstr "Artikler publisert i %s"
 
 #: archive.php:39
 msgctxt "yearly archives date format"
 msgid "Y"
-msgstr ""
+msgstr "Y"
 
 #: archive.php:42
 msgid "Asides"
-msgstr ""
+msgstr "Uppdateringar"
 
 #: archive.php:45
 msgid "Archives"
-msgstr ""
+msgstr "Arkiv"
 
 #: comments.php:29
 #, php-format
 msgctxt "comments title"
 msgid "One comment:"
 msgid_plural "%1$s comments:"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "En kommentar:"
+msgstr[1] "%1$s kommentarer:"
 
 #: comments.php:47
 msgid "Comment navigation"
-msgstr ""
+msgstr "Kommentarnavigation"
 
 #: comments.php:48
 msgid "Older Comments"
-msgstr ""
+msgstr "Äldre kommentarer"
 
 #: comments.php:49
 msgid "Newer Comments"
-msgstr ""
+msgstr "Nyare kommentarer"
 
 #: comments.php:59
 msgid "Comments are closed."
-msgstr ""
+msgstr "Stängt för kommentarer."
 
 #: content-aside.php:17 content-page.php:32 content-single.php:42
 #: content.php:61
 msgid "Edit"
-msgstr ""
+msgstr "Redigera"
 
 #: content-none.php:16
 msgid "Page not available"
-msgstr ""
+msgstr "Sidan är inte tillgänglig"
 
 #. translators: %s = search query
 #: content-none.php:20
 #, php-format
 msgid "Nothing found for %s"
-msgstr ""
+msgstr "Ingenting hittat för %s"
 
 #: content-none.php:22
 msgid "Nothing Found"
-msgstr ""
+msgstr "Ingenting hittat"
 
 #: content-none.php:31
 #, php-format
 msgid ""
 "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
 msgstr ""
+"Klar att publicera ditt första inlägg? <a href=\"%1$s\">Börja här!</a>."
 
 #: content-none.php:35
 msgid ""
 "You seem to be lost. To find what you are looking for check out the most "
 "recent articles below or try a search:"
 msgstr ""
+"Du ser ut att vara vilse. För att hitta vad du letar efter se tidigare "
+"artiklar eller prova att söka det du letar efter:"
 
 #: content-none.php:40
 msgid ""
 "Nothing matched your search terms. Check out the most recent articles below "
 "or try searching for something else:"
 msgstr ""
+"Inget matchade dina söktermer. Se på tidigare inlägg eller prova att söka "
+"efter något annat:"
 
 #: content-none.php:45
 msgid ""
 "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
 "searching can help."
 msgstr ""
+"Vi hittar inte det du letar efter. Prova söka igen och se om det hjälper."
 
 #: content-none.php:56
 msgid "Most recent posts:"
-msgstr ""
+msgstr "Senaste inlägg:"
 
 #: content-page.php:27 content-single.php:50 image.php:48
 msgid "Pages:"
-msgstr ""
+msgstr "Sidor:"
 
 #. translators: used between list items, there is a space after the comma
 #: content-single.php:25 content.php:43
 msgid ", "
-msgstr ""
+msgstr ", "
 
 #: content-single.php:38 content.php:57
 msgid "Leave a comment"
-msgstr ""
+msgstr "Lämna en kommentar"
 
 #: content-single.php:38 content.php:57
 msgid "1 Comment"
-msgstr ""
+msgstr "En kommentar"
 
 #: content-single.php:38 content.php:57
 msgid "% Comments"
-msgstr ""
+msgstr "% kommentarer"
 
 #: content.php:13 content.php:26
 msgid "Read "
-msgstr ""
+msgstr "Läs "
 
-#: content.php:72 content.php:89
+#: content.php:72
 msgctxt "First part of \"Read *article title* in title tag of Read more link"
 msgid "Read "
-msgstr ""
+msgstr "Läs "
 
-#: content.php:72 content.php:89
+#: content.php:72
 msgid "Read <span aria-hidden=\"true\">the article</span>"
-msgstr ""
+msgstr "Läs <span aria-hidden=\"true\">inlägget</span>"
 
-#: content.php:91
+#: content.php:79
 msgid "Continue Reading "
-msgstr ""
+msgstr "Läs vidare "
 
-#: content.php:91
+#: content.php:79
 msgid "Continue Reading"
-msgstr ""
+msgstr "Läs vidare "
 
 #. translators: %s = text link: WordPress, URL: http://wordpress.org/
 #: footer.php:20
 #, php-format
 msgid "Proudly powered by %s"
-msgstr ""
+msgstr "Publicerat med %s"
 
 #: footer.php:21
 msgid "WordPress"
-msgstr ""
+msgstr "WordPress"
 
 #. translators: %1$s = text link: Simone, URL: http://wordpress.org/themes/simone/, %2$s = text link: mor10.com, URL: http://mor10.com/
 #: footer.php:27
 #, php-format
 msgid "Theme: %1$s by %2$s"
-msgstr ""
+msgstr "Tema: %1$s av %2$s"
 
 #: footer.php:29
 msgid "mor10.com"
-msgstr ""
+msgstr "mor10.com"
 
-#: functions.php:68
+#: functions.php:55
 msgid "Primary Menu"
-msgstr ""
+msgstr "Huvudmeny"
 
-#: functions.php:69
+#: functions.php:56
 msgid "Social Menu"
-msgstr ""
+msgstr "Socialmeny"
 
-#: functions.php:98
+#: functions.php:85
 msgid "Sidebar"
-msgstr ""
+msgstr "Sidområde"
 
-#: functions.php:107
+#: functions.php:94
 msgid "Footer Widgets"
-msgstr ""
+msgstr "Fotwidgeter"
 
-#: functions.php:108
+#: functions.php:95
 msgid ""
 "Footer widgets area appears, not surprisingly, in the footer of the site."
-msgstr ""
+msgstr "Fotwidgeta visas i fotområdet på sidan."
 
 #: header.php:25
 msgid "Skip to content"
-msgstr ""
+msgstr "Gå direkt till innehållet"
 
 #: header.php:47
 msgid "Menu"
-msgstr ""
+msgstr "Meny"
 
 #: header.php:53
 msgid "Search"
-msgstr ""
+msgstr "Sök"
 
 #: image.php:25
 msgid "Featured in: "
-msgstr ""
+msgstr "Visas i: "
 
 #: image.php:26
 msgid "Full size image: "
-msgstr ""
+msgstr "Bild i full storlek: "
 
 #: image.php:27
 msgid "Edit attachment post"
-msgstr ""
+msgstr "Redigera bifogad post"
 
 #: inc/author-box.php:10
 msgid "Hide Author Bio"
-msgstr ""
+msgstr "Gjem författarinformation"
 
 #: inc/author-box.php:21
 #, php-format
 msgid "About %s"
-msgstr ""
+msgstr "Om %s"
 
 #. translators: May be followed by another sentence. There is a space after the punctuation mark.
 #: inc/author-box.php:29
 msgid "One article and counting. "
-msgstr ""
+msgstr "Ett inlägg så långt."
 
 #. translators: May be followed by another sentence. There is a space after the punctuation mark.
 #: inc/author-box.php:34
 #, php-format
 msgid "%s articles and counting. "
-msgstr ""
+msgstr "%s inlägg så långt."
 
 #: inc/author-box.php:44
 #, php-format
 msgid "Follow %s on social media: "
-msgstr ""
+msgstr "Följ %s på sociala medier: "
 
 #: inc/author-box.php:46
 #, php-format
 msgid "Follow %s on Twitter"
-msgstr ""
+msgstr "Följ %s på Twitter"
 
 #: inc/author-box.php:46
 msgid "Twitter"
-msgstr ""
+msgstr "Twitter"
 
 #: inc/author-box.php:49
 #, php-format
 msgid "Add %s to your Google+ circles"
-msgstr ""
+msgstr "Lägg til %s i dina Google+ cirklar"
 
 #: inc/author-box.php:49
 msgid "Google+"
-msgstr ""
+msgstr "Google+"
 
 #: inc/author-box.php:52
 #, php-format
 msgid "Like %s on Facebook"
-msgstr ""
+msgstr "Gilla %s på Facebook"
 
 #: inc/author-box.php:52
 msgid "Facebook"
-msgstr ""
+msgstr "Facebook"
 
 #: inc/author-box.php:65
 #, php-format
 msgid "All posts by %s"
-msgstr ""
+msgstr "Alla inlägg skrivna av %s"
 
 #: inc/customizer.php:46
 msgid "Header Color"
-msgstr ""
+msgstr "Bakgrundsfärg för huvudområdet"
 
 #: inc/customizer.php:65
 msgid "Link Color"
-msgstr ""
-
-#: inc/customizer.php:78
-msgid "Theme Options"
-msgstr ""
-
-#: inc/customizer.php:80
-msgid "Change the default display options for the theme."
-msgstr ""
-
-#: inc/customizer.php:101
-msgid "Sidebar position"
-msgstr ""
-
-#: inc/customizer.php:104
-msgid "Left sidebar"
-msgstr ""
-
-#: inc/customizer.php:105
-msgid "Right sidebar"
-msgstr ""
-
-#: inc/customizer.php:128
-msgid "Archive display"
-msgstr ""
-
-#: inc/customizer.php:129
-msgid ""
-"Display excerpts or full content with optional \"More\" tag in the blog "
-"index and archive pages."
-msgstr ""
-
-#: inc/customizer.php:132
-msgid "Excerpt"
-msgstr ""
-
-#: inc/customizer.php:133
-msgid "Full content"
-msgstr ""
+msgstr "Länkfärg"
 
 #: inc/extras.php:63
 #, php-format
 msgid "Page %s"
-msgstr ""
+msgstr "Sida %s"
 
 #: inc/template-tags.php:45
 msgid "&larr; Previous"
-msgstr ""
+msgstr "&larr; Föregående"
 
 #: inc/template-tags.php:46
 msgid "Next &rarr;"
-msgstr ""
+msgstr "Nästa &rarr;"
 
 #: inc/template-tags.php:54
 msgid "Posts navigation"
-msgstr ""
+msgstr "Inläggsnavigation"
 
 #: inc/template-tags.php:79 inc/template-tags.php:101
 msgid "Post navigation"
-msgstr ""
+msgstr "Inläggsnavigation"
 
 #: inc/template-tags.php:82
 msgid "Previous Post:"
-msgstr ""
+msgstr "Föregående inlägg:"
 
 #: inc/template-tags.php:83
 msgid "Next Post:"
-msgstr ""
+msgstr "Nästa inlägg:"
 
 #: inc/template-tags.php:104
 msgid "Previous Image"
-msgstr ""
+msgstr "Föregående bild"
 
 #: inc/template-tags.php:105
 msgid "Next Image"
-msgstr ""
+msgstr "Nästa bild"
 
 #: inc/template-tags.php:126
 msgctxt "Public posted on date"
 msgid "F jS, Y"
-msgstr ""
+msgstr "j. F Y"
 
 #: inc/template-tags.php:128
 msgctxt "Public modified on date"
 msgid "F jS, Y"
-msgstr ""
+msgstr "j. F Y"
 
 #: inc/template-tags.php:131
 #, php-format
@@ -414,8 +382,11 @@ msgid ""
 "</span><span class=\"posted-on\">%2$s</span><span class=\"mobile-hide\">.</"
 "span>"
 msgstr ""
+"<span class=\"byline\">Skapat av %1$s</span><span class=\"mobile-hide\">, </"
+"span><span class=\"posted-on\">%2$s</span><span class=\"mobile-hide\">.</"
+"span>"
 
 #: search.php:16
 #, php-format
 msgid "Search Results for: %s"
-msgstr ""
+msgstr "Sökeresultat för: %s"
