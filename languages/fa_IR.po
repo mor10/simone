@@ -1,0 +1,435 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Simone\n"
+"POT-Creation-Date: 2014-11-13 20:06-0800\n"
+"PO-Revision-Date: 2014-11-13 20:17-0800\n"
+"Last-Translator: \n"
+"Language-Team: lynda.com <mrh@lynda.com>\n"
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.4\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#. translators: %s = single category title
+#: archive.php:22
+#, php-format
+msgid "Posts in the %s category:"
+msgstr "نوشته‌ها در دسته‌بندی %s:"
+
+#. translators: %s = single tag title
+#: archive.php:26
+#, php-format
+msgid "Posts with the %s tag"
+msgstr "نوشته‌های دارای برچسب %s:"
+
+#: archive.php:29
+#, php-format
+msgid "Author: %s"
+msgstr "نویسنده : %s"
+
+#: archive.php:33
+#, php-format
+msgctxt "archive for a day"
+msgid "Posts from %s"
+msgstr "نوشته‌های %s:"
+
+#: archive.php:33
+msgctxt "Daily archives date format"
+msgid "F j, Y"
+msgstr "F j, Y"
+
+#: archive.php:36
+#, php-format
+msgctxt "archive for a month"
+msgid "Posts from %s"
+msgstr "نوشته‌های %s:"
+
+#: archive.php:36
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "F Y"
+
+#: archive.php:39
+#, php-format
+msgctxt "archive for a year"
+msgid "Posts from %s"
+msgstr "نوشته‌های %s:"
+
+#: archive.php:39
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+#: archive.php:42
+msgid "Asides"
+msgstr "حاشیه‌‎ها"
+
+#: archive.php:45
+msgid "Archives"
+msgstr "بایگانی"
+
+#: comments.php:29
+#, php-format
+msgctxt "comments title"
+msgid "One comment:"
+msgid_plural "%1$s comments:"
+msgstr[0] "%1$s دیدگاه:"
+
+#: comments.php:47
+msgid "Comment navigation"
+msgstr "راهبری دیدگاه‌ها"
+
+#: comments.php:48
+msgid "Older Comments"
+msgstr "دیدگاه‌های قدیمی‌تر"
+
+#: comments.php:49
+msgid "Newer Comments"
+msgstr "دیدگاه‌های جدیدتر"
+
+#: comments.php:59
+msgid "Comments are closed."
+msgstr "ارسال دیدگاه غیرفعال شده است."
+
+#: content-aside.php:17 content-page.php:32 content-single.php:42
+#: content.php:61
+msgid "Edit"
+msgstr "ویرایش"
+
+#: content-none.php:16
+msgid "Page not available"
+msgstr "صفحه در دسترس نمی‌باشد"
+
+#. translators: %s = search query
+#: content-none.php:20
+#, php-format
+msgid "Nothing found for %s"
+msgstr "جستجو برای %s نتیجه‌ای نداشت."
+
+#: content-none.php:22
+msgid "Nothing Found"
+msgstr "هیچ چیزی پیدا نشد"
+
+#: content-none.php:31
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+"برای انتشار اولین نوشته خود آماده‌اید ؟  <a href=\"%1$s\">از اینجا شروع کنید</"
+"a>."
+
+#: content-none.php:35
+msgid ""
+"You seem to be lost. To find what you are looking for check out the most "
+"recent articles below or try a search:"
+msgstr ""
+"به نظر شما گم شده‌اید. برای یافتن مطلبی که دنبالش می‌‎گردید لیست تازه‌ترین "
+"نوشته‌های سایت در را در زیر ببینید و یا از جستجو بهره ببرید:"
+
+#: content-none.php:40
+msgid ""
+"Nothing matched your search terms. Check out the most recent articles below "
+"or try searching for something else:"
+msgstr ""
+"نتیجه‌ای برای جستجوی شما یافت نشد. لیست تازه‌ترین نوشته‌های سایت در را در زیر "
+"ببینید و یا مورد دیگری را جستجو کنید:"
+
+#: content-none.php:45
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+"به نظر ما نمی‌توانیم مطلبی را که بدنبالش هستید پیدا کنیم. از جستجو بهره ببرید."
+
+#: content-none.php:56
+msgid "Most recent posts:"
+msgstr "تازه‌ترین نوشته‌ها:"
+
+#: content-page.php:27 content-single.php:50 image.php:48
+msgid "Pages:"
+msgstr "صفحه‌ها :"
+
+#. translators: used between list items, there is a space after the comma
+#: content-single.php:25 content.php:43
+msgid ", "
+msgstr "، "
+
+#: content-single.php:38 content.php:57
+msgid "Leave a comment"
+msgstr "دیدگاه‌تان را بنویسید:"
+
+#: content-single.php:38 content.php:57
+msgid "1 Comment"
+msgstr "1 دیدگاه"
+
+#: content-single.php:38 content.php:57
+msgid "% Comments"
+msgstr "% دیدگاه"
+
+#: content.php:13 content.php:26
+msgid "Read "
+msgstr "خواندن"
+
+#: content.php:72 content.php:89
+msgctxt "First part of \"Read *article title* in title tag of Read more link"
+msgid "Read "
+msgstr "بخوانید "
+
+#: content.php:72 content.php:89
+msgid "Read <span aria-hidden=\"true\">the article</span>"
+msgstr "<span aria-hidden=\"true\">the article</span> را بخوانید"
+
+#: content.php:91
+msgid "Continue Reading "
+msgstr "ادامه مطلب"
+
+#: content.php:91
+msgid "Continue Reading"
+msgstr "ادامه مطلب"
+
+#. translators: %s = text link: WordPress, URL: http://wordpress.org/
+#: footer.php:20
+#, php-format
+msgid "Proudly powered by %s"
+msgstr "با افتخار قدرت گرفته از %s"
+
+#: footer.php:21
+msgid "WordPress"
+msgstr "وردپرس"
+
+#. translators: %1$s = text link: Simone, URL: http://wordpress.org/themes/simone/, %2$s = text link: mor10.com, URL: http://mor10.com/
+#: footer.php:27
+#, php-format
+msgid "Theme: %1$s by %2$s"
+msgstr "پوسته: %1$s توسط %2$s"
+
+#: footer.php:29
+msgid "mor10.com"
+msgstr "mor10.com"
+
+#: functions.php:68
+msgid "Primary Menu"
+msgstr "منوی اصلی"
+
+#: functions.php:69
+msgid "Social Menu"
+msgstr "منوی شبکه‌های اجتماعی"
+
+#: functions.php:98
+msgid "Sidebar"
+msgstr "نوار کناری"
+
+#: functions.php:107
+msgid "Footer Widgets"
+msgstr "ابزارک‌های پاورقی"
+
+#: functions.php:108
+msgid ""
+"Footer widgets area appears, not surprisingly, in the footer of the site."
+msgstr ""
+"ابزارک‌های پاورقی بالطبع در پاورقی سایت (پایین صفحات) نمایش داده می‌شوند."
+
+#: header.php:25
+msgid "Skip to content"
+msgstr "رفتن به محتوا"
+
+#: header.php:47
+msgid "Menu"
+msgstr "منو"
+
+#: header.php:53
+msgid "Search"
+msgstr "جستجو"
+
+#: image.php:25
+msgid "Featured in: "
+msgstr "شاخص‌های موجود در:"
+
+#: image.php:26
+msgid "Full size image: "
+msgstr "تصویر با اندازه اصلی:"
+
+#: image.php:27
+msgid "Edit attachment post"
+msgstr "ویرایش نوشته پیوست"
+
+#: inc/author-box.php:10
+msgid "Hide Author Bio"
+msgstr "مخفی کردن بیوگرافی نویسنده"
+
+#: inc/author-box.php:21
+#, php-format
+msgid "About %s"
+msgstr "درباره %s"
+
+#. translators: May be followed by another sentence. There is a space after the punctuation mark.
+#: inc/author-box.php:29
+msgid "One article and counting. "
+msgstr "یک مقاله و زیادتر خواهد شد."
+
+#. translators: May be followed by another sentence. There is a space after the punctuation mark.
+#: inc/author-box.php:34
+#, php-format
+msgid "%s articles and counting. "
+msgstr "%s نوشته و زیادتر خواهد شد."
+
+#: inc/author-box.php:44
+#, php-format
+msgid "Follow %s on social media: "
+msgstr "%s را در شبکه‌های اجتماعی دنبال کنید:"
+
+#: inc/author-box.php:46
+#, php-format
+msgid "Follow %s on Twitter"
+msgstr "%s را در Twitter دنبال کنید"
+
+#: inc/author-box.php:46
+msgid "Twitter"
+msgstr "Twitter"
+
+#: inc/author-box.php:49
+#, php-format
+msgid "Add %s to your Google+ circles"
+msgstr "%s را به دایره Google+ خود اضافه کنید"
+
+#: inc/author-box.php:49
+msgid "Google+"
+msgstr "Google+"
+
+#: inc/author-box.php:52
+#, php-format
+msgid "Like %s on Facebook"
+msgstr "%s را در Facebook لایک کنید"
+
+#: inc/author-box.php:52
+msgid "Facebook"
+msgstr "Facebook"
+
+#: inc/author-box.php:65
+#, php-format
+msgid "All posts by %s"
+msgstr "تمامی نوشته‌های %s"
+
+#: inc/customizer.php:46
+msgid "Header Color"
+msgstr "رنگ سربرگ"
+
+#: inc/customizer.php:65
+msgid "Link Color"
+msgstr "رنگ لینک"
+
+#: inc/customizer.php:78
+msgid "Theme Options"
+msgstr ""
+
+#: inc/customizer.php:80
+msgid "Change the default display options for the theme."
+msgstr ""
+
+#: inc/customizer.php:101
+#, fuzzy
+msgid "Sidebar position"
+msgstr "نوار کناری"
+
+#: inc/customizer.php:104
+#, fuzzy
+msgid "Left sidebar"
+msgstr "نوار کناری"
+
+#: inc/customizer.php:105
+#, fuzzy
+msgid "Right sidebar"
+msgstr "نوار کناری"
+
+#: inc/customizer.php:128
+#, fuzzy
+msgid "Archive display"
+msgstr "بایگانی"
+
+#: inc/customizer.php:129
+msgid ""
+"Display excerpts or full content with optional \"More\" tag in the blog "
+"index and archive pages."
+msgstr ""
+
+#: inc/customizer.php:132
+msgid "Excerpt"
+msgstr ""
+
+#: inc/customizer.php:133
+msgid "Full content"
+msgstr ""
+
+#: inc/extras.php:63
+#, php-format
+msgid "Page %s"
+msgstr "صفحه %s"
+
+#: inc/template-tags.php:45
+msgid "&larr; Previous"
+msgstr "قبلی &larr;"
+
+#: inc/template-tags.php:46
+msgid "Next &rarr;"
+msgstr "&rarr; بعدی"
+
+#: inc/template-tags.php:54
+msgid "Posts navigation"
+msgstr "راهبری نوشته‌ها"
+
+#: inc/template-tags.php:79 inc/template-tags.php:101
+msgid "Post navigation"
+msgstr "راهبری نوشته"
+
+#: inc/template-tags.php:82
+msgid "Previous Post:"
+msgstr "نوشته قبلی :"
+
+#: inc/template-tags.php:83
+msgid "Next Post:"
+msgstr "نوشته بعدی :"
+
+#: inc/template-tags.php:104
+msgid "Previous Image"
+msgstr "تصویر قبلی"
+
+#: inc/template-tags.php:105
+msgid "Next Image"
+msgstr "تصویر بعدی"
+
+#: inc/template-tags.php:126
+msgctxt "Public posted on date"
+msgid "F jS, Y"
+msgstr "F jS, Y"
+
+#: inc/template-tags.php:128
+msgctxt "Public modified on date"
+msgid "F jS, Y"
+msgstr "F jS, Y"
+
+#: inc/template-tags.php:131
+#, php-format
+msgctxt ""
+"mobile-hide class is used to hide connecting elements like \"on\" and \".\" "
+"on wider screens."
+msgid ""
+"<span class=\"byline\">Written by %1$s</span><span class=\"mobile-hide\"> on "
+"</span><span class=\"posted-on\">%2$s</span><span class=\"mobile-hide\">.</"
+"span>"
+msgstr ""
+"<span class=\"byline\">نوشته شده توسط: %1$s</span><span class=\"mobile-hide"
+"\"> در </span><span class=\"posted-on\">%2$s</span><span class=\"mobile-hide"
+"\">.</span>"
+
+#: search.php:16
+#, php-format
+msgid "Search Results for: %s"
+msgstr "نتیجه جستجو برای :  %s"
