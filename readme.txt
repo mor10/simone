@@ -12,13 +12,14 @@ Simone\'s design is focussed on typography and aims to put the content front and
 
 
 == Changelog ==
-=== 1.1 ===
+=== 2.0 ===
 New features:
 - RTL language support
 - Custom background color and background image option in Customizer
 - Sidebar position option in Customizer
 - Index and archive content display (excerpt or content) in Customizer
 Updates:
+- New translation for Persian / Farsi (coursesy of Emad Navy)
 - New translation for Swedish (courtesy of Ted Derneby)
 - New method for loading of stylesheets when child theme is used.
 
