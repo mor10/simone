@@ -3,8 +3,8 @@ Theme Name: Simone
 Theme URI: http://mor10.com/simone-wordpress-theme/
 Author: Morten Rand-Hendriksen
 Author URI: http://mor10.com/
-Description: Simone is a responsive, accessible, high-resolution theme featuring custom header and custom link colors, large images, and easy to read typography that scales to fit all screens. Other features include keyboard accessible navigation, optional social menu, sidebar- and footer widgets, no-sidebar page template, Aside post format, and collapsible author profile box. Simone is translation ready and ships in English with translations in Catalan, Chinese (simplified), Dutch, Finnish, French, German, Hungarian, Italian, Norwegian Bokmål, Portugese, Russian, Spanish, and Swedish.
-Version: 1.1
+Description: Simone is a responsive, accessible, high-resolution theme featuring custom header and custom link colors, large images, and easy to read typography that scales to fit all screens. Other features include keyboard accessible navigation, optional social menu, sidebar- and footer widgets, no-sidebar page template, Aside post format, and collapsible author profile box. Simone is translation ready and ships in English with translations in Catalan, Chinese (simplified), Dutch, Finnish, French, German, Hungarian, Italian, Norwegian Bokmål, Persian, Russian, Spanish, and Swedish.
+Version: 2.0
 License: GNU General Public License
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: simone
@@ -33,21 +33,24 @@ and Blueprint http://www.blueprintcss.org/
 4.0 - Forms
 5.0 - Navigation
 	5.1 - Links
-	5.2 - Menus
+	5.2 - Main Menu
+        5.3 - Social Menu
+        5.4 - Paging Navigation
 6.0 - Accessibility
 7.0 - Alignments
 8.0 - Clearings
-9.0 - Widgets
-10.0 - Content
-	10.1 - Posts and pages
-        10.2 - Index and Archives
-	10.3 - Asides
-        10.4 - Image Attachments
-	10.5 - Comments
-        10.6 - Author Box
-11.0 - Infinite scroll
-12.0 - Media
-13.0 - Footer
+9.0 - Header
+10.0 - Widgets
+11.0 - Content
+	11.1 - Posts and pages
+        11.2 - Index and Archives
+	11.3 - Asides
+        11.4 - Image Attachments
+	11.5 - Comments
+        11.6 - Author Box
+12.0 - Infinite scroll
+13.0 - Media
+14.0 - Footer
 --------------------------------------------------------------*/
 
 /*--------------------------------------------------------------
@@ -382,7 +385,7 @@ a:active {
 }
 
 /*--------------------------------------------------------------
-5.2 Menus
+5.2 Main Menu
 --------------------------------------------------------------*/
 .main-navigation {
     position: relative;
@@ -572,7 +575,9 @@ a:active {
 
 } /* End responsive menu */
 
-/* Social Menu */
+/*--------------------------------------------------------------
+5.3 Social Menu
+--------------------------------------------------------------*/
 
 .menu-social ul {
     float: right;
@@ -652,7 +657,9 @@ a:active {
     }
 }
 
-/* Paging navigation */
+/*--------------------------------------------------------------
+5.4 Paging Navigation
+--------------------------------------------------------------*/
 
 .site-main .comment-navigation,
 .site-main .paging-navigation,
@@ -967,7 +974,7 @@ a:focus.page-numbers{
 }
 
 /*--------------------------------------------------------------
-9.0 Widgets
+10.0 Widgets
 --------------------------------------------------------------*/
 .widget {
     margin: 0 0 4em;
@@ -1078,7 +1085,7 @@ a:focus.page-numbers{
     }
 }
 /*--------------------------------------------------------------
-10.0 Content
+11.0 Content
 --------------------------------------------------------------*/
 /*--------------------------------------------------------------
 10.1 Posts and pages
@@ -1391,7 +1398,7 @@ blockquote cite {
 .entry-footer i { margin-right: .5rem; }
 
 /*--------------------------------------------------------------
-10.2 Index and Archive
+11.2 Index and Archive
 --------------------------------------------------------------*/
 .taxonomy-description {
     padding-top: 2rem;
@@ -1421,12 +1428,12 @@ blockquote cite {
 .error404 .content-area { margin-top: 4rem; }
 
 /*--------------------------------------------------------------
-10.3 Asides
+11.3 Asides
 --------------------------------------------------------------*/
 .format-aside .entry-content { margin-top: 1em; }
 
 /*--------------------------------------------------------------
-10.4 Image Attachments
+11.4 Image Attachments
 --------------------------------------------------------------*/
 
 .attachment .entry-title { margin-top: .7em; }
@@ -1442,7 +1449,7 @@ blockquote cite {
 
 
 /*--------------------------------------------------------------
-10.5 Comments
+11.5 Comments
 --------------------------------------------------------------*/
 .comments-title {
     font-weight: 900;
@@ -1546,7 +1553,7 @@ ol.children { list-style-type: none; }
 .required { color: red; }
 
 /*--------------------------------------------------------------
-10.6 Author Box
+11.6 Author Box
 --------------------------------------------------------------*/
 .reveal-bio {
     max-width: 780px;
@@ -1644,7 +1651,7 @@ a.author-link {
 }
 
 /*--------------------------------------------------------------
-11.0 Infinite scroll
+12.0 Infinite scroll
 --------------------------------------------------------------*/
 /* Globally hidden elements when Infinite Scroll is supported and in use. */
 .infinite-scroll .paging-navigation, /* Older / Newer Posts Navigation (always hidden) */
@@ -1657,7 +1664,7 @@ a.author-link {
 }
 
 /*--------------------------------------------------------------
-12.0 Media
+13.0 Media
 --------------------------------------------------------------*/
 .page-content img.wp-smiley,
 .entry-content img.wp-smiley,
@@ -1769,7 +1776,7 @@ object { max-width: 100%; }
 .small-index-thumbnail { margin-top: -1em; }
 
 /*--------------------------------------------------------------
-13 Footer
+14 Footer
 --------------------------------------------------------------*/
 
 .site-footer {

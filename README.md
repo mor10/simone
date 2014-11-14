@@ -17,6 +17,7 @@ Simone ships with English as the default language. Translations are available fo
 - Hungarian (hu_HU via Beata Kozma)
 - Italian (it_IT via  Giorgio Riccardi)
 - Norwegian Bokmål (nb_NO)
+- Persian / Farsi (fa_IR via Emad Navy)
 - Portugese (pt_PT via João Gomes)
 - Russian (ru_RU via Vladimir Samoletov)
 - Spanish (es_ES via Juan Pablo)
@@ -70,13 +71,14 @@ Responsive featured images powered by [Picturefill](http://scottjehl.github.io/p
 Simone is named after philosopher [Simone de Beauvoir](http://en.wikipedia.org/wiki/Simone_de_Beauvoir)
 
 ## Changelog
-### 1.1
+### 2.0
 ####New features:
 - RTL language support
 - Custom background color and background image option in Customizer
 - Sidebar position option in Customizer
 - Index and archive content display (excerpt or content) in Customizer
 ####Updates:
+- New translation for Persian / Farsi (coursesy of Emad Navy)
 - New translation for Swedish (courtesy of Ted Derneby)
 - New method for loading of stylesheets when child theme is used.
 
