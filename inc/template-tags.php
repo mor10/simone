@@ -213,7 +213,7 @@ function simone_background_style() {
         $background_color = get_background_color();
         
         echo '<style type="text/css">';
-        echo '.single-post-thumbnail { background: #' . $background_color . '; }';
+        echo '.single-post-thumbnail { background-color: #' . $background_color . '; }';
         echo '</style>';
         
     }

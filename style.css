@@ -1743,7 +1743,11 @@ object { max-width: 100%; }
 
 /* Featured Images */
 
-.single-post-thumbnail { background: #b2b2b2 url(images/pattern.svg) repeat; }
+.single-post-thumbnail { 
+    background-color: #b2b2b2;
+    background-image: url(images/pattern.svg);
+    background-repeat: repeat; 
+}
 
 .front-index-thumbnail { margin-bottom: -3.2em; }
 
