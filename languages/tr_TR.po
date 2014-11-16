@@ -1,0 +1,435 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Simone\n"
+"POT-Creation-Date: 2014-11-16 22:05+0200\n"
+"PO-Revision-Date: 2014-11-16 22:05+0200\n"
+"Last-Translator: Mehmet Yurtar <mehmetyurtar@gmail.com>\n"
+"Language-Team: lynda.com <mrh@lynda.com>\n"
+"Language: tr_TR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.10\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#. translators: %s = single category title
+#: archive.php:22
+#, php-format
+msgid "Posts in the %s category:"
+msgstr "%s kategorisindeki gönderiler"
+
+#. translators: %s = single tag title
+#: archive.php:26
+#, php-format
+msgid "Posts with the %s tag"
+msgstr "%s etiketi içeren gönderiler"
+
+#: archive.php:29
+#, php-format
+msgid "Author: %s"
+msgstr "Yazar: %s"
+
+#: archive.php:33
+#, php-format
+msgctxt "archive for a day"
+msgid "Posts from %s"
+msgstr "%s tarihli gönderiler"
+
+#: archive.php:33
+msgctxt "Daily archives date format"
+msgid "F j, Y"
+msgstr "j F, Y"
+
+#: archive.php:36
+#, php-format
+msgctxt "archive for a month"
+msgid "Posts from %s"
+msgstr "%s tarihli gönderiler"
+
+#: archive.php:36
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "F Y"
+
+#: archive.php:39
+#, php-format
+msgctxt "archive for a year"
+msgid "Posts from %s"
+msgstr "%s tarihli gönderiler"
+
+#: archive.php:39
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+#: archive.php:42
+msgid "Asides"
+msgstr "Kenar"
+
+#: archive.php:45
+msgid "Archives"
+msgstr "Arşiv"
+
+#: comments.php:29
+#, php-format
+msgctxt "comments title"
+msgid "One comment:"
+msgid_plural "%1$s comments:"
+msgstr[0] "%1$s Yorum"
+
+#: comments.php:47
+msgid "Comment navigation"
+msgstr "Yorum navigasyonu"
+
+#: comments.php:48
+msgid "Older Comments"
+msgstr "Daha Eski Yorumlar"
+
+#: comments.php:49
+msgid "Newer Comments"
+msgstr "Daha Yeni Yorumlar"
+
+#: comments.php:59
+msgid "Comments are closed."
+msgstr "Yorumlar kapalı"
+
+#: content-aside.php:17 content-page.php:32 content-single.php:42
+#: content.php:61
+msgid "Edit"
+msgstr "Düzenle"
+
+#: content-none.php:16
+msgid "Page not available"
+msgstr "Sayfa bulunamadı"
+
+#. translators: %s = search query
+#: content-none.php:20
+#, php-format
+msgid "Nothing found for %s"
+msgstr "%s için sonuç bulunamadı."
+
+#: content-none.php:22
+msgid "Nothing Found"
+msgstr "Bir sonuç bulunamadı."
+
+#: content-none.php:31
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+"İlk gönderinizi yayınlamaya hazır mısınız? <a href=\"%1$s\">Buradan "
+"başlayın</a>."
+
+#: content-none.php:35
+msgid ""
+"You seem to be lost. To find what you are looking for check out the most "
+"recent articles below or try a search:"
+msgstr ""
+"Aradığınız sayfa bulunamadı. Son gönderilere bir göz atabilir ya da site "
+"içinde arama yapabilirsiniz. "
+
+#: content-none.php:40
+msgid ""
+"Nothing matched your search terms. Check out the most recent articles below "
+"or try searching for something else:"
+msgstr ""
+"Aramanızla eşleşen bir sonuç bulunamadı. Son gönderilere bir göz atabilir ya "
+"da başka bir şey arayabilirsiniz:"
+
+#: content-none.php:45
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+"Aradığınız şeyi bulamadık. Aşağıdaki form aracılığıyla sitede arama "
+"yapabilirsiniz"
+
+#: content-none.php:56
+msgid "Most recent posts:"
+msgstr "Son gönderiler:"
+
+#: content-page.php:27 content-single.php:50 image.php:48
+msgid "Pages:"
+msgstr "Sayfalar:"
+
+#. translators: used between list items, there is a space after the comma
+#: content-single.php:25 content.php:43
+msgid ", "
+msgstr ", "
+
+#: content-single.php:38 content.php:57
+msgid "Leave a comment"
+msgstr "Yorum yap"
+
+#: content-single.php:38 content.php:57
+msgid "1 Comment"
+msgstr "1 Yorum"
+
+#: content-single.php:38 content.php:57
+msgid "% Comments"
+msgstr "% Yorum"
+
+#: content.php:13 content.php:26
+msgid "Read "
+msgstr "Oku"
+
+#: content.php:72 content.php:89
+msgctxt "First part of \"Read *article title* in title tag of Read more link"
+msgid "Read "
+msgstr "Oku "
+
+#: content.php:72 content.php:89
+msgid "Read <span aria-hidden=\"true\">the article</span>"
+msgstr "<span aria-hidden=\"true\">Devamını</span> oku"
+
+#: content.php:91
+msgid "Continue Reading "
+msgstr "Devamını Oku"
+
+#: content.php:91
+msgid "Continue Reading"
+msgstr "Devamını Oku"
+
+#. translators: %s = text link: WordPress, URL: http://wordpress.org/
+#: footer.php:20
+#, php-format
+msgid "Proudly powered by %s"
+msgstr "%s gururla sunar"
+
+#: footer.php:21
+msgid "WordPress"
+msgstr "WordPress"
+
+#. translators: %1$s = text link: Simone, URL: http://wordpress.org/themes/simone/, %2$s = text link: mor10.com, URL: http://mor10.com/
+#: footer.php:27
+#, php-format
+msgid "Theme: %1$s by %2$s"
+msgstr "Tema: %1$s by %2$s"
+
+#: footer.php:29
+msgid "mor10.com"
+msgstr "mor10.com"
+
+#: functions.php:68
+msgid "Primary Menu"
+msgstr "Birincil Menü"
+
+#: functions.php:69
+msgid "Social Menu"
+msgstr "Sosyal Menü"
+
+#: functions.php:98
+msgid "Sidebar"
+msgstr "Yanmenü"
+
+#: functions.php:107
+msgid "Footer Widgets"
+msgstr "Footer Bileşenleri"
+
+#: functions.php:108
+msgid ""
+"Footer widgets area appears, not surprisingly, in the footer of the site."
+msgstr ""
+"Tahmin edeceğiniz üzere, footer bileşenleri sitenin en alt kısmında "
+"gözükürler"
+
+#: header.php:25
+msgid "Skip to content"
+msgstr "İçeriğe geç"
+
+#: header.php:47
+msgid "Menu"
+msgstr "Menü"
+
+#: header.php:53
+msgid "Search"
+msgstr "Ara"
+
+#: image.php:25
+msgid "Featured in: "
+msgstr "Paylaşıldığı Gönderi: "
+
+#: image.php:26
+msgid "Full size image: "
+msgstr "Resmin Tam Boyutu: "
+
+#: image.php:27
+msgid "Edit attachment post"
+msgstr "Eki düzenle"
+
+#: inc/author-box.php:10
+msgid "Hide Author Bio"
+msgstr "Yazar biyografisini gizle"
+
+#: inc/author-box.php:21
+#, php-format
+msgid "About %s"
+msgstr "%s Hakkında"
+
+#. translators: May be followed by another sentence. There is a space after the punctuation mark.
+#: inc/author-box.php:29
+msgid "One article and counting. "
+msgstr "1 gönderi "
+
+#. translators: May be followed by another sentence. There is a space after the punctuation mark.
+#: inc/author-box.php:34
+#, php-format
+msgid "%s articles and counting. "
+msgstr "%s Gönderi"
+
+#: inc/author-box.php:44
+#, php-format
+msgid "Follow %s on social media: "
+msgstr "%s sosyal medya hesapları"
+
+#: inc/author-box.php:46
+#, php-format
+msgid "Follow %s on Twitter"
+msgstr "%s Twitter'da"
+
+#: inc/author-box.php:46
+msgid "Twitter"
+msgstr "Twitter"
+
+#: inc/author-box.php:49
+#, php-format
+msgid "Add %s to your Google+ circles"
+msgstr "%s Google+ Profili"
+
+#: inc/author-box.php:49
+msgid "Google+"
+msgstr "Google+"
+
+#: inc/author-box.php:52
+#, php-format
+msgid "Like %s on Facebook"
+msgstr "%s Facebook Sayfası"
+
+#: inc/author-box.php:52
+msgid "Facebook"
+msgstr "Facebook"
+
+#: inc/author-box.php:65
+#, php-format
+msgid "All posts by %s"
+msgstr "%s tarafından yazılan tüm gönderiler"
+
+#: inc/customizer.php:47
+msgid "Header Color"
+msgstr "Üst Kısım Rengi"
+
+#: inc/customizer.php:67
+msgid "Link Color"
+msgstr "Link Rengi"
+
+#: inc/customizer.php:80
+msgid "Theme Options"
+msgstr "Tema Ayarları"
+
+#: inc/customizer.php:82
+msgid "Change the default display options for the theme."
+msgstr "Temanın varsayılan görünüm ayarlarını değiştirebilirsiniz"
+
+#: inc/customizer.php:104
+msgid "Sidebar position"
+msgstr "Yanmenü pozisyonu"
+
+#: inc/customizer.php:107
+msgid "Left sidebar"
+msgstr "Sol"
+
+#: inc/customizer.php:108
+msgid "Right sidebar"
+msgstr "Sağ"
+
+#: inc/customizer.php:132
+msgid "Archive display"
+msgstr "Arşiv Görünümü"
+
+#: inc/customizer.php:133
+msgid ""
+"Display excerpts or full content with optional \"More\" tag in the blog "
+"index and archive pages."
+msgstr ""
+"Arşive ve blog sayfalarınızda tüm içeriği ya da \"More\" etiketini "
+"kullanarak sadece özeti gösterebilirsiniz."
+
+#: inc/customizer.php:136
+msgid "Excerpt"
+msgstr "Özet"
+
+#: inc/customizer.php:137
+msgid "Full content"
+msgstr "Tüm İçerik"
+
+#: inc/extras.php:63
+#, php-format
+msgid "Page %s"
+msgstr "Sayfa %s"
+
+#: inc/template-tags.php:45
+msgid "&larr; Previous"
+msgstr "&larr; Önceki Sayfa"
+
+#: inc/template-tags.php:46
+msgid "Next &rarr;"
+msgstr "Sonraki Sayfa &rarr;"
+
+#: inc/template-tags.php:54
+msgid "Posts navigation"
+msgstr "Gönderi navigasyonu"
+
+#: inc/template-tags.php:79 inc/template-tags.php:101
+msgid "Post navigation"
+msgstr "Gönderi navigasyonu"
+
+#: inc/template-tags.php:82
+msgid "Previous Post:"
+msgstr "Önceki Gönderi"
+
+#: inc/template-tags.php:83
+msgid "Next Post:"
+msgstr "Sonraki Gönderi"
+
+#: inc/template-tags.php:104
+msgid "Previous Image"
+msgstr "Önceki Resim"
+
+#: inc/template-tags.php:105
+msgid "Next Image"
+msgstr "Sonraki Resim"
+
+#: inc/template-tags.php:126
+msgctxt "Public posted on date"
+msgid "F jS, Y"
+msgstr "j F Y"
+
+#: inc/template-tags.php:128
+msgctxt "Public modified on date"
+msgid "F jS, Y"
+msgstr "j F  Y"
+
+#: inc/template-tags.php:131
+#, php-format
+msgctxt ""
+"mobile-hide class is used to hide connecting elements like \"on\" and \".\" "
+"on wider screens."
+msgid ""
+"<span class=\"byline\">Written by %1$s</span><span class=\"mobile-hide\"> on "
+"</span><span class=\"posted-on\">%2$s</span><span class=\"mobile-hide\">.</"
+"span>"
+msgstr ""
+"<span class=\"byline\">%1$s tarafından</span><span class=\"mobile-hide\"> "
+"%2$s </span><span class=\"posted-on\">tarihinde yazılmış.</span><span class="
+"\"mobile-hide\">.</span>"
+
+#: search.php:16
+#, php-format
+msgid "Search Results for: %s"
+msgstr "%s için arama sonuçları:"
