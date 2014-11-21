@@ -1,21 +1,21 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Simone\n"
-"POT-Creation-Date: 2014-08-10 17:08-0800\n"
-"PO-Revision-Date: 2014-09-02 16:13-0800\n"
+"POT-Creation-Date: 2014-11-07 22:18-0800\n"
+"PO-Revision-Date: 2014-11-21 11:04-0800\n"
 "Last-Translator: Jerry Wang <2bearstudio@gmail.com>\n"
 "Language-Team: Jerry Wang <2bearstudio@gmail.com>\n"
+"Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.6.8\n"
+"X-Generator: Poedit 1.6.10\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
 "esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
 "_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"Language: zh_CN\n"
 "X-Poedit-SearchPath-0: .\n"
 
 #. translators: %s = single category title
@@ -40,6 +40,11 @@ msgstr "作者:%s"
 msgctxt "archive for a day"
 msgid "Posts from %s"
 msgstr "%s的文章"
+
+#: archive.php:33
+msgctxt "Daily archives date format"
+msgid "F j, Y"
+msgstr "F j, Y"
 
 #: archive.php:36
 #, php-format
@@ -166,20 +171,20 @@ msgstr "%条评论"
 msgid "Read "
 msgstr "阅读"
 
-#: content.php:72
+#: content.php:72 content.php:89
 msgctxt "First part of \"Read *article title* in title tag of Read more link"
 msgid "Read "
 msgstr "阅读"
 
-#: content.php:72
+#: content.php:72 content.php:89
 msgid "Read <span aria-hidden=\"true\">the article</span>"
 msgstr "阅读"
 
-#: content.php:79
+#: content.php:91
 msgid "Continue Reading "
 msgstr "继续阅读"
 
-#: content.php:79
+#: content.php:91
 msgid "Continue Reading"
 msgstr "继续阅读"
 
@@ -203,23 +208,23 @@ msgstr "主题：%1$s by %2$s"
 msgid "mor10.com"
 msgstr "mor10.com"
 
-#: functions.php:55
+#: functions.php:68
 msgid "Primary Menu"
 msgstr "主菜单"
 
-#: functions.php:56
+#: functions.php:69
 msgid "Social Menu"
 msgstr "社交菜单"
 
-#: functions.php:85
+#: functions.php:98
 msgid "Sidebar"
 msgstr "边栏"
 
-#: functions.php:94
+#: functions.php:107
 msgid "Footer Widgets"
 msgstr "页脚挂件"
 
-#: functions.php:95
+#: functions.php:108
 msgid ""
 "Footer widgets area appears, not surprisingly, in the footer of the site."
 msgstr "页脚挂件区在网站页脚区域出现。"
@@ -312,6 +317,44 @@ msgstr "页眉颜色"
 #: inc/customizer.php:65
 msgid "Link Color"
 msgstr "链接颜色"
+
+#: inc/customizer.php:78
+msgid "Theme Options"
+msgstr "主题设置"
+
+#: inc/customizer.php:80
+msgid "Change the default display options for the theme."
+msgstr "改变主题的默认显示方式"
+
+#: inc/customizer.php:101
+msgid "Sidebar position"
+msgstr "边栏位置"
+
+#: inc/customizer.php:104
+msgid "Left sidebar"
+msgstr "左边栏"
+
+#: inc/customizer.php:105
+msgid "Right sidebar"
+msgstr "右边栏"
+
+#: inc/customizer.php:128
+msgid "Archive display"
+msgstr "归档显示"
+
+#: inc/customizer.php:129
+msgid ""
+"Display excerpts or full content with optional \"More\" tag in the blog "
+"index and archive pages."
+msgstr "在博客索引和归档页中使用\"More\"标签，可以控制只显示摘录或全部内容。"
+
+#: inc/customizer.php:132
+msgid "Excerpt"
+msgstr "摘录"
+
+#: inc/customizer.php:133
+msgid "Full content"
+msgstr "全部内容"
 
 #: inc/extras.php:63
 #, php-format
