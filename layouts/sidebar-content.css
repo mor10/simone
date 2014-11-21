@@ -104,10 +104,7 @@ Layout: Sidebar left
 .tag-links,
 .post-navigation,
 .comments-area,
-.paging-navigation { margin-bottom: 3rem; }
-
-.entry-meta { margin-bottom: 0; }
-
+.paging-navigation { margin-bottom: 0; }
 
 @media screen and (min-width: 1440px) and (max-width: 1820px) {
     .front-index-thumbnail { margin-bottom: 0; }
@@ -182,7 +179,8 @@ Layout: Sidebar left
     .single .entry-meta {
         position: relative;
         width: 100%;
-        margin: 0;
+        margin: 0 0 2rem 0;
+        text-align: left;
     }
     
     .single .byline, 
