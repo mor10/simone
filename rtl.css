@@ -43,6 +43,17 @@ caption, th, td { text-align: right; }
     .main-navigation li li a { padding-right: 4em; }
 }
 
+/* Layouts */
+
+@media screen and (max-width: 1539px) and (min-width: 1160px) {
+    .content-area {
+        margin-right: -380px;
+        padding-right: 380px;
+        margin-left: 0;
+        padding-left: 0;
+    }
+}
+
 /* Index */
 
 .sticky-post {
