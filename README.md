@@ -73,6 +73,9 @@ Simone is named after philosopher [Simone de Beauvoir](http://en.wikipedia.org/w
 
 ## Changelog
 
+### 2.0.2
+- CSS cleanup and bugfix for RTL
+
 ### 2.0.1
 - New translation for Turkish (courtesy of Mehmet Yurtar)
 - Updated translation for Simplified Chinese (courtesy of Jerry Wang)
