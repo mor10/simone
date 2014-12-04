@@ -26,9 +26,20 @@ add_filter( 'wp_page_menu_args', 'simone_page_menu_args' );
  * @return array
  */
 function simone_body_classes( $classes ) {
+	// Get the current layout setting (sidebar left or right)
+	$simone_layout = get_option( 'layout_setting' );
+
 	// Adds a class of group-blog to blogs with more than 1 published author.
 	if ( is_multi_author() ) {
 		$classes[] = 'group-blog';
+	}
+
+	if ( is_page_template( 'page-templates/page-nosidebar.php' ) || ! is_active_sidebar( 'sidebar-1' ) ) {
+		$classes[] = 'no-sidebar';
+	} elseif ( $simone_layout == 'left-sidebar' ) {
+		$classes[] = 'sidebar-content';
+	} else {
+		$classes[] = 'content-sidebar';
 	}
 
 	return $classes;

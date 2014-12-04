@@ -119,30 +119,13 @@ add_action( 'widgets_init', 'simone_widgets_init' );
  * Enqueue scripts and styles.
  */
 function simone_scripts() {
-        
-        // Get the current layout setting (sidebar left or right)
-        $simone_layout = get_option( 'layout_setting' );
 
         // Load parent theme stylesheet even when child theme is active
         if ( is_child_theme() ) {
                 wp_enqueue_style( 'simone-parent-style', trailingslashit( get_template_directory_uri() ) . 'style.css' );
-        } else {
-                wp_enqueue_style( 'simone-style', get_stylesheet_uri() );
         }
 
-        if (is_page_template('page-templates/page-nosidebar.php') || ! is_active_sidebar( 'sidebar-1' )) {
-            wp_enqueue_style( 'simone-layout' , get_template_directory_uri() . '/layouts/no-sidebar.css' );
-        } elseif ( $simone_layout == 'left-sidebar' ) {
-            wp_enqueue_style( 'simone-layout' , get_template_directory_uri() . '/layouts/sidebar-content.css' );
-        } else {
-            wp_enqueue_style( 'simone-layout' , get_template_directory_uri() . '/layouts/content-sidebar.css' );
-
-        }
-
-        // Load child theme stylesheet
-        if ( is_child_theme() ) {
-                wp_enqueue_style( 'simone-style', get_stylesheet_uri() );
-        }
+        wp_enqueue_style( 'simone-style', get_stylesheet_uri() );
 
         // Lato http://www.google.com/fonts/specimen/Lato + PT Serif http://www.google.com/fonts/specimen/PT+Serif
         wp_enqueue_style( 'simone-google-fonts', '//fonts.googleapis.com/css?family=Lato:100,300,400,400italic,700,900,900italic|PT+Serif:400,700,400italic,700italic' );
