@@ -314,7 +314,7 @@ function simone_the_responsive_thumbnail($post_id) {
  */
 function simone_set_image_transient($post_id) {
     $attachment_id = get_post_thumbnail_id($post_id);
-    $alt_text = get_post_meta($attachment_id, '_wp_attachment_image_alt', true);
+    $alt_text = esc_html( get_post_meta($attachment_id, '_wp_attachment_image_alt', true) );
     if ( !$alt_text ) { $alt_text = esc_html( get_the_title($post_id) ); }
 
     $thumb_original = wp_get_attachment_image_src($attachment_id, 'full');

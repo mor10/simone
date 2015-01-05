@@ -73,6 +73,10 @@ Simone is named after philosopher [Simone de Beauvoir](http://en.wikipedia.org/w
 
 ## Changelog
 
+### 2.0.3
+- Fix html escaping in featured image alt text
+
+
 ### 2.0.2
 - CSS cleanup and bugfix for RTL
 
