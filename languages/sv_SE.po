@@ -22,7 +22,7 @@ msgstr ""
 #: archive.php:22
 #, php-format
 msgid "Posts in the %s category:"
-msgstr "Ariklar i kategorin %s:"
+msgstr "Artiklar i kategorin %s:"
 
 #. translators: %s = single tag title
 #: archive.php:26
@@ -33,7 +33,7 @@ msgstr "Artiklar med taggen %s:"
 #: archive.php:29
 #, php-format
 msgid "Author: %s"
-msgstr "Forfattare: %s"
+msgstr "Författare: %s"
 
 #: archive.php:33
 #, php-format
@@ -61,7 +61,7 @@ msgstr "F Y"
 #, php-format
 msgctxt "archive for a year"
 msgid "Posts from %s"
-msgstr "Artikler publisert i %s"
+msgstr "Artiklar publicerade under %s"
 
 #: archive.php:39
 msgctxt "yearly archives date format"
@@ -262,7 +262,7 @@ msgstr "Redigera bifogad post"
 
 #: inc/author-box.php:10
 msgid "Hide Author Bio"
-msgstr "Gjem författarinformation"
+msgstr "Göm författarinformation"
 
 #: inc/author-box.php:21
 #, php-format
