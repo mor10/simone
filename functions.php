@@ -162,7 +162,7 @@ function simone_scripts() {
         
         wp_enqueue_script( 'simone-enquire', get_template_directory_uri() . '/js/enquire.min.js', false, '20140429', true );
         
-        if (is_single() && has_post_thumbnail() ) {
+		if ((is_single() && has_post_thumbnail()) || (!is_paged() && is_front_page() && has_post_thumbnail())) {
                 wp_enqueue_script( 'simone-picturefill', get_template_directory_uri() . '/js/picturefill.min.js', false, '20140512', false );
         }
         
