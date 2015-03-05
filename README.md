@@ -73,6 +73,10 @@ Simone is named after philosopher [Simone de Beauvoir](http://en.wikipedia.org/w
 
 ## Changelog
 
+### 2.0.4
+- Load picturefill only if post(s) have thumbnail(s), courtesy of @AlexAlexandru
+- Fixed errors in Swedish translation, courtesy of @ljb
+
 ### 2.0.3
 - Fix html escaping in featured image alt text
 

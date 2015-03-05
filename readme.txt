@@ -13,6 +13,13 @@ Simone\'s design is focussed on typography and aims to put the content front and
 
 == Changelog ==
 
+=== 2.0.4===
+- Load picturefill only if post(s) have thumbnail(s), courtesy of @AlexAlexandru
+- Fixed errors in Swedish translation, courtesy of @ljb
+
+=== 2.0.3 ===
+- Fix html escaping in featured image alt text
+
 === 2.0.2 ===
 - CSS cleanup and bugfix for RTL
 
