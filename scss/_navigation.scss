@@ -6,20 +6,14 @@
 --------------------------------------------------------------*/
 a {
     text-decoration: none;	
-    color: #000;
     color: hsl(0, 0%, 0%);    
 }
 
-a:visited {
-    color: #333;
-    color: hsl(0, 0%, 20%);
-}
+a:visited { color: hsl(0, 0%, 20%); }
 
 a:hover,
 a:focus,
-a:active { 
-    text-decoration: underline; 
-}
+a:active { text-decoration: underline; }
 
 /*--------------------------------------------------------------
 5.2 Main Menu
@@ -31,7 +25,6 @@ a:active {
     clear: both;
     font-family: 'Lato', sans-serif;
     text-transform: uppercase;
-    background: #313131;
     background: hsl(0, 0%, 19%);
 }
 
@@ -53,7 +46,6 @@ a:active {
     font-size: 1.4rem;
     text-decoration: none;
     line-height: 1.3em;
-    color: white;
     color: hsl(0, 0%, 100%);
 }
 
@@ -64,7 +56,6 @@ a:active {
     display: none;
     float: left;
     padding: 0;
-    background: #4d4d4d;
     background: hsl(0, 0%, 30%);
 }
 
@@ -79,19 +70,14 @@ a:active {
 
 .main-navigation li:hover > a,
 .main-navigation li > a:focus {
-    color: #fff;
     color: hsl(0, 0%, 100%);
-    background: #4d4d4d;
     background: hsl(0, 0%, 30%);
 }
 
 .main-navigation ul ul :hover > a { }
 
 .main-navigation ul ul a:hover,
-.main-navigation ul ul a:focus {
-    background: #313131;
-    background: hsl(0, 0%, 19%);
-}
+.main-navigation ul ul a:focus { background: hsl(0, 0%, 19%); }
 
 .main-navigation ul li:hover > ul { display: block; }
 
@@ -101,21 +87,17 @@ a:active {
 .main-navigation .current-menu-item > a:hover,
 .main-navigation .current_page_item > a:focus,
 .main-navigation .current-menu-item > a:focus {
-    color: #313131;
     color: hsl(0, 0%, 19%);
     background: white;
 }
 
 .main-navigation .current_page_ancestor {
-    background: #4d4d4d;
     background: hsl(0, 0%, 30%);
 }
 
 .main-navigation ul ul .current_page_parent,
 .main-navigation .current_page_parent .current_page_item > a {
-    color: #fff;
-    color: hsl(0, 0%, 100%);
-    background: #313131;
+    color: white;
     background: hsl(0, 0%, 19%);
 }
 
@@ -139,15 +121,11 @@ a:active {
     }
       
     .menu-toggle a:hover,
-    .menu-toggle a:focus {
-        background: #4d4d4d;
-    background: hsl(0, 0%, 30%);
-    }
+    .menu-toggle a:focus { background: hsl(0, 0%, 30%); }
 
     .main-navigation.toggled .nav-menu {
         display: block;
         border-top: 1px solid;
-        border-top-color: #fff;
         border-top-color: hsla(0, 0%, 100%, .5);
     }
 
@@ -177,7 +155,6 @@ a:active {
         left: 0;
         display: block;
         float: none;
-        background: #313131;
         background: hsl(0, 0%, 19%);
     }
 
@@ -187,7 +164,6 @@ a:active {
     .main-navigation ul ul a:hover,
     .main-navigation ul a:focus,
     .main-navigation ul ul a:focus{
-        background: #4d4d4d;
         background: hsl(0, 0%, 30%);
     }
 
@@ -204,9 +180,7 @@ a:active {
     .main-navigation .current_page_item > a:focus,
     .main-navigation .current_page_item li:focus,
     .main-navigation .current_page_parent .current_page_item > a  {
-        color: #fff;
-        color: hsl(0, 0%, 100%);
-        background: #4d4d4d;
+        color: white;
         background: hsl(0, 0%, 30%);    
     }
 
@@ -233,7 +207,7 @@ a:active {
     padding: 0 5px;
     font-family: 'Fontawesome';
     font-size: 20px;
-    color: #fff;
+    color: white;
     -webkit-font-smoothing: antialiased;
     content: '\f08e';
 }
@@ -304,8 +278,7 @@ a:active {
     font-size: 18px;
     font-size: 1.8rem;
     font-family: 'Lato', sans-serif;
-    color: #000;
-    color: hsl(0, 0%, 0%);
+    color: black;
 }
 
 .post-nav-box {
@@ -368,18 +341,15 @@ a:active {
 a.page-numbers,
 span.page-numbers {
     padding: .3em .7em;
-    color: #333;
     color: hsl(0, 0%, 20%);
 }
 
 a:hover.page-numbers,
 a:focus.page-numbers{
-    color: #000;
-    color: hsl(0, 0%, 0%);
+    color: black;
 }
 
 .paging-navigation .current {
     font-weight: bold;
-    color: #000;
-    color: hsl(0, 0%, 0%);
+    color: black;
 }

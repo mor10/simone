@@ -5,7 +5,6 @@
 .site-branding {
     padding: 6rem 0;
     text-align: center;
-    background: #0587BF;
     background: hsl(198, 95%, 38%);
 }
 
@@ -14,7 +13,6 @@
     max-width: 75%;
     padding: 4rem;
     margin: 0 auto;
-    border: solid 1px #fff;
     border: solid 1px hsla(0, 0%, 100%, .3);
 }
 
@@ -37,7 +35,6 @@
 
 .site-title a,
 .site-description { 
-    color: #fff;
     color: hsl(0, 0%, 100%);
 }
 
@@ -49,12 +46,9 @@
 .header-background-image {
     background: no-repeat center;
     background-size: cover!important;
-    -moz-background-size: cover!important;
-    -webkit-background-size: cover!important;
 }
 
 .header-background-image .title-box {
-    background: #333;
     background: hsla(0, 0%, 0%, .7);
 }
 
@@ -89,7 +83,6 @@
 
 .search-toggle:hover,
 .search-toggle.active {
-    background: #4d4d4d;
     background: hsl(0, 0%, 30%);
 }
 
@@ -103,7 +96,6 @@
 }
 .search-box {
     padding: 1em;
-    background: #4d4d4d;
     background: hsl(0, 0%, 30%);
 }
 

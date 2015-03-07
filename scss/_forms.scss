@@ -6,7 +6,6 @@ input,
 select,
 textarea {
     vertical-align: baseline; /* Improves appearance and consistency in all browsers */
-    *vertical-align: middle; /* Improves appearance and consistency in IE6/IE7 */
     margin: 0; /* Addresses margins set differently in IE6/7, F3/4, S5, Chrome */
     font-size: 100%; /* Corrects font size not being inherited in all browsers */
 }
@@ -34,7 +33,6 @@ button:hover,
 input[type="button"]:hover,
 input[type="reset"]:hover,
 input[type="submit"]:hover {
-    background: #000;
     background: hsl(0, 0%, 0%);
 }
 
@@ -46,7 +44,6 @@ button:active,
 input[type="button"]:active,
 input[type="reset"]:active,
 input[type="submit"]:active {
-    background: #000;
     background: hsl(0, 0%, 0%);
 }
 
@@ -104,8 +101,6 @@ textarea {
     font-family: 'Lato', sans-serif;
     font-size: 16px;
     font-size: 1.6rem;
-    color: #fff;
     color: hsl(0, 0%, 100%);
-    background: #84bd68;
     background: hsl(100, 39%, 57%);
 }
