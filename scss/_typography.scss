@@ -1,0 +1,72 @@
+/*--------------------------------------------------------------
+2.0 Typography
+--------------------------------------------------------------*/
+body,
+button,
+input,
+select,
+textarea {
+    font-size: 18px;
+    font-size: 1.8rem;
+    font-family: 'PT Serif', serif;
+    line-height: 1.5;
+    color: #404040;
+    color: hsl(0, 0%, 25%);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 900;
+    font-family: 'Lato', sans-serif;
+    color: #000;
+    color: hsl(0, 0%, 0%);
+    -ms-word-break: break-word;
+    word-break: break-word;
+}
+
+p { margin-bottom: 1.5em; }
+
+b, strong { font-weight: bold; }
+
+dfn, cite, em, i { font-style: italic; }
+
+address { margin: 0 0 1.5em; }
+
+pre {
+    max-width: 100%;
+    padding: 1.6em;
+    margin-bottom: 2em!important;
+    overflow: auto;
+    font-family: "Courier 10 Pitch", Courier, monospace;
+    font-size: 15px;
+    font-size: 1.5rem;
+    line-height: 1.6;
+    background: #eee;
+}
+
+code, kbd, tt, var { font: 15px Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace; }
+
+abbr, acronym {
+    border-bottom: 1px dotted #666;
+    cursor: help;
+}
+
+mark, ins {
+    text-decoration: none;
+    background: #fff9c0;
+}
+
+sup, sub {
+    position: relative;	
+    height: 0;
+    vertical-align: baseline;
+    font-size: 75%;
+    line-height: 0;
+}
+
+sup { bottom: 1ex; }
+
+sub { top: .5ex; }
+
+small { font-size: 75%; }
+
+big { font-size: 125%; }

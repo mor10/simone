@@ -1,0 +1,29 @@
+/*--------------------------------------------------------------
+11.2 Index and Archive
+--------------------------------------------------------------*/
+.taxonomy-description {
+    padding-top: 2rem;
+    margin: 2rem 0;
+    font-family: 'Lato', sans-serif;
+    font-style: italic;
+    border-top: 1px solid hsl(0, 0%, 75%);
+    border-bottom: 1px solid hsl(0, 0%, 75%);
+}
+
+.sticky-post {
+    position: absolute;
+    top: 1rem;
+    right: 3rem;
+}
+
+.continue-reading {
+    margin: 0 4rem;
+    font-weight: 900;
+    font-size: 18px;
+    font-size: 1.8rem;
+}
+
+.continue-reading i { margin-left: .5em; }
+
+.search-no-results .content-area,
+.error404 .content-area { margin-top: 4rem; }

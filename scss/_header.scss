@@ -1,0 +1,133 @@
+/*--------------------------------------------------------------
+9.0 Header
+--------------------------------------------------------------*/
+
+.site-branding {
+    padding: 6rem 0;
+    text-align: center;
+    background: #0587BF;
+    background: hsl(198, 95%, 38%);
+}
+
+.title-box {
+    width: 600px;
+    max-width: 75%;
+    padding: 4rem;
+    margin: 0 auto;
+    border: solid 1px #fff;
+    border: solid 1px hsla(0, 0%, 100%, .3);
+}
+
+.site-title {
+    font-weight: 700;
+    font-size: 40px;
+    font-size: 4.5rem;
+    text-transform: uppercase;
+    line-height: normal;
+    padding-bottom: 1rem;
+}
+
+.site-description {
+    font-weight: 300;
+    font-size: 20px;
+    font-size: 2rem;
+}
+
+.site-branding a { text-decoration: none; }
+
+.site-title a,
+.site-description { 
+    color: #fff;
+    color: hsl(0, 0%, 100%);
+}
+
+.header-image img {
+    display: block;
+    margin: 0 auto;
+}
+
+.header-background-image {
+    background: no-repeat center;
+    background-size: cover!important;
+    -moz-background-size: cover!important;
+    -webkit-background-size: cover!important;
+}
+
+.header-background-image .title-box {
+    background: #333;
+    background: hsla(0, 0%, 0%, .7);
+}
+
+/* Header responsive */
+@media screen and (max-width: 900px) {
+    .site-branding { padding: 0; }
+    
+    .title-box {
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 4rem;
+        border: none;
+    }
+}
+
+@media screen and (max-width: 399px) {
+    .title-box { padding: 2rem; }
+}
+
+/* Header search */
+
+.search-toggle {
+    float: right;
+    width: 54px;
+    height: 54px;
+    padding: 12px;
+    margin-right: 20px;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+}
+
+.search-toggle:hover,
+.search-toggle.active {
+    background: #4d4d4d;
+    background: hsl(0, 0%, 30%);
+}
+
+.search-toggle .screen-reader-text {
+    top: 0;
+    right: 0;
+}
+.search-box-wrapper {
+    z-index: 2;
+    width: 100%;
+}
+.search-box {
+    padding: 1em;
+    background: #4d4d4d;
+    background: hsl(0, 0%, 30%);
+}
+
+.search-box .search-field {
+    max-width: 362px;
+    float: right;
+    padding: 1rem 2rem 1rem 4rem;
+    font-size: 20px;
+    font-size: 2rem;
+    background-color: #fff;
+    border: 0;
+}
+
+.hide { display: none; }
+
+.error404 .search-submit,
+.search .search-submit,
+.search-box .search-submit { display: none; }
+
+@media screen and (max-width: 600px) {
+    .search-toggle {
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin-right: 0;
+    }
+}

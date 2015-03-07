@@ -1,0 +1,111 @@
+/*--------------------------------------------------------------
+4.0 Forms
+--------------------------------------------------------------*/
+button,
+input,
+select,
+textarea {
+    vertical-align: baseline; /* Improves appearance and consistency in all browsers */
+    *vertical-align: middle; /* Improves appearance and consistency in IE6/IE7 */
+    margin: 0; /* Addresses margins set differently in IE6/7, F3/4, S5, Chrome */
+    font-size: 100%; /* Corrects font size not being inherited in all browsers */
+}
+
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+    padding: 1em 2em;
+    font-size: 16px;
+    font-size: 1.6rem;
+    font-family: 'Lato';
+    text-transform: uppercase;
+    line-height: 1;
+    color: hsl(0, 0%, 100%);
+    background: #3c3c3c;
+    background: hsl(0, 0%, 24%);
+    border: none;
+    border-radius: 3px;
+    cursor: pointer; /* Improves usability and consistency of cursor style between image-type 'input' and others */
+    -webkit-appearance: button; /* Corrects inability to style clickable 'input' types in iOS */
+}
+
+button:hover,
+input[type="button"]:hover,
+input[type="reset"]:hover,
+input[type="submit"]:hover {
+    background: #000;
+    background: hsl(0, 0%, 0%);
+}
+
+button:focus,
+input[type="button"]:focus,
+input[type="reset"]:focus,
+input[type="submit"]:focus,
+button:active,
+input[type="button"]:active,
+input[type="reset"]:active,
+input[type="submit"]:active {
+    background: #000;
+    background: hsl(0, 0%, 0%);
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+    padding: 0; /* Addresses excess padding in IE8/9 */
+}
+
+input[type="search"] {
+    -webkit-appearance: textfield; /* Addresses appearance set to searchfield in S5, Chrome */
+    width: 100%;
+}
+
+input[type="search"]::-webkit-search-decoration { /* Corrects inner padding displayed oddly in S5, Chrome on OSX */
+    -webkit-appearance: none;
+}
+
+button::-moz-focus-inner,
+input::-moz-focus-inner { /* Corrects inner padding and border displayed oddly in FF3/4 www.sitepen.com/blog/2008/05/14/the-devils-in-the-details-fixing-dojos-toolbar-buttons/ */
+    padding: 0;
+    border: 0;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+textarea {
+    padding: 8px;
+    font-family: 'Lato', sans-serif;
+    color: #333;
+    border: 1px solid #ccc;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="password"]:focus,
+input[type="search"]:focus,
+textarea:focus {
+    color: #111;
+}
+
+textarea {
+    width: 100%;
+    vertical-align: top; /* Improves readability and alignment in all browsers */
+    overflow: auto; /* Removes default vertical scrollbar in IE6/7/8/9 */
+    
+}
+
+.comment-awaiting-moderation { /* Green background color to make moderation seem less aggressive */
+    padding: .5rem 1rem;
+    margin: 1rem 0;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-size: 1.6rem;
+    color: #fff;
+    color: hsl(0, 0%, 100%);
+    background: #84bd68;
+    background: hsl(100, 39%, 57%);
+}

@@ -1,0 +1,74 @@
+/*
+Theme Name: Simone
+Theme URI: http://mor10.com/simone-wordpress-theme/
+Author: Morten Rand-Hendriksen
+Author URI: http://mor10.com/
+Description: Simone is a responsive, accessible, high-resolution theme featuring custom header and custom link colors, large images, and easy to read typography that scales to fit all screens. Other features include keyboard accessible navigation, optional social menu, sidebar- and footer widgets, no-sidebar page template, Aside post format, and collapsible author profile box. Simone is translation ready and ships in English with translations in Catalan, Chinese (simplified), Dutch, Finnish, French, German, Hungarian, Italian, Norwegian Bokmål, Persian, Russian, Spanish, Swedish, and Turkish.
+Version: 2.0.4
+License: GNU General Public License
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: simone
+Domain Path: /languages/
+Tags: white, black, blue, light, one-column, two-columns, right-sidebar, responsive-layout, accessibility-ready, custom-colors, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, sticky-post, threaded-comments, translation-ready, rtl-language-support
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+Simone is based on Underscores http://underscores.me/, (C) 2012-2014 Automattic, Inc.
+
+CSS structure 2.0 onwards based on http://mdo.github.io/code-guide/#css-syntax
+
+Resetting and rebuilding styles have been helped along thanks to the fine work of
+Eric Meyer http://meyerweb.com/eric/tools/css/reset/index.html
+along with Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
+and Blueprint http://www.blueprintcss.org/
+*/
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+1.0 - Reset
+2.0 - Typography
+3.0 - Elements
+4.0 - Forms
+5.0 - Navigation
+	5.1 - Links
+	5.2 - Main Menu
+    5.3 - Social Menu
+    5.4 - Paging Navigation
+6.0 - Accessibility
+7.0 - Alignments
+8.0 - Clearings
+9.0 - Header
+10.0 - Widgets
+11.0 - Content
+	11.1 - Posts and pages
+    11.2 - Index and Archives
+	11.3 - Asides
+    11.4 - Image Attachments
+	11.5 - Comments
+    11.6 - Author Box
+12.0 - Infinite scroll
+13.0 - Media
+14.0 - Footer
+--------------------------------------------------------------*/
+
+@import "_reset.scss";
+@import "_typography.scss";
+@import "_elements.scss";
+@import "_forms.scss";
+@import "_navigation.scss";
+@import "_accessibility.scss";
+@import "_alignments.scss";
+@import "_clearings.scss";
+@import "_header.scss";
+@import "_widgets.scss";
+@import "_posts.scss";
+@import "_index.scss";
+@import "_asides.scss";
+@import "_attachments.scss";
+@import "_comments.scss";
+@import "_author.scss";
+@import "_scroll.scss";
+@import "_media.scss";
+@import "_footer.scss";

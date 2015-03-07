@@ -1,0 +1,111 @@
+/*--------------------------------------------------------------
+13.0 Media
+--------------------------------------------------------------*/
+.page-content img.wp-smiley,
+.entry-content img.wp-smiley,
+.comment-content img.wp-smiley {
+	margin-bottom: 0;
+	margin-top: 0;
+	padding: 0;
+        border: none;
+}
+
+.wp-caption {
+    max-width: 100%;
+    margin-bottom: 1.5em;
+}
+
+.wp-caption img[class*="wp-image-"] {
+    display: block;
+    margin: 0 auto;
+}
+
+.wp-caption-text { text-align: center; }
+
+.wp-caption .wp-caption-text,
+.gallery-caption {
+    padding: 0.8075em 1em;
+    font-size: 14px;
+    font-size: 1.4rem;
+    font-family: 'Lato', sans-serif;
+    background: #e5e5e5;
+    background: hsl(0, 0%, 90%);
+}
+
+.site-main .gallery { margin-bottom: 1.5em; }
+
+.gallery-caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    max-height: 50%;
+    width: 100%;
+    padding: 6px 8px;
+    margin: 0;
+    font-size: 12px;
+    line-height: 1.5;
+    color: #fff;
+    text-align: left;
+    background-color: hsla(0, 0%, 0%, .8);
+    opacity: 0;
+}
+
+.gallery-item:hover .gallery-caption,
+.gallery-item:focus .gallery-caption{ opacity: 1; }
+
+.site-main .gallery a img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    border: none;
+}
+
+.site-main .gallery-item {
+    position: relative;    
+    float: left;
+    max-width:100%;
+    margin-right: 3.333333333%;
+    margin-bottom: 3rem;
+    overflow: hidden;
+    background: #333;
+}
+
+.site-main .gallery dd,
+.site-main .gallery figcaption { margin: 0; }
+
+.site-main .gallery-columns-4 .gallery-item { }
+
+.site-main .gallery-columns-4 .gallery-item img { }
+
+/* Make sure embeds and iframes fit their containers */
+embed,
+iframe,
+object { max-width: 100%; }
+
+/* Featured Images */
+
+.single-post-thumbnail { 
+    background-color: #b2b2b2;
+    background-image: url(images/pattern.svg);
+    background-repeat: repeat; 
+}
+
+.front-index-thumbnail { margin-bottom: -3.2em; }
+
+@media screen and (max-width: 779px){
+    .front-index-thumbnail { margin-bottom: 0; }
+}
+
+.single-post-thumbnail img,
+.front-index-thumbnail img {
+    display: block;
+    margin: 0 auto;
+}
+
+.has-thumbnail {
+    position: relative;
+    margin-top: -8em;
+}
+
+.small-index-thumbnail { margin-top: -1em; }
