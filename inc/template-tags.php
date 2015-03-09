@@ -284,23 +284,25 @@ endif;
  * Creates a <picture> tag and populate it with appropriate image sizes for different screen widths.
  * Works in place of the_post_thumbnail();
  */
-function simone_the_responsive_thumbnail($post_id) {
-    
-    // Check to see if there is a transient available. If there is, use it.
-    if ( false === ( $thumb_data = get_transient( 'featured_image_' . $post_id ) ) ) {
-        simone_set_image_transient($post_id);  
-        $thumb_data = get_transient( 'featured_image_' . $post_id );
-    }
-    
-    echo '<picture>';
-    echo '<!--[if IE 9]><video style="display: none;"><![endif]-->';
-    echo '<source srcset="' . $thumb_data['thumb_large'] . ', ' . $thumb_data['thumb_original'] . ' 2x" media="(min-width: 800px)">';
-    echo '<source srcset="' . $thumb_data['thumb_medium'] . ', ' . $thumb_data['thumb_large'] . ' 2x" media="(min-width: 400px)">'; 
-    echo '<source srcset="' . $thumb_data['thumb_small'] . ', ' . $thumb_data['thumb_medium'] . ' 2x">'; 
-    echo '<!--[if IE 9]></video><![endif]-->';
-    echo '<img srcset="' . $thumb_data['thumb_small'] . ', ' . $thumb_data['thumb_medium'] . ' 2x" alt="' . $thumb_data['thumb_alt'] . '">';
-    echo '</picture>';
-}
+if ( ! function_exists( 'simone_the_responsive_thumbnail' ) ) :
+	function simone_the_responsive_thumbnail($post_id) {
+	    
+	    // Check to see if there is a transient available. If there is, use it.
+	    if ( false === ( $thumb_data = get_transient( 'featured_image_' . $post_id ) ) ) {
+	        simone_set_image_transient($post_id);  
+	        $thumb_data = get_transient( 'featured_image_' . $post_id );
+	    }
+	    
+	    echo '<picture>';
+	    echo '<!--[if IE 9]><video style="display: none;"><![endif]-->';
+	    echo '<source srcset="' . $thumb_data['thumb_large'] . ', ' . $thumb_data['thumb_original'] . ' 2x" media="(min-width: 800px)">';
+	    echo '<source srcset="' . $thumb_data['thumb_medium'] . ', ' . $thumb_data['thumb_large'] . ' 2x" media="(min-width: 400px)">'; 
+	    echo '<source srcset="' . $thumb_data['thumb_small'] . ', ' . $thumb_data['thumb_medium'] . ' 2x">'; 
+	    echo '<!--[if IE 9]></video><![endif]-->';
+	    echo '<img srcset="' . $thumb_data['thumb_small'] . ', ' . $thumb_data['thumb_medium'] . ' 2x" alt="' . $thumb_data['thumb_alt'] . '">';
+	    echo '</picture>';
+	}
+endif;
 
 /**
  * Create image transient to avoid looping through multiple image queries every time a post loads
