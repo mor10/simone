@@ -1,4 +1,9 @@
-# Simone
+# Sassy Simone
+
+_ This is the Sass version of Simone. Sass files are stashed in the /sass folder and CSS is compiled and autoprefixed using Grunt and Autoprefixer. Gruntfile.js and package.json files are provided for easy duplication.
+
+Contributions are welcome. This will eventually become the baseline development branch for Simone. _ 
+
 
 Simone is a responsive modern design theme designed and developed by [Morten Rand-Hendriksen](http://mor10.com) available from the [WordPress Theme Directory](http://wordpress.org/themes/simone/).
 
