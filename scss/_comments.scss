@@ -24,7 +24,7 @@ ol.children { list-style-type: none; }
 
 .comment-author .fn {
     font-weight: 900;
-    font-family: 'Lato', sans-serif;
+    font-family: $lato-stack;
     font-size: 20px;
     font-size: 2rem;
 }
@@ -44,7 +44,7 @@ ol.children { list-style-type: none; }
 .comment-body {
     padding-bottom: 2em;
     margin-bottom: 2em;
-    border-bottom: solid hsl(0, 0%, 80%) 1px;
+    border-bottom: 1px solid $light-grey;
 }
 
 .comment-list ol { margin-left: 50px; }
@@ -55,7 +55,7 @@ ol.children { list-style-type: none; }
     font-weight: 600;
     font-size: 14px;
     font-size: 1.4rem;
-    font-family: 'Lato', sans-serif;
+    font-family: $lato-stack;
 }
 
 .comment-content ol { margin-left: 1.5em; }
@@ -64,7 +64,7 @@ ol.children { list-style-type: none; }
     position: relative;
     padding: 1em;
     margin-bottom: 2em;
-    background: hsl(0, 0%, 93%);
+    background: $white-grey;
     border: none;
 }
 
@@ -87,7 +87,7 @@ ol.children { list-style-type: none; }
 
 .comment-form {
     padding-bottom: 4rem;
-    font-family: 'Lato', sans-serif;
+    font-family: $lato-stack;
     font-size: 16px;
     font-size: 1.6rem;
 }

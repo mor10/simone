@@ -27,8 +27,8 @@
     padding: 0.8075em 1em;
     font-size: 14px;
     font-size: 1.4rem;
-    font-family: 'Lato', sans-serif;
-    background: hsl(0, 0%, 90%);
+    font-family: $lato-stack;
+    background: $white-grey;
 }
 
 .site-main .gallery { margin-bottom: 1.5em; }
@@ -43,7 +43,7 @@
     margin: 0;
     font-size: 12px;
     line-height: 1.5;
-    color: #fff;
+    color: white;
     text-align: left;
     background-color: hsla(0, 0%, 0%, .8);
     opacity: 0;
@@ -67,7 +67,7 @@
     margin-right: 3.333333333%;
     margin-bottom: 3rem;
     overflow: hidden;
-    background: #333;
+    background: $dark-grey;
 }
 
 .site-main .gallery dd,
@@ -85,7 +85,7 @@ object { max-width: 100%; }
 /* Featured Images */
 
 .single-post-thumbnail { 
-    background-color: #b2b2b2;
+    background-color: $grey;
     background-image: url(images/pattern.svg);
     background-repeat: repeat; 
 }

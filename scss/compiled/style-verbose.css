@@ -1,5 +1,5 @@
 @charset "UTF-8";
-/*
+/*!
 Theme Name: Simone
 Theme URI: http://mor10.com/simone-wordpress-theme/
 Author: Morten Rand-Hendriksen
@@ -34,8 +34,8 @@ and Blueprint http://www.blueprintcss.org/
 5.0 - Navigation
 	5.1 - Links
 	5.2 - Main Menu
-    5.3 - Social Menu
-    5.4 - Paging Navigation
+	5.3 - Social Menu
+	5.4 - Paging Navigation
 6.0 - Accessibility
 7.0 - Alignments
 8.0 - Clearings
@@ -43,15 +43,21 @@ and Blueprint http://www.blueprintcss.org/
 10.0 - Widgets
 11.0 - Content
 	11.1 - Posts and pages
-    11.2 - Index and Archives
+	11.2 - Index and Archives
 	11.3 - Asides
-    11.4 - Image Attachments
+	11.4 - Image Attachments
 	11.5 - Comments
-    11.6 - Author Box
+	11.6 - Author Box
 12.0 - Infinite scroll
 13.0 - Media
 14.0 - Footer
 --------------------------------------------------------------*/
+/* 333 */
+/* 404040 */
+/* 4d4d4d */
+/* BFBFBF */
+/* CCC */
+/* E6E6E6 */
 /*--------------------------------------------------------------
 1.0 - Reset
 --------------------------------------------------------------*/
@@ -167,13 +173,11 @@ textarea {
   font-family: 'PT Serif', serif;
   line-height: 1.5;
   color: #404040;
-  color: #404040;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: 900;
-  font-family: 'Lato', sans-serif;
-  color: #000;
+  font-family: "Lato", Helvetica, Arial, sans-serif;
   color: black;
   -ms-word-break: break-word;
   word-break: break-word;
@@ -251,7 +255,7 @@ big {
 hr {
   height: 1px;
   margin-bottom: 1.5em;
-  background-color: #ccc;
+  background-color: #e6e6e6;
   border: 0;
 }
 
@@ -323,12 +327,11 @@ input[type="submit"] {
   padding: 1em 2em;
   font-size: 16px;
   font-size: 1.6rem;
-  font-family: 'Lato';
+  font-family: "Lato", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   line-height: 1;
   color: white;
-  background: #3c3c3c;
-  background: #3d3d3d;
+  background: #404040;
   border: none;
   border-radius: 3px;
   cursor: pointer;
@@ -386,9 +389,9 @@ input[type="password"],
 input[type="search"],
 textarea {
   padding: 8px;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", Helvetica, Arial, sans-serif;
   color: #333;
-  border: 1px solid #ccc;
+  border: 1px solid #cccccc;
 }
 
 input[type="text"]:focus,
@@ -412,7 +415,7 @@ textarea {
   /* Green background color to make moderation seem less aggressive */
   padding: .5rem 1rem;
   margin: 1rem 0;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-size: 1.6rem;
   color: white;
@@ -448,9 +451,9 @@ a:active {
   display: block;
   width: 100%;
   clear: both;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
-  background: #303030;
+  background: #333333;
 }
 
 .main-navigation ul {
@@ -501,7 +504,7 @@ a:active {
 
 .main-navigation ul ul a:hover,
 .main-navigation ul ul a:focus {
-  background: #303030;
+  background: #333333;
 }
 
 .main-navigation ul li:hover > ul {
@@ -514,7 +517,7 @@ a:active {
 .main-navigation .current-menu-item > a:hover,
 .main-navigation .current_page_item > a:focus,
 .main-navigation .current-menu-item > a:focus {
-  color: #303030;
+  color: #333333;
   background: white;
 }
 
@@ -525,7 +528,7 @@ a:active {
 .main-navigation ul ul .current_page_parent,
 .main-navigation .current_page_parent .current_page_item > a {
   color: white;
-  background: #303030;
+  background: #333333;
 }
 
 /* Small menu */
@@ -581,8 +584,7 @@ a:active {
 
   .main-navigation li:hover > a,
   .main-navigation li > a:focus {
-    background: #313131;
-    background: #303030;
+    background: #333333;
   }
 
   .main-navigation ul ul,
@@ -592,7 +594,7 @@ a:active {
     left: 0;
     display: block;
     float: none;
-    background: #303030;
+    background: #333333;
   }
 
   .main-navigation ul ul a {
@@ -752,15 +754,15 @@ a:active {
 .site-main .post-navigation {
   font-size: 18px;
   font-size: 1.8rem;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", Helvetica, Arial, sans-serif;
   color: black;
 }
 
 .post-nav-box {
   padding: 2em 0;
   margin-bottom: 4em;
-  border-top: #cccccc solid 1px;
-  border-bottom: #cccccc solid 1px;
+  border-top: 1px solid #cccccc;
+  border-bottom: 1px solid #cccccc;
 }
 
 .comment-navigation .nav-previous,
@@ -792,8 +794,8 @@ a:active {
 .comment-navigation {
   padding: 1em 0;
   margin: 3em 0;
-  border-top: #cccccc solid 1px;
-  border-bottom: #cccccc solid 1px;
+  border-top: 1px solid #cccccc;
+  border-bottom: 1px solid #cccccc;
 }
 
 .comment-navigation i {
@@ -1016,7 +1018,7 @@ a:focus.page-numbers {
   height: 54px;
   padding: 12px;
   margin-right: 20px;
-  color: #fff;
+  color: white;
   text-align: center;
   cursor: pointer;
 }
@@ -1047,7 +1049,7 @@ a:focus.page-numbers {
   padding: 1rem 2rem 1rem 4rem;
   font-size: 20px;
   font-size: 2rem;
-  background-color: #fff;
+  background-color: white;
   border: 0;
 }
 
@@ -1074,7 +1076,7 @@ a:focus.page-numbers {
 --------------------------------------------------------------*/
 .widget {
   margin: 0 0 4em;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-size: 1.6rem;
 }
@@ -1083,12 +1085,11 @@ a:focus.page-numbers {
   margin-bottom: 1em;
   font-size: 24px;
   font-size: 2.4rem;
-  border-bottom: 2px solid #000;
+  border-bottom: 2px solid black;
 }
 
 .widget a {
   font-weight: 700;
-  color: #000;
   color: black;
 }
 
@@ -1149,7 +1150,7 @@ a:focus.page-numbers {
 .widget_pages a {
   display: block;
   padding: 1em 0;
-  border-bottom: solid 1px #e6e6e6;
+  border-bottom: 1px solid #e6e6e6;
 }
 
 .widget_nav_menu li,
@@ -1184,9 +1185,7 @@ a:focus.page-numbers {
 .footer-widgets .widget-title,
 .footer-widgets .widget a:hover,
 .footer-widgets .widget a:focus {
-  color: #fff;
   color: white;
-  border-color: #fff;
   border-color: white;
 }
 
@@ -1244,7 +1243,6 @@ a:focus.page-numbers {
   font-size: 40px;
   font-size: 4rem;
   line-height: 1.3em;
-  color: #000;
   color: black;
 }
 
@@ -1376,8 +1374,8 @@ blockquote {
   padding: 1em 1.5em 0;
   margin-bottom: 1em;
   font-style: italic;
-  border-top: solid 1px #cccccc;
-  border-bottom: solid 1px #cccccc;
+  border-top: 1px solid #cccccc;
+  border-bottom: 1px solid #cccccc;
 }
 
 blockquote.alignleft {
@@ -1396,7 +1394,6 @@ blockquote.alignright {
 
 .index-box blockquote.alignleft,
 .index-box blockquote.alignright {
-  background: #fff;
   background: white;
   border: none;
 }
@@ -1409,7 +1406,7 @@ blockquote cite {
   display: block;
   margin-top: 1em;
   margin-left: 40%;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", Helvetica, Arial, sans-serif;
   font-style: normal;
   line-height: 1.5em;
   text-align: right;
@@ -1441,43 +1438,38 @@ blockquote cite {
 }
 /* Image borders for white-on-white images */
 .border-gray {
-  border: #b9b9b9 solid 1px;
-  border: #bfbfbf solid 1px;
+  border: 1px solid #bfbfbf;
 }
 
 .border-black {
-  border: #000 solid 1px;
   border: black solid 1px;
 }
 
 .border-custom {
-  border: #6DBCDB solid 1px;
-  border: #bd3f05 solid 1px;
+  border: 1px solid #0586bd;
 }
 
 /* Meta */
 .category-list {
   margin: 1.3em 0 1em;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-size: 1.6rem;
 }
 
 .category-list a {
-  color: #333;
   color: #333333;
 }
 
 .category-list a:hover,
 .category-list a:focus {
-  color: #000;
   color: black;
 }
 
 .entry-meta {
   margin-bottom: 2rem;
   padding: 0;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-size: 1.4rem;
 }
@@ -1518,7 +1510,7 @@ blockquote cite {
 .entry-footer {
   margin-top: 3rem;
   margin-bottom: 5rem;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", Helvetica, Arial, sans-serif;
 }
 
 .entry-footer ul {
@@ -1545,7 +1537,7 @@ blockquote cite {
 .taxonomy-description {
   padding-top: 2rem;
   margin: 2rem 0;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", Helvetica, Arial, sans-serif;
   font-style: italic;
   border-top: 1px solid #bfbfbf;
   border-bottom: 1px solid #bfbfbf;
@@ -1594,7 +1586,7 @@ blockquote cite {
 .attachment-caption {
   font-size: 14px;
   font-size: 1.4rem;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", Helvetica, Arial, sans-serif;
 }
 
 /*--------------------------------------------------------------
@@ -1625,7 +1617,7 @@ ol.children {
 
 .comment-author .fn {
   font-weight: 900;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", Helvetica, Arial, sans-serif;
   font-size: 20px;
   font-size: 2rem;
 }
@@ -1651,7 +1643,7 @@ ol.children {
 .comment-body {
   padding-bottom: 2em;
   margin-bottom: 2em;
-  border-bottom: solid #cccccc 1px;
+  border-bottom: 1px solid #cccccc;
 }
 
 .comment-list ol {
@@ -1666,7 +1658,7 @@ ol.children {
   font-weight: 600;
   font-size: 14px;
   font-size: 1.4rem;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", Helvetica, Arial, sans-serif;
 }
 
 .comment-content ol {
@@ -1677,7 +1669,7 @@ ol.children {
   position: relative;
   padding: 1em;
   margin-bottom: 2em;
-  background: #ededed;
+  background: #e6e6e6;
   border: none;
 }
 
@@ -1705,7 +1697,7 @@ ol.children {
 
 .comment-form {
   padding-bottom: 4rem;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-size: 1.6rem;
 }
@@ -1731,7 +1723,7 @@ ol.children {
   max-width: 780px;
   max-width: 78rem;
   margin: 0 auto;
-  background: #fff;
+  background: white;
 }
 
 .reveal-bio a {
@@ -1742,14 +1734,12 @@ ol.children {
   font-size: 26px;
   font-size: 2.6rem;
   color: #bfbfbf;
-  color: #bfbfbf;
   text-align: center;
 }
 
 .reveal-bio a:hover,
 .reveal-bio a:focus {
   text-decoration: none;
-  color: #000;
   color: black;
 }
 
@@ -1784,9 +1774,9 @@ ol.children {
 }
 
 .author-meta {
-  border-bottom: 16px solid #f2f2f2;
+  border-bottom: 16px solid #e6e6e6;
   margin-bottom: 2rem;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", Helvetica, Arial, sans-serif;
 }
 
 .share-and-more {
@@ -1802,7 +1792,6 @@ ol.children {
 
 .author-social-media a {
   margin-left: 1.5rem;
-  color: #000;
   color: black;
 }
 
@@ -1813,8 +1802,7 @@ ol.children {
 
 a.author-link {
   font-weight: 900;
-  font-family: 'Lato', sans-serif;
-  color: #000;
+  font-family: "Lato", Helvetica, Arial, sans-serif;
   color: black;
 }
 
@@ -1880,7 +1868,7 @@ a.author-link {
   padding: 0.8075em 1em;
   font-size: 14px;
   font-size: 1.4rem;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", Helvetica, Arial, sans-serif;
   background: #e6e6e6;
 }
 
@@ -1898,7 +1886,7 @@ a.author-link {
   margin: 0;
   font-size: 12px;
   line-height: 1.5;
-  color: #fff;
+  color: white;
   text-align: left;
   background-color: rgba(0, 0, 0, 0.8);
   opacity: 0;
@@ -1924,7 +1912,7 @@ a.author-link {
   margin-right: 3.333333333%;
   margin-bottom: 3rem;
   overflow: hidden;
-  background: #333;
+  background: #333333;
 }
 
 .site-main .gallery dd,
@@ -1941,7 +1929,7 @@ object {
 
 /* Featured Images */
 .single-post-thumbnail {
-  background-color: #b2b2b2;
+  background-color: #bfbfbf;
   background-image: url(images/pattern.svg);
   background-repeat: repeat;
 }
@@ -1977,9 +1965,9 @@ object {
   padding: 2em;
   font-size: 16px;
   font-size: 1.6rem;
-  font-family: 'Lato';
+  font-family: "Lato", Helvetica, Arial, sans-serif;
   color: white;
-  background: #303030;
+  background: #333333;
 }
 
 .site-footer a {

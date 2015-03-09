@@ -5,7 +5,7 @@
 .site-branding {
     padding: 6rem 0;
     text-align: center;
-    background: hsl(198, 95%, 38%);
+    background: $simone-blue;
 }
 
 .title-box {
@@ -35,7 +35,7 @@
 
 .site-title a,
 .site-description { 
-    color: hsl(0, 0%, 100%);
+    color: white;
 }
 
 .header-image img {
@@ -76,14 +76,14 @@
     height: 54px;
     padding: 12px;
     margin-right: 20px;
-    color: #fff;
+    color: white;
     text-align: center;
     cursor: pointer;
 }
 
 .search-toggle:hover,
 .search-toggle.active {
-    background: hsl(0, 0%, 30%);
+    background: $thirty-grey;
 }
 
 .search-toggle .screen-reader-text {
@@ -96,7 +96,7 @@
 }
 .search-box {
     padding: 1em;
-    background: hsl(0, 0%, 30%);
+    background: $thirty-grey;
 }
 
 .search-box .search-field {
@@ -105,7 +105,7 @@
     padding: 1rem 2rem 1rem 4rem;
     font-size: 20px;
     font-size: 2rem;
-    background-color: #fff;
+    background-color: white;
     border: 0;
 }
 

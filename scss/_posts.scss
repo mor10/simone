@@ -28,8 +28,7 @@
     font-size: 40px;
     font-size: 4rem;
     line-height: 1.3em;
-    color: #000;
-    color: hsl(0, 0%, 0%);
+    color: black;
 }
 
 .page .entry-title { margin-top: .7em; }
@@ -154,8 +153,8 @@ blockquote {
     padding: 1em 1.5em 0;
     margin-bottom: 1em;
     font-style: italic;
-    border-top: solid 1px hsl(0, 0%, 80%);
-    border-bottom: solid 1px hsl(0, 0%, 80%);
+    border-top: 1px solid $light-grey;
+    border-bottom: 1px solid $light-grey;
 }
 
 blockquote.alignleft {
@@ -174,8 +173,7 @@ blockquote.alignright {
 
 .index-box blockquote.alignleft,
 .index-box blockquote.alignright {
-    background: #fff;
-    background: hsl(0, 0%, 100%);
+    background: white;
     border: none;
 }
 
@@ -187,7 +185,7 @@ blockquote cite {
     display: block;
     margin-top: 1em;
     margin-left: 40%;
-    font-family: 'Lato', sans-serif;
+    font-family: $lato-stack;
     font-style: normal;
     line-height: 1.5em;
     text-align: right;
@@ -218,43 +216,36 @@ blockquote cite {
 /* Image borders for white-on-white images */
 
 .border-gray {
-    border: #b9b9b9 solid 1px;
-    border: hsl(0, 0%, 75%) solid 1px;
+    border: 1px solid $grey;
 }
 
-.border-black {
-    border: #000 solid 1px;
-    border: hsl(0, 0%, 0%) solid 1px;
-}
+.border-black { border: black solid 1px; }
 
 .border-custom {
-    border: #6DBCDB solid 1px;
-    border: hsl(19, 95%, 38%) solid 1px;
+    border: 1px solid $simone-blue;
 }
 
 /* Meta */
 .category-list {
     margin: 1.3em 0 1em;
-    font-family: 'Lato', sans-serif;
+    font-family: $lato-stack;
     font-size: 16px;
     font-size: 1.6rem;
 }
 
 .category-list a {
-    color: #333;
-    color: hsl(0, 0%, 20%);
+    color: $dark-grey;
 }
 
 .category-list a:hover,
 .category-list a:focus {
-    color: #000;
-    color: hsl(0, 0%, 0%);
+    color: black;
 }
 
 .entry-meta {
     margin-bottom: 2rem;
     padding: 0;
-    font-family: 'Lato', sans-serif;
+    font-family: $lato-stack;
     font-size: 14px;
     font-size: 1.4rem;
 }
@@ -292,7 +283,7 @@ blockquote cite {
 .entry-footer {
     margin-top: 3rem;
     margin-bottom: 5rem;
-    font-family: 'Lato', sans-serif;
+    font-family: $lato-stack;
 }
 
 .entry-footer ul {

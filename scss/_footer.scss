@@ -6,13 +6,13 @@
     padding: 2em;
     font-size: 16px;
     font-size: 1.6rem;
-    font-family: 'Lato';
-    color: hsl(0, 0%, 100%);
-    background: hsl(0, 0%, 19%);
+    font-family: $lato-stack;
+    color: white;
+    background: $dark-grey;
 }
 
 .site-footer a {
-    color: hsl(0, 0%, 100%);
+    color: white;
 }
 
 .site-info { text-align: center; }

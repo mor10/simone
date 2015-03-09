@@ -17,12 +17,11 @@ input[type="submit"] {
     padding: 1em 2em;
     font-size: 16px;
     font-size: 1.6rem;
-    font-family: 'Lato';
+    font-family: $lato-stack;
     text-transform: uppercase;
     line-height: 1;
-    color: hsl(0, 0%, 100%);
-    background: #3c3c3c;
-    background: hsl(0, 0%, 24%);
+    color: white;
+    background: $quarter-grey;
     border: none;
     border-radius: 3px;
     cursor: pointer; /* Improves usability and consistency of cursor style between image-type 'input' and others */
@@ -33,7 +32,7 @@ button:hover,
 input[type="button"]:hover,
 input[type="reset"]:hover,
 input[type="submit"]:hover {
-    background: hsl(0, 0%, 0%);
+    background: black;
 }
 
 button:focus,
@@ -44,7 +43,7 @@ button:active,
 input[type="button"]:active,
 input[type="reset"]:active,
 input[type="submit"]:active {
-    background: hsl(0, 0%, 0%);
+    background: black;
 }
 
 input[type="checkbox"],
@@ -74,9 +73,9 @@ input[type="password"],
 input[type="search"],
 textarea {
     padding: 8px;
-    font-family: 'Lato', sans-serif;
+    font-family: $lato-stack;
     color: #333;
-    border: 1px solid #ccc;
+    border: 1px solid $light-grey;
 }
 
 input[type="text"]:focus,
@@ -98,9 +97,9 @@ textarea {
 .comment-awaiting-moderation { /* Green background color to make moderation seem less aggressive */
     padding: .5rem 1rem;
     margin: 1rem 0;
-    font-family: 'Lato', sans-serif;
+    font-family: $lato-stack;
     font-size: 16px;
     font-size: 1.6rem;
-    color: hsl(0, 0%, 100%);
+    color: white;
     background: hsl(100, 39%, 57%);
 }

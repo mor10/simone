@@ -5,7 +5,7 @@
     max-width: 780px;
     max-width: 78rem;
     margin: 0 auto;
-    background: #fff;
+    background: white;
 }
 
 .reveal-bio a {
@@ -15,16 +15,14 @@
     font-weight: 700;
     font-size: 26px;
     font-size: 2.6rem;
-    color: #bfbfbf;
-    color: hsl(0, 0%, 75%);
+    color: $grey;
     text-align: center;
 }
 
 .reveal-bio a:hover,
 .reveal-bio a:focus {
     text-decoration: none;
-    color: #000;
-    color: hsl(0, 0%, 0%);
+    color: black;
 }
 
 .shorter { padding: 0 0 4rem!important; }
@@ -55,9 +53,9 @@
 }
 
 .author-meta {
-    border-bottom: 16px solid hsl(0, 0%, 95%);
+    border-bottom: 16px solid $white-grey;
     margin-bottom: 2rem;
-    font-family: 'Lato', sans-serif;
+    font-family: $lato-stack;
 }
 
 .share-and-more {
@@ -71,8 +69,7 @@
 
 .author-social-media a {
     margin-left: 1.5rem;
-    color: #000;
-    color: hsl(0, 0%, 0%);
+    color: black;
 }
 
 .author-social-media a:hover,
@@ -80,9 +77,8 @@
 
 a.author-link {
     font-weight: 900;
-    font-family: 'Lato', sans-serif;
-    color: #000;
-    color: hsl(0, 0%, 0%);
+    font-family: $lato-stack;
+    color: black;
 }
 
 .author-link i { margin-left: 1rem; }

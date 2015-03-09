@@ -1,4 +1,4 @@
-/*
+/*!
 Theme Name: Simone
 Theme URI: http://mor10.com/simone-wordpress-theme/
 Author: Morten Rand-Hendriksen
@@ -34,8 +34,8 @@ and Blueprint http://www.blueprintcss.org/
 5.0 - Navigation
 	5.1 - Links
 	5.2 - Main Menu
-    5.3 - Social Menu
-    5.4 - Paging Navigation
+	5.3 - Social Menu
+	5.4 - Paging Navigation
 6.0 - Accessibility
 7.0 - Alignments
 8.0 - Clearings
@@ -43,16 +43,17 @@ and Blueprint http://www.blueprintcss.org/
 10.0 - Widgets
 11.0 - Content
 	11.1 - Posts and pages
-    11.2 - Index and Archives
+	11.2 - Index and Archives
 	11.3 - Asides
-    11.4 - Image Attachments
+	11.4 - Image Attachments
 	11.5 - Comments
-    11.6 - Author Box
+	11.6 - Author Box
 12.0 - Infinite scroll
 13.0 - Media
 14.0 - Footer
 --------------------------------------------------------------*/
 
+@import "_mixins.scss";
 @import "_reset.scss";
 @import "_typography.scss";
 @import "_elements.scss";

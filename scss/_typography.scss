@@ -10,15 +10,13 @@ textarea {
     font-size: 1.8rem;
     font-family: 'PT Serif', serif;
     line-height: 1.5;
-    color: #404040;
-    color: hsl(0, 0%, 25%);
+    color: $quarter-grey;
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-weight: 900;
-    font-family: 'Lato', sans-serif;
-    color: #000;
-    color: hsl(0, 0%, 0%);
+    font-family: $lato-stack;
+    color: black;
     -ms-word-break: break-word;
     word-break: break-word;
 }

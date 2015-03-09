@@ -6,10 +6,10 @@
 --------------------------------------------------------------*/
 a {
     text-decoration: none;	
-    color: hsl(0, 0%, 0%);    
+    color: black;    
 }
 
-a:visited { color: hsl(0, 0%, 20%); }
+a:visited { color: $dark-grey }
 
 a:hover,
 a:focus,
@@ -23,9 +23,9 @@ a:active { text-decoration: underline; }
     display: block;
     width: 100%;
     clear: both;
-    font-family: 'Lato', sans-serif;
+    font-family: $lato-stack;
     text-transform: uppercase;
-    background: hsl(0, 0%, 19%);
+    background: $dark-grey;
 }
 
 .main-navigation ul {
@@ -46,7 +46,7 @@ a:active { text-decoration: underline; }
     font-size: 1.4rem;
     text-decoration: none;
     line-height: 1.3em;
-    color: hsl(0, 0%, 100%);
+    color: white;
 }
 
 .main-navigation ul ul {
@@ -56,7 +56,7 @@ a:active { text-decoration: underline; }
     display: none;
     float: left;
     padding: 0;
-    background: hsl(0, 0%, 30%);
+    background: $thirty-grey;
 }
 
 .main-navigation ul ul ul {
@@ -70,14 +70,14 @@ a:active { text-decoration: underline; }
 
 .main-navigation li:hover > a,
 .main-navigation li > a:focus {
-    color: hsl(0, 0%, 100%);
-    background: hsl(0, 0%, 30%);
+    color: white;
+    background: $thirty-grey;
 }
 
 .main-navigation ul ul :hover > a { }
 
 .main-navigation ul ul a:hover,
-.main-navigation ul ul a:focus { background: hsl(0, 0%, 19%); }
+.main-navigation ul ul a:focus { background: $dark-grey; }
 
 .main-navigation ul li:hover > ul { display: block; }
 
@@ -87,18 +87,18 @@ a:active { text-decoration: underline; }
 .main-navigation .current-menu-item > a:hover,
 .main-navigation .current_page_item > a:focus,
 .main-navigation .current-menu-item > a:focus {
-    color: hsl(0, 0%, 19%);
+    color: $dark-grey;
     background: white;
 }
 
 .main-navigation .current_page_ancestor {
-    background: hsl(0, 0%, 30%);
+    background: $thirty-grey;
 }
 
 .main-navigation ul ul .current_page_parent,
 .main-navigation .current_page_parent .current_page_item > a {
     color: white;
-    background: hsl(0, 0%, 19%);
+    background: $dark-grey;
 }
 
 /* Small menu */
@@ -121,7 +121,7 @@ a:active { text-decoration: underline; }
     }
       
     .menu-toggle a:hover,
-    .menu-toggle a:focus { background: hsl(0, 0%, 30%); }
+    .menu-toggle a:focus { background: $thirty-grey; }
 
     .main-navigation.toggled .nav-menu {
         display: block;
@@ -144,8 +144,7 @@ a:active { text-decoration: underline; }
 
     .main-navigation li:hover > a,
     .main-navigation li > a:focus {
-        background: #313131;
-        background: hsl(0, 0%, 19%);
+        background: $dark-grey;
     }
 
     .main-navigation ul ul,
@@ -155,7 +154,7 @@ a:active { text-decoration: underline; }
         left: 0;
         display: block;
         float: none;
-        background: hsl(0, 0%, 19%);
+        background: $dark-grey;
     }
 
     .main-navigation ul ul a { width: 100%; }
@@ -164,7 +163,7 @@ a:active { text-decoration: underline; }
     .main-navigation ul ul a:hover,
     .main-navigation ul a:focus,
     .main-navigation ul ul a:focus{
-        background: hsl(0, 0%, 30%);
+        background: $thirty-grey;
     }
 
     .main-navigation .current_page_ancestor { background: inherit; }
@@ -181,7 +180,7 @@ a:active { text-decoration: underline; }
     .main-navigation .current_page_item li:focus,
     .main-navigation .current_page_parent .current_page_item > a  {
         color: white;
-        background: hsl(0, 0%, 30%);    
+        background: $thirty-grey;    
     }
 
 } /* End responsive menu */
@@ -277,15 +276,15 @@ a:active { text-decoration: underline; }
 .site-main .post-navigation {
     font-size: 18px;
     font-size: 1.8rem;
-    font-family: 'Lato', sans-serif;
+    font-family: $lato-stack;
     color: black;
 }
 
 .post-nav-box {
     padding: 2em 0;
     margin-bottom: 4em;
-    border-top: hsl(0, 0%, 80%) solid 1px;
-    border-bottom: hsl(0, 0%, 80%) solid 1px; 
+    border-top: 1px solid $light-grey;
+    border-bottom: 1px solid $light-grey;
 }
 
 .comment-navigation .nav-previous,
@@ -313,8 +312,8 @@ a:active { text-decoration: underline; }
 .comment-navigation {
     padding: 1em 0;
     margin: 3em 0;
-    border-top: hsl(0, 0%, 80%) solid 1px;
-    border-bottom: hsl(0, 0%, 80%) solid 1px;  
+    border-top: 1px solid $light-grey;
+    border-bottom: 1px solid $light-grey; 
 }
 
 .comment-navigation i { margin: 0 1em; }
@@ -341,7 +340,7 @@ a:active { text-decoration: underline; }
 a.page-numbers,
 span.page-numbers {
     padding: .3em .7em;
-    color: hsl(0, 0%, 20%);
+    color: $dark-grey;
 }
 
 a:hover.page-numbers,

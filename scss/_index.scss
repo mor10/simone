@@ -4,10 +4,10 @@
 .taxonomy-description {
     padding-top: 2rem;
     margin: 2rem 0;
-    font-family: 'Lato', sans-serif;
+    font-family: $lato-stack;
     font-style: italic;
-    border-top: 1px solid hsl(0, 0%, 75%);
-    border-bottom: 1px solid hsl(0, 0%, 75%);
+    border-top: 1px solid $grey;
+    border-bottom: 1px solid $grey;
 }
 
 .sticky-post {
