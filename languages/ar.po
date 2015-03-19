@@ -1,15 +1,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Simone\n"
-"POT-Creation-Date: 2015-03-19 09:25+0200\n"
-"PO-Revision-Date: 2015-03-19 10:03+0200\n"
+"POT-Creation-Date: 2015-03-19 11:05+0200\n"
+"PO-Revision-Date: 2015-03-19 11:24+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
-"Language: ar_JO\n"
+"Language: ar\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.7.3\n"
+"X-Generator: Poedit 1.7.5\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
@@ -24,13 +24,13 @@ msgstr ""
 #: archive.php:22
 #, php-format
 msgid "Posts in the %s category:"
-msgstr "﻿عرض جميع المقالات في %s"
+msgstr "عرض جميع المقالات في %s"
 
 #. translators: %s = single tag title
 #: archive.php:26
 #, php-format
 msgid "Posts with the %s tag"
-msgstr "تصفح جميع المشاركات الموسومة بـ %s"
+msgstr ""
 
 #: archive.php:29
 #, php-format
@@ -83,7 +83,7 @@ msgstr "الأرشيف"
 msgctxt "comments title"
 msgid "One comment:"
 msgid_plural "%1$s comments:"
-msgstr[0] "عدد التعليقات ١"
+msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 msgstr[3] ""
@@ -119,7 +119,7 @@ msgstr "﻿الصفحة غير متوفرة"
 #: content-none.php:20
 #, php-format
 msgid "Nothing found for %s"
-msgstr "لم يتم العثور على شيء٪s"
+msgstr ""
 
 #: content-none.php:22
 msgid "Nothing Found"
@@ -129,7 +129,7 @@ msgstr "﻿لم يتم العثور على شئ"
 #, php-format
 msgid ""
 "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
-msgstr "على استعداد لنشر أول مقالة؟٪"
+msgstr "على استعداد لنشر أول مقالة؟٪ <a href=\"%1$s\">ابدأ هنا</a>."
 
 #: content-none.php:35
 msgid ""
@@ -164,11 +164,11 @@ msgstr "﻿صفحات"
 #. translators: used between list items, there is a space after the comma
 #: content-single.php:25 content.php:43
 msgid ", "
-msgstr "﻿,"
+msgstr ","
 
 #: content-single.php:38 content.php:57
 msgid "Leave a comment"
-msgstr "﻿أضف تعليقا:"
+msgstr "أضف تعليقا:"
 
 #: content-single.php:38 content.php:57
 msgid "1 Comment"
@@ -282,17 +282,17 @@ msgstr "مقالة واحدة حتى الآن"
 #: inc/author-box.php:34
 #, php-format
 msgid "%s articles and counting. "
-msgstr "عدد ﻿المقالات٪ حتى الآن"
+msgstr ""
 
 #: inc/author-box.php:44
 #, php-format
 msgid "Follow %s on social media: "
-msgstr "﻿تابع٪s على مواقع التواصل الاجتماعي:"
+msgstr ""
 
 #: inc/author-box.php:46
 #, php-format
 msgid "Follow %s on Twitter"
-msgstr "﻿تابع٪s على تويتر:"
+msgstr ""
 
 #: inc/author-box.php:46
 msgid "Twitter"
@@ -301,7 +301,7 @@ msgstr "﻿التويتر"
 #: inc/author-box.php:49
 #, php-format
 msgid "Add %s to your Google+ circles"
-msgstr "﻿إضافة٪s على جوجل بلس"
+msgstr ""
 
 #: inc/author-box.php:49
 msgid "Google+"
@@ -323,7 +323,7 @@ msgstr "جميع مقالات الكاتب %s"
 
 #: inc/customizer.php:47
 msgid "Header Color"
-msgstr "لون الترويسة"
+msgstr ""
 
 #: inc/customizer.php:67
 msgid "Link Color"
@@ -426,11 +426,8 @@ msgid ""
 "</span><span class=\"posted-on\">%2$s</span><span class=\"mobile-hide\">.</"
 "span>"
 msgstr ""
-"﻿<span class=\"byline\">كتبه٪ 1 $ الصورة</span> <span class=\"posted-on"
-"\"><span class=\"mobile-hide\">على٪</span> 2 $ <span class=\"mobile-hide\">S."
-"</span></span>"
 
 #: search.php:16
 #, php-format
 msgid "Search Results for: %s"
-msgstr "﻿نتائج البحث عن: %s"
+msgstr "نتائج البحث عن:%s "
