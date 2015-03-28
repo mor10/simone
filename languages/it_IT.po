@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Simone\n"
 "POT-Creation-Date: 2014-08-10 17:08-0800\n"
-"PO-Revision-Date: 2015-03-28 15:47-0800\n"
+"PO-Revision-Date: 2015-03-28 15:52-0800\n"
 "Last-Translator: Giorgio Riccardi <giorgio@griccardi.com>\n"
 "Language-Team: lynda.com <mrh@lynda.com>\n"
 "MIME-Version: 1.0\n"
@@ -22,7 +22,7 @@ msgstr ""
 #: archive.php:22
 #, php-format
 msgid "Posts in the %s category:"
-msgstr "Articoli nella categoria"
+msgstr "Articoli nella categoria %s:"
 
 #. translators: %s = single tag title
 #: archive.php:26
@@ -343,7 +343,7 @@ msgstr "Navigazione Articoli"
 
 #: inc/template-tags.php:79 inc/template-tags.php:101
 msgid "Post navigation"
-msgstr "Navigazione Articoli"
+msgstr "Navigazione Articolo"
 
 #: inc/template-tags.php:82
 msgid "Previous Post:"
