@@ -122,26 +122,23 @@ function simone_scripts() {
         
         // Get the current layout setting (sidebar left or right)
         $simone_layout = get_option( 'layout_setting' );
+        if ( is_page_template( 'page-templates/page-nosidebar.php' ) || ! is_active_sidebar( 'sidebar-1' ) ) {
+            $layout_stylesheet = '/layouts/no-sidebar.css';
+        } elseif ( 'left-sidebar' == $simone_layout ) {
+            $layout_stylesheet =  '/layouts/sidebar-content.css';
+        } else {
+            $layout_stylesheet = '/layouts/content-sidebar.css';
+        }
 
         // Load parent theme stylesheet even when child theme is active
-        if ( is_child_theme() ) {
-                wp_enqueue_style( 'simone-parent-style', trailingslashit( get_template_directory_uri() ) . 'style.css' );
-        } else {
-                wp_enqueue_style( 'simone-style', get_stylesheet_uri() );
-        }
+        wp_enqueue_style( 'simone-style', simon_get_parent_stylesheet_uri() );
 
-        if (is_page_template('page-templates/page-nosidebar.php') || ! is_active_sidebar( 'sidebar-1' )) {
-            wp_enqueue_style( 'simone-layout' , get_template_directory_uri() . '/layouts/no-sidebar.css' );
-        } elseif ( $simone_layout == 'left-sidebar' ) {
-            wp_enqueue_style( 'simone-layout' , get_template_directory_uri() . '/layouts/sidebar-content.css' );
-        } else {
-            wp_enqueue_style( 'simone-layout' , get_template_directory_uri() . '/layouts/content-sidebar.css' );
-
-        }
+        // Load layout stylesheet
+        wp_enqueue_style( 'simone-layout' , get_template_directory_uri() . $layout_stylesheet );
 
         // Load child theme stylesheet
         if ( is_child_theme() ) {
-                wp_enqueue_style( 'simone-style', get_stylesheet_uri() );
+                wp_enqueue_style( 'simone-child-style', get_stylesheet_uri() );
         }
 
         // Lato http://www.google.com/fonts/specimen/Lato + PT Serif http://www.google.com/fonts/specimen/PT+Serif
@@ -177,6 +174,17 @@ function simone_scripts() {
 	}
 }
 add_action( 'wp_enqueue_scripts', 'simone_scripts' );
+
+/**
+ * Return parent stylesheet URI
+ */
+function simon_get_parent_stylesheet_uri() {
+	if ( is_child_theme() ) {
+		return trailingslashit( get_template_directory_uri() ) . 'style.css';
+	} else {
+		return get_stylesheet_uri();
+	}
+}
 
 /**
  * Implement the Custom Header feature.
