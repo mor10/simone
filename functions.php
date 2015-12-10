@@ -64,17 +64,15 @@ function simone_setup() {
 	 * @link http://codex.wordpress.org/Function_Reference/add_theme_support#Post_Thumbnails
 	 */
 	add_theme_support( 'post-thumbnails' );
-        // Featured image sizes for resesponsive display
-        add_image_size('large-thumb', 1060, 650, true);
-        add_image_size('medium-thumb', 800, 490);
-        add_image_size('small-thumb', 400, 245);
+        // Featured image sizes for single posts and pages
+        set_post_thumbnail_size(1060, 650, true);
         // Featured image size for small image in archives
         add_image_size('index-thumb', 780, 250, true);
 
 	// This theme uses wp_nav_menu() in two locations.
 	register_nav_menus( array(
 		'primary' => __( 'Primary Menu', 'simone' ),
-                'social' => __( 'Social Menu', 'simone'),
+        'social' => __( 'Social Menu', 'simone'),
 	) );
 
 	// Enable support for Post Formats.
@@ -92,7 +90,7 @@ function simone_setup() {
 		'search-form',
 		'comment-form',
 		'gallery',
-                'caption',
+        'caption',
 	) );
 }
 endif; // simone_setup
@@ -112,8 +110,8 @@ function simone_widgets_init() {
 	) );
 
         register_sidebar( array(
-		'name'          => __( 'Footer Widgets', 'simone' ),
-                'description'   => __( 'Footer widgets area appears, not surprisingly, in the footer of the site.', 'simone' ),
+		'name'          => __( 'Footer Widget', 'simone' ),
+        'description'   => __( 'Footer widget area appears, not surprisingly, in the footer of the site.', 'simone' ),
 		'id'            => 'sidebar-2',
 		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
 		'after_widget'  => '</aside>',
@@ -146,7 +144,7 @@ function simone_scripts() {
 
         // Load child theme stylesheet
         if ( is_child_theme() ) {
-                wp_enqueue_style( 'simone-child-style', get_stylesheet_uri() );
+            wp_enqueue_style( 'simone-child-style', get_stylesheet_uri() );
         }
 
         // Lato http://www.google.com/fonts/specimen/Lato + PT Serif http://www.google.com/fonts/specimen/PT+Serif
@@ -169,7 +167,7 @@ function simone_scripts() {
 
 
         if (is_single() || is_author() ) {
-            	wp_enqueue_script( 'simone-hide', get_template_directory_uri() . '/js/hide.js', array('jquery'), '20140310', true );
+        	wp_enqueue_script( 'simone-hide', get_template_directory_uri() . '/js/hide.js', array('jquery'), '20140310', true );
         }
 
 	wp_enqueue_script( 'simone-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20130115', true );
