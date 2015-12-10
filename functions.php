@@ -6,7 +6,7 @@
  */
 
 /**
- * For child theme authors: To disable the styles and layouts from Simone properly, 
+ * For child theme authors: To disable the styles and layouts from Simone properly,
  * add the following code to your child theme functions.php file:
  *
  * <?php
@@ -35,14 +35,14 @@ function simone_setup() {
 	 * to change 'simone' to the name of your theme in all the template files
 	 */
 	load_theme_textdomain( 'simone', get_template_directory() . '/languages' );
-        
+
         /**
         * Set the content width based on the theme's design and stylesheet.
         */
         if ( ! isset( $content_width ) ) {
                $content_width = 700; /* pixels */
         }
-        
+
         // This theme styles the visual editor to resemble the theme style.
         $font_url = '//fonts.googleapis.com/css?family=Lato:300,400,400italic,700,900,900italic|PT+Serif:400,700,400italic,700italic';
         add_editor_style( array( 'inc/editor-style.css', str_replace( ',', '%2C', $font_url ) ) );
@@ -102,7 +102,7 @@ function simone_widgets_init() {
 		'before_title'  => '<h1 class="widget-title">',
 		'after_title'   => '</h1>',
 	) );
-        
+
         register_sidebar( array(
 		'name'          => __( 'Footer Widgets', 'simone' ),
                 'description'   => __( 'Footer widgets area appears, not surprisingly, in the footer of the site.', 'simone' ),
@@ -119,7 +119,7 @@ add_action( 'widgets_init', 'simone_widgets_init' );
  * Enqueue scripts and styles.
  */
 function simone_scripts() {
-        
+
         // Get the current layout setting (sidebar left or right)
         $simone_layout = get_option( 'layout_setting' );
         if ( is_page_template( 'page-templates/page-nosidebar.php' ) || ! is_active_sidebar( 'sidebar-1' ) ) {
@@ -143,26 +143,23 @@ function simone_scripts() {
 
         // Lato http://www.google.com/fonts/specimen/Lato + PT Serif http://www.google.com/fonts/specimen/PT+Serif
         wp_enqueue_style( 'simone-google-fonts', '//fonts.googleapis.com/css?family=Lato:100,300,400,400italic,700,900,900italic|PT+Serif:400,700,400italic,700italic' );
-        
+
         // FontAwesome
         wp_enqueue_style('simone_fontawesome', get_template_directory_uri() . '/fonts/font-awesome/css/font-awesome.min.css');
 
-	wp_enqueue_script( 'simone-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20120206', true );
-        
+		wp_enqueue_script( 'simone-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20120206', true );
+
         wp_enqueue_script( 'simone-search', get_template_directory_uri() . '/js/hide-search.js', array(), '20120206', true );
-        
+
         wp_enqueue_script( 'simone-superfish', get_template_directory_uri() . '/js/superfish.min.js', array('jquery'), '20140328', true );
-        
+
         wp_enqueue_script( 'simone-superfish-settings', get_template_directory_uri() . '/js/superfish-settings.js', array('jquery'), '20140328', true );
-        
+
         wp_enqueue_script( 'simone-masonry', get_template_directory_uri() . '/js/masonry-settings.js', array('masonry'), '20140401', true );
-        
+
         wp_enqueue_script( 'simone-enquire', get_template_directory_uri() . '/js/enquire.min.js', false, '20140429', true );
-        
-		if ((is_single() && has_post_thumbnail()) || (!is_paged() && is_front_page() && has_post_thumbnail())) {
-                wp_enqueue_script( 'simone-picturefill', get_template_directory_uri() . '/js/picturefill.min.js', false, '20140512', false );
-        }
-        
+
+
         if (is_single() || is_author() ) {
             	wp_enqueue_script( 'simone-hide', get_template_directory_uri() . '/js/hide.js', array('jquery'), '20140310', true );
         }

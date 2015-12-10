@@ -7,11 +7,11 @@
 ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-        <?php 
+        <?php
     if (has_post_thumbnail()) {
         echo '<div class="single-post-thumbnail clear">';
         echo '<div class="image-shifter">';
-        simone_the_responsive_thumbnail( get_the_ID() );
+        the_post_thumbnail();
         echo '</div>';
         echo '</div>';
     }

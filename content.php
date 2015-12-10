@@ -11,7 +11,7 @@
             echo '<div class="front-index-thumbnail clear">';
             echo '<div class="image-shifter">';
             echo '<a href="' . get_permalink() . '" title="' . __('Read ', 'simone') . get_the_title() . '" rel="bookmark">';
-            simone_the_responsive_thumbnail( get_the_ID() );
+            the_post_thumbnail();
             echo '</a>';
             echo '</div>';
             echo '</div>';
@@ -73,22 +73,22 @@
             echo '</footer><!-- .entry-footer -->';
         } else { ?>
             <div class="entry-content">
-                
-                <?php 
+
+                <?php
                 $simone_archive_content = get_option( 'archive_setting' );
                 if ( $simone_archive_content == 'content' ) {
                     the_content( __( '', 'simone' ) );
                 } else {
-                    the_excerpt(); 
+                    the_excerpt();
                 }
                 ?>
             </div><!-- .entry-content -->
             <footer class="entry-footer continue-reading">
-		<?php 
+		<?php
                 if ( $simone_archive_content == 'content' ) {
                     echo '<a href="' . get_permalink() . '" title="' . _x('Read ', 'First part of "Read *article title* in title tag of Read more link', 'simone') . get_the_title() . '" rel="bookmark">' . __('Read <span aria-hidden="true">the article</span>', 'simone') . '<i class="fa fa-arrow-circle-o-right"></i><span class="screen-reader-text"> ' . get_the_title() . '</span></a>';
                 } else {
-                    echo '<a href="' . get_permalink() . '" title="' . __('Continue Reading ', 'simone') . get_the_title() . '" rel="bookmark">' . __('Continue Reading', 'simone') . '<i class="fa fa-arrow-circle-o-right"></i><span class="screen-reader-text"> ' . get_the_title() . '</span></a>'; 
+                    echo '<a href="' . get_permalink() . '" title="' . __('Continue Reading ', 'simone') . get_the_title() . '" rel="bookmark">' . __('Continue Reading', 'simone') . '<i class="fa fa-arrow-circle-o-right"></i><span class="screen-reader-text"> ' . get_the_title() . '</span></a>';
                 }
                 ?>
             </footer><!-- .entry-footer -->
