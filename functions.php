@@ -63,7 +63,7 @@ function simone_setup() {
         // Featured image size for small image in archives
         add_image_size('index-thumb', 780, 250, true);
 
-	// This theme uses wp_nav_menu() in one location.
+	// This theme uses wp_nav_menu() in two locations.
 	register_nav_menus( array(
 		'primary' => __( 'Primary Menu', 'simone' ),
                 'social' => __( 'Social Menu', 'simone'),
