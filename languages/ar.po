@@ -1,0 +1,433 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Simone\n"
+"POT-Creation-Date: 2015-03-19 11:05+0200\n"
+"PO-Revision-Date: 2015-03-19 11:24+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.5\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#. translators: %s = single category title
+#: archive.php:22
+#, php-format
+msgid "Posts in the %s category:"
+msgstr "عرض جميع المقالات في %s"
+
+#. translators: %s = single tag title
+#: archive.php:26
+#, php-format
+msgid "Posts with the %s tag"
+msgstr ""
+
+#: archive.php:29
+#, php-format
+msgid "Author: %s"
+msgstr "﻿الكاتب: %s"
+
+#: archive.php:33
+#, php-format
+msgctxt "archive for a day"
+msgid "Posts from %s"
+msgstr "﻿مقالات للكاتب %s"
+
+#: archive.php:33
+msgctxt "Daily archives date format"
+msgid "F j, Y"
+msgstr "﻿M j, Y"
+
+#: archive.php:36
+#, php-format
+msgctxt "archive for a month"
+msgid "Posts from %s"
+msgstr "﻿مقالات للكاتب %s"
+
+#: archive.php:36
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "﻿سنة"
+
+#: archive.php:39
+#, php-format
+msgctxt "archive for a year"
+msgid "Posts from %s"
+msgstr "﻿مقالات للكاتب %s"
+
+#: archive.php:39
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "سنة"
+
+#: archive.php:42
+msgid "Asides"
+msgstr "التعليقات الجانبية"
+
+#: archive.php:45
+msgid "Archives"
+msgstr "الأرشيف"
+
+#: comments.php:29
+#, php-format
+msgctxt "comments title"
+msgid "One comment:"
+msgid_plural "%1$s comments:"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: comments.php:47
+msgid "Comment navigation"
+msgstr "تصفح التعليقات"
+
+#: comments.php:48
+msgid "Older Comments"
+msgstr "﻿<span class=\"meta-nav\">&larr;</span> تعليقات قديمه"
+
+#: comments.php:49
+msgid "Newer Comments"
+msgstr "﻿تعليقات جديده <span class=\"meta-nav\">&rarr;</span>"
+
+#: comments.php:59
+msgid "Comments are closed."
+msgstr "﻿التعليقات مغلقة"
+
+#: content-aside.php:17 content-page.php:32 content-single.php:42
+#: content.php:61
+msgid "Edit"
+msgstr "﻿تحرير"
+
+#: content-none.php:16
+msgid "Page not available"
+msgstr "﻿الصفحة غير متوفرة"
+
+#. translators: %s = search query
+#: content-none.php:20
+#, php-format
+msgid "Nothing found for %s"
+msgstr ""
+
+#: content-none.php:22
+msgid "Nothing Found"
+msgstr "﻿لم يتم العثور على شئ"
+
+#: content-none.php:31
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "على استعداد لنشر أول مقالة؟٪ <a href=\"%1$s\">ابدأ هنا</a>."
+
+#: content-none.php:35
+msgid ""
+"You seem to be lost. To find what you are looking for check out the most "
+"recent articles below or try a search:"
+msgstr ""
+"﻿يبدو أنك لم تجد ما تبحث عنه, ربما تجده في قائمة المقالات في الأسفل أو قم "
+"ببحث:"
+
+#: content-none.php:40
+msgid ""
+"Nothing matched your search terms. Check out the most recent articles below "
+"or try searching for something else:"
+msgstr ""
+"لم نجد ما تبحث عنه. تصفح قائمة المقالات في الأسفل أو أعد محاولة البحث "
+"بمفردات مختلفة:"
+
+#: content-none.php:45
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr "﻿يبدو أننا لا يمكن أن نجد ما تبحث عنه. ربما تجد ما يساعدك هنا."
+
+#: content-none.php:56
+msgid "Most recent posts:"
+msgstr "﻿أحدث المقالات:"
+
+#: content-page.php:27 content-single.php:50 image.php:48
+msgid "Pages:"
+msgstr "﻿صفحات"
+
+#. translators: used between list items, there is a space after the comma
+#: content-single.php:25 content.php:43
+msgid ", "
+msgstr ","
+
+#: content-single.php:38 content.php:57
+msgid "Leave a comment"
+msgstr "أضف تعليقا:"
+
+#: content-single.php:38 content.php:57
+msgid "1 Comment"
+msgstr "يوجد تعليق واحد"
+
+#: content-single.php:38 content.php:57
+msgid "% Comments"
+msgstr "﻿% تعليقات"
+
+#: content.php:13 content.php:26
+msgid "Read "
+msgstr "﻿اقرا"
+
+#: content.php:72 content.php:89
+msgctxt "First part of \"Read *article title* in title tag of Read more link"
+msgid "Read "
+msgstr "﻿اقرا"
+
+#: content.php:72 content.php:89
+msgid "Read <span aria-hidden=\"true\">the article</span>"
+msgstr "﻿<span aria-hidden=\"true\">قراءة المقال</span>"
+
+#: content.php:91
+msgid "Continue Reading "
+msgstr "﻿متابعة القراءة"
+
+#: content.php:91
+msgid "Continue Reading"
+msgstr "﻿متابعة القراءة"
+
+#. translators: %s = text link: WordPress, URL: http://wordpress.org/
+#: footer.php:20
+#, php-format
+msgid "Proudly powered by %s"
+msgstr "﻿يدار بفخر بواسطة %s"
+
+#: footer.php:21
+msgid "WordPress"
+msgstr "﻿ووردبريس"
+
+#. translators: %1$s = text link: Simone, URL: http://wordpress.org/themes/simone/, %2$s = text link: mor10.com, URL: http://mor10.com/
+#: footer.php:27
+#, php-format
+msgid "Theme: %1$s by %2$s"
+msgstr "القالب من قبل %1$s بواسطة %2$s"
+
+#: footer.php:29
+msgid "mor10.com"
+msgstr "﻿mor10.com"
+
+#: functions.php:68
+msgid "Primary Menu"
+msgstr "﻿القائمة الرئيسية"
+
+#: functions.php:69
+msgid "Social Menu"
+msgstr "قائمة مواقع التواصل الإجتماعي"
+
+#: functions.php:98
+msgid "Sidebar"
+msgstr "﻿الشريط الجانبي"
+
+#: functions.php:107
+msgid "Footer Widgets"
+msgstr "المربعات الخاصة بأسفل الصفحة"
+
+#: functions.php:108
+msgid ""
+"Footer widgets area appears, not surprisingly, in the footer of the site."
+msgstr "منطقة المربعات الخاصة بأسفل الصفحة تظهر كما هو متوقع في أسفل الصفحة"
+
+#: header.php:25
+msgid "Skip to content"
+msgstr "انتقل إلى المحتوى"
+
+#: header.php:47
+msgid "Menu"
+msgstr "﻿القائمة"
+
+#: header.php:53
+msgid "Search"
+msgstr "﻿بحث"
+
+#: image.php:25
+msgid "Featured in: "
+msgstr "﻿ظهرت في:"
+
+#: image.php:26
+msgid "Full size image: "
+msgstr "﻿الصورة بالحجم الكامل:"
+
+#: image.php:27
+msgid "Edit attachment post"
+msgstr "تحرير الصفحة المرفقة بالصورة"
+
+#: inc/author-box.php:10
+msgid "Hide Author Bio"
+msgstr "إخفاء التعريف بالكاتب"
+
+#: inc/author-box.php:21
+#, php-format
+msgid "About %s"
+msgstr "﻿حول %s"
+
+#. translators: May be followed by another sentence. There is a space after the punctuation mark.
+#: inc/author-box.php:29
+msgid "One article and counting. "
+msgstr "مقالة واحدة حتى الآن"
+
+#. translators: May be followed by another sentence. There is a space after the punctuation mark.
+#: inc/author-box.php:34
+#, php-format
+msgid "%s articles and counting. "
+msgstr ""
+
+#: inc/author-box.php:44
+#, php-format
+msgid "Follow %s on social media: "
+msgstr ""
+
+#: inc/author-box.php:46
+#, php-format
+msgid "Follow %s on Twitter"
+msgstr ""
+
+#: inc/author-box.php:46
+msgid "Twitter"
+msgstr "﻿التويتر"
+
+#: inc/author-box.php:49
+#, php-format
+msgid "Add %s to your Google+ circles"
+msgstr ""
+
+#: inc/author-box.php:49
+msgid "Google+"
+msgstr "جوجل بلس"
+
+#: inc/author-box.php:52
+#, php-format
+msgid "Like %s on Facebook"
+msgstr "تابع %s على صفحة الفيسبوك"
+
+#: inc/author-box.php:52
+msgid "Facebook"
+msgstr "﻿الفيسبوك"
+
+#: inc/author-box.php:65
+#, php-format
+msgid "All posts by %s"
+msgstr "جميع مقالات الكاتب %s"
+
+#: inc/customizer.php:47
+msgid "Header Color"
+msgstr ""
+
+#: inc/customizer.php:67
+msgid "Link Color"
+msgstr "﻿لون الرابط"
+
+#: inc/customizer.php:80
+msgid "Theme Options"
+msgstr "خيارات القالب"
+
+#: inc/customizer.php:82
+msgid "Change the default display options for the theme."
+msgstr "تغيير الخيارات العرض الافتراضية للقالب"
+
+#: inc/customizer.php:104
+msgid "Sidebar position"
+msgstr "موقع الشريط الجانبي"
+
+#: inc/customizer.php:107
+msgid "Left sidebar"
+msgstr "﻿الشريط الجانبي الأيسر"
+
+#: inc/customizer.php:108
+msgid "Right sidebar"
+msgstr "﻿الشريط الجانبي الايمن"
+
+#: inc/customizer.php:132
+msgid "Archive display"
+msgstr "عرض الأرشيف"
+
+#: inc/customizer.php:133
+msgid ""
+"Display excerpts or full content with optional \"More\" tag in the blog "
+"index and archive pages."
+msgstr ""
+"عرض الملخص أو المحتوى الكامل مع مؤشر \"More\" الاختياري في صفحات التدوينات "
+"الأساسية و الأرشيف. "
+
+#: inc/customizer.php:136
+msgid "Excerpt"
+msgstr "الملخص"
+
+#: inc/customizer.php:137
+msgid "Full content"
+msgstr "﻿المحتوى الكامل"
+
+#: inc/extras.php:63
+#, php-format
+msgid "Page %s"
+msgstr "﻿صفحة %s"
+
+#: inc/template-tags.php:45
+msgid "&larr; Previous"
+msgstr "﻿‏&rarr; السابق"
+
+#: inc/template-tags.php:46
+msgid "Next &rarr;"
+msgstr "﻿التالي &rarr;"
+
+#: inc/template-tags.php:54
+msgid "Posts navigation"
+msgstr "تصفح المقالات"
+
+#: inc/template-tags.php:79 inc/template-tags.php:101
+msgid "Post navigation"
+msgstr "تصفح المقال"
+
+#: inc/template-tags.php:82
+msgid "Previous Post:"
+msgstr "المقالة السابقة:"
+
+#: inc/template-tags.php:83
+msgid "Next Post:"
+msgstr "المقالة التالية:"
+
+#: inc/template-tags.php:104
+msgid "Previous Image"
+msgstr "﻿الصورة السابقة"
+
+#: inc/template-tags.php:105
+msgid "Next Image"
+msgstr "﻿الصورة التالية"
+
+#: inc/template-tags.php:126
+msgctxt "Public posted on date"
+msgid "F jS, Y"
+msgstr "﻿سنة"
+
+#: inc/template-tags.php:128
+msgctxt "Public modified on date"
+msgid "F jS, Y"
+msgstr "﻿سنة"
+
+#: inc/template-tags.php:131
+#, php-format
+msgctxt ""
+"mobile-hide class is used to hide connecting elements like \"on\" and \".\" "
+"on wider screens."
+msgid ""
+"<span class=\"byline\">Written by %1$s</span><span class=\"mobile-hide\"> on "
+"</span><span class=\"posted-on\">%2$s</span><span class=\"mobile-hide\">.</"
+"span>"
+msgstr ""
+
+#: search.php:16
+#, php-format
+msgid "Search Results for: %s"
+msgstr "نتائج البحث عن:%s "
