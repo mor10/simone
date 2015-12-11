@@ -12,12 +12,16 @@ Simone\'s design is focussed on typography and aims to put the content front and
 
 
 == Changelog ==
+
+=== 2.1.1 ===
+- Update to Font Awesome 4.5.0
+
 === 2.1.0 ===
 - Remove custom Responsive Images code for featured images because of RICG support in WP core.
 - Add core title-tag support.
 - Update background tile graphic to avoid strobing on high-resolution displays.
 
-=== 2.0.4===
+=== 2.0.4 ===
 - Load picturefill only if post(s) have thumbnail(s), courtesy of @AlexAlexandru
 - Fixed errors in Swedish translation, courtesy of @ljb
 

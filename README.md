@@ -73,6 +73,9 @@ Simone is named after philosopher [Simone de Beauvoir](http://en.wikipedia.org/w
 
 ## Changelog
 
+### 2.1.1
+- Update to Font Awesome 4.5.0
+
 ### 2.1.0
 - Remove custom Responsive Images code for featured images because of RICG support in WP core.
 - Add core title-tag support.
