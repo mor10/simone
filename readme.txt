@@ -6,14 +6,17 @@ Tested up to: 4.0
 License: GPL 2.0
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Simone is a responsive modern design theme designed and developed by Morten Rand-Hendriksen. 
+Simone is a responsive modern design theme designed and developed by Morten Rand-Hendriksen.
 
 Simone\'s design is focussed on typography and aims to put the content front and center. Fonts are large and clear and scale according to screen width. On wider screens blockquotes and images can be aligned left and right to break out of the main stream and get a pull-quote effect. The featured images are responsive through the use of the <picture> element resulting in appropriate image sizes being loaded to fit individual screen sizes.
 
 
 == Changelog ==
 
-=== 2.0.4===
+=== 2.1.1 ===
+- Update to Font Awesome 4.5.0
+
+=== 2.0.4 ===
 - Load picturefill only if post(s) have thumbnail(s), courtesy of @AlexAlexandru
 - Fixed errors in Swedish translation, courtesy of @ljb
 
@@ -141,7 +144,7 @@ Simone is distributed under the terms of the GNU GPL v2
 
 Simone\'s code base started out as _s (http://underscores.me) as it were on February 6, 2014.
 
-The theme features three custom fonts: 
+The theme features three custom fonts:
 Lato: http://www.google.com/fonts/specimen/Lato SIL Open Font Licence 1.1 http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL
 PT Serif: http://www.google.com/fonts/specimen/PT+Serif SIL Open Font Licence 1.1 http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL
 FontAwesome: Published under various licenses http://fortawesome.github.io/Font-Awesome/license/

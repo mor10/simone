@@ -4,7 +4,7 @@ Theme URI: http://mor10.com/simone-wordpress-theme/
 Author: Morten Rand-Hendriksen
 Author URI: http://mor10.com/
 Description: Simone is a responsive, accessible, high-resolution theme featuring custom header and custom link colors, large images, and easy to read typography that scales to fit all screens. Other features include keyboard accessible navigation, optional social menu, sidebar- and footer widgets, no-sidebar page template, Aside post format, and collapsible author profile box. Simone is translation ready and ships in English with translations in Catalan, Chinese (simplified), Dutch, Finnish, French, German, Hungarian, Italian, Norwegian Bokmål, Persian, Russian, Spanish, Swedish, and Turkish.
-Version: 2.0.4
+Version: 2.1.1
 License: GNU General Public License
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: simone
@@ -193,7 +193,7 @@ mark, ins {
 }
 
 sup, sub {
-    position: relative;	
+    position: relative;
     height: 0;
     vertical-align: baseline;
     font-size: 75%;
@@ -224,7 +224,7 @@ ul { list-style: disc; }
 
 ol { list-style: decimal; }
 
-li > ul, 
+li > ul,
 li > ol {
     margin-bottom: 0;
     margin-left: 1.5em;
@@ -345,7 +345,7 @@ textarea {
     width: 100%;
     vertical-align: top; /* Improves readability and alignment in all browsers */
     overflow: auto; /* Removes default vertical scrollbar in IE6/7/8/9 */
-    
+
 }
 
 .comment-awaiting-moderation { /* Green background color to make moderation seem less aggressive */
@@ -367,9 +367,9 @@ textarea {
 5.1 Links
 --------------------------------------------------------------*/
 a {
-    text-decoration: none;	
+    text-decoration: none;
     color: #000;
-    color: hsl(0, 0%, 0%);    
+    color: hsl(0, 0%, 0%);
 }
 
 a:visited {
@@ -379,8 +379,8 @@ a:visited {
 
 a:hover,
 a:focus,
-a:active { 
-    text-decoration: underline; 
+a:active {
+    text-decoration: underline;
 }
 
 /*--------------------------------------------------------------
@@ -499,7 +499,7 @@ a:active {
         line-height: 3.75em;
         color: white;
     }
-      
+
     .menu-toggle a:hover,
     .menu-toggle a:focus {
         background: #4d4d4d;
@@ -569,7 +569,7 @@ a:active {
         color: #fff;
         color: hsl(0, 0%, 100%);
         background: #4d4d4d;
-        background: hsl(0, 0%, 30%);    
+        background: hsl(0, 0%, 30%);
     }
 
 } /* End responsive menu */
@@ -581,12 +581,12 @@ a:active {
 .menu-social ul {
     float: right;
     text-align: center;
-    list-style: none;    
+    list-style: none;
 }
 
 .menu-social ul li {
     position: relative;
-    display:  inline-block;    
+    display:  inline-block;
 }
 
 .menu-social li a:before {
@@ -649,8 +649,8 @@ a:active {
         right: 6rem;
         display: block;
     }
-    
-    #menu-social li a { 
+
+    #menu-social li a {
         padding-left:.5em;
         padding-right: .5em;
     }
@@ -674,22 +674,22 @@ a:active {
     padding: 2em 0;
     margin-bottom: 4em;
     border-top: hsl(0, 0%, 80%) solid 1px;
-    border-bottom: hsl(0, 0%, 80%) solid 1px; 
+    border-bottom: hsl(0, 0%, 80%) solid 1px;
 }
 
 .comment-navigation .nav-previous,
 .paging-navigation .nav-previous,
 .post-navigation .nav-previous {
-    float: left;	
-    width: 50%;    
+    float: left;
+    width: 50%;
     padding-right: 15%;
 }
 
 .comment-navigation .nav-next,
 .paging-navigation .nav-next,
 .post-navigation .nav-next {
-    float: right;    
-    width: 50%;	    
+    float: right;
+    width: 50%;
     padding-left: 15%;
     text-align: right;
 }
@@ -703,7 +703,7 @@ a:active {
     padding: 1em 0;
     margin: 3em 0;
     border-top: hsl(0, 0%, 80%) solid 1px;
-    border-bottom: hsl(0, 0%, 80%) solid 1px;  
+    border-bottom: hsl(0, 0%, 80%) solid 1px;
 }
 
 .comment-navigation i { margin: 0 1em; }
@@ -718,7 +718,7 @@ a:active {
         padding: 0;
         text-align: left;
     }
-    
+
     .comment-navigation .nav-next,
     .post-navigation .nav-next { margin-top: 4rem; }
 }
@@ -753,8 +753,8 @@ a:focus.page-numbers{
 /* Text meant only for screen readers */
 .screen-reader-text {
     position: absolute !important;
-    height: 1px; 
-    width: 1px; 
+    height: 1px;
+    width: 1px;
     overflow: hidden;
     clip: rect(1px, 1px, 1px, 1px);
 }
@@ -764,7 +764,7 @@ a:focus.page-numbers{
 .screen-reader-text:focus {
     top: 5px;
     left: 5px;
-    z-index: 100000; /* Above WP toolbar */	
+    z-index: 100000; /* Above WP toolbar */
     clip: auto !important;
     display: block;
     width: auto;
@@ -827,8 +827,8 @@ a:focus.page-numbers{
 .site-content:after,
 .site-footer:before,
 .site-footer:after {
-    display: table;	
-    content: '';	
+    display: table;
+    content: '';
 }
 
 .clear:after,
@@ -876,7 +876,7 @@ a:focus.page-numbers{
 .site-branding a { text-decoration: none; }
 
 .site-title a,
-.site-description { 
+.site-description {
     color: #fff;
     color: hsl(0, 0%, 100%);
 }
@@ -901,7 +901,7 @@ a:focus.page-numbers{
 /* Header responsive */
 @media screen and (max-width: 900px) {
     .site-branding { padding: 0; }
-    
+
     .title-box {
         max-width: 100%;
         margin: 0 auto;
@@ -983,10 +983,10 @@ a:focus.page-numbers{
 }
 
 .widget-title {
-    margin-bottom: 1em;    
+    margin-bottom: 1em;
     font-size: 24px;
     font-size: 2.4rem;
-    border-bottom: 2px solid #000;    
+    border-bottom: 2px solid #000;
 }
 
 .widget a {
@@ -1019,7 +1019,7 @@ a:focus.page-numbers{
     font-family: 'fontawesome';
     font-size: 14px;
     font-size: 1.4rem;
-} 
+}
 
 .widget_recent_entries li,
 .widget_recent_comments li { margin: 0 0 .5em 2.5em; }
@@ -1076,7 +1076,7 @@ a:focus.page-numbers{
 /* Footer widgets responsive */
 @media screen and (max-width: 879px) {
     #footer-widgets { width: 100%!important; }
-    
+
     .footer-widgets .widget {
         float: none;
         width: 100%;
@@ -1221,13 +1221,13 @@ blockquote cite {
         font-size: 18px;
         font-size: 1.8rem;
     }
-    
+
     .entry-content blockquote p {
         font-size: 22px;
         font-size: 2.2rem;
         line-height: 1.5em;
     }
-     
+
     blockquote cite {
         font-size: 14px;
         font-size: 1.4rem;
@@ -1264,8 +1264,8 @@ blockquote.alignright {
     border: none;
 }
 
-blockquote em { 
-    font-style: normal; 
+blockquote em {
+    font-style: normal;
 }
 
 blockquote cite {
@@ -1296,7 +1296,7 @@ blockquote cite {
     blockquote.alignleft,
     blockquote.alignright {
         width: 100%;
-        padding: 1em 1.5em 0;   
+        padding: 1em 1.5em 0;
     }
 }
 
@@ -1356,19 +1356,19 @@ blockquote cite {
     .single .entry-meta {
         position: absolute;
         width: 120px;
-        margin-left: -160px;   
+        margin-left: -160px;
         text-align: right;
     }
-    
+
     .single .byline,
     .single .posted-on,
     .single .comments-link {
         display: block;
         margin-bottom: 1em;
     }
-    
+
     .single .author { display: block; }
-    
+
     .single .mobile-hide {
         display: none;
     }
@@ -1518,11 +1518,11 @@ ol.children { list-style-type: none; }
 }
 
 /* Comments responsive */
-@media screen and (max-width:600px) {    
+@media screen and (max-width:600px) {
     .comment-list ol { margin-left: 0; }
-    
+
     .comment-content ol { margin-left: 1.5em; }
-    
+
     .comment-content,
     .reply { margin-left: 0; }
 }
@@ -1726,7 +1726,7 @@ a.author-link {
 }
 
 .site-main .gallery-item {
-    position: relative;    
+    position: relative;
     float: left;
     max-width:100%;
     margin-right: 3.333333333%;
@@ -1749,10 +1749,10 @@ object { max-width: 100%; }
 
 /* Featured Images */
 
-.single-post-thumbnail { 
+.single-post-thumbnail {
     background-color: #b2b2b2;
     background-image: url(images/pattern.svg);
-    background-repeat: repeat; 
+    background-repeat: repeat;
 }
 
 .front-index-thumbnail { margin-bottom: -3.2em; }
