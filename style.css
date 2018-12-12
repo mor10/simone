@@ -1795,3 +1795,47 @@ object { max-width: 100%; }
 }
 
 .site-info { text-align: center; }
+
+/*--------------------------------------------------------------
+15. Blocks
+--------------------------------------------------------------*/
+
+.alignwide {
+    max-width: calc(100vw - 2rem);
+    margin-right: -1rem;
+    margin-left: -1rem;
+}
+
+.alignfull {
+    max-width: 100vw;
+    margin-right: -2rem;
+    margin-left: -2rem;
+}
+
+@media screen and (min-width: 400px) {
+    .alignwide {
+        max-width: calc(100vw - 4rem);
+        margin-right: -2rem;
+        margin-left: -2rem;
+    }
+    
+    .alignfull {
+        max-width: 100vw;
+        margin-right: -4rem;
+        margin-left: -4rem;
+    }
+}
+
+@media screen and (min-width: 780px) {
+    .alignwide {
+        max-width: calc(700px + (100vw - 700px) / 2);
+        margin-right: calc(-1 * ((100vw - 700px) / 4));
+        margin-left: calc(-1 * ((100vw - 700px) / 4));
+    }
+
+    .alignfull {
+        max-width: 100vw;
+        margin-right: calc(-1 * ((100vw - 700px) / 2));
+        margin-left: calc(-1 * ((100vw - 700px) / 2));
+    }
+}
