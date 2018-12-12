@@ -93,9 +93,12 @@ function simone_setup() {
         'caption',
 	) );
 
+	// Block Editor support.
 	add_theme_support( 'wp-block-styles' );
 	
 	add_theme_support( 'align-wide' );
+
+	add_theme_support( 'responsive-embeds' );
 }
 endif; // simone_setup
 add_action( 'after_setup_theme', 'simone_setup' );
