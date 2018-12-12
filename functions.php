@@ -101,7 +101,6 @@ function simone_setup() {
 	add_theme_support( 'responsive-embeds' );
 
 	// Custom color palette.
-
 	add_theme_support( 'disable-custom-colors' );
 
 	add_theme_support( 'editor-color-palette', array(
@@ -145,6 +144,34 @@ function simone_setup() {
 			'slug' => 'theme-black',
 			'color' => '#010203',
 		),
+	) );
+
+	// Custom font sizes.
+	add_theme_support( 'editor-font-sizes', array(
+		array(
+			'name' => __( 'small', 'simone' ),
+			'shortName' => __( 'S', 'simone' ),
+			'size' => 14,
+			'slug' => 'small'
+		),
+		array(
+			'name' => __( 'regular', 'simone' ),
+			'shortName' => __( 'M', 'simone' ),
+			'size' => 20,
+			'slug' => 'regular'
+		),
+		array(
+			'name' => __( 'large', 'simone' ),
+			'shortName' => __( 'L', 'simone' ),
+			'size' => 36,
+			'slug' => 'large'
+		),
+		array(
+			'name' => __( 'larger', 'simone' ),
+			'shortName' => __( 'XL', 'simone' ),
+			'size' => 50,
+			'slug' => 'larger'
+		)
 	) );
 }
 endif; // simone_setup
