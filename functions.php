@@ -92,6 +92,10 @@ function simone_setup() {
 		'gallery',
         'caption',
 	) );
+
+	add_theme_support( 'wp-block-styles' );
+	
+	add_theme_support( 'align-wide' );
 }
 endif; // simone_setup
 add_action( 'after_setup_theme', 'simone_setup' );

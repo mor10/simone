@@ -140,3 +140,74 @@ Layout: Sidebar right
         width: 1060px; 
     }
 }
+
+
+/* Block alignments */
+
+.alignwide {
+    max-width: calc(100vw - 2rem);
+    margin-right: -1rem;
+    margin-left: -1rem;
+}
+
+.alignfull {
+    max-width: 100vw;
+    margin-right: -2rem;
+    margin-left: -2rem;
+}
+
+@media screen and (min-width: 400px) {
+    .alignwide {
+        max-width: calc(100vw - 4rem);
+        margin-right: -2rem;
+        margin-left: -2rem;
+    }
+    
+    .alignfull {
+        max-width: 100vw;
+        margin-right: -4rem;
+        margin-left: -4rem;
+    }
+}
+
+@media screen and (min-width: 780px) {
+    .alignwide {
+        max-width: calc(700px + (100vw - 700px) / 2);
+        margin-right: calc(-1 * ((100vw - 700px) / 4));
+        margin-left: calc(-1 * ((100vw - 700px) / 4));
+    }
+
+    .alignfull {
+        max-width: 100vw;
+        margin-right: calc(-1 * ((100vw - 700px) / 2));
+        margin-left: calc(-1 * ((100vw - 700px) / 2));
+    }
+}
+
+@media screen and (min-width: 1160px) {
+    .alignwide {
+        max-width: calc(700px + (100vw - 1120px) / 2);
+        margin-right: 0;
+        margin-left: calc(-1 * ((100vw - 1120px) / 2));
+    }
+
+    .alignfull {
+        max-width: calc(100vw - 380px);
+        margin-right: -80px;
+        margin-left: calc(-1 * (100vw - 1120px));
+    }
+}
+
+@media screen and (min-width: 1540px) {
+    .alignwide {
+        max-width: calc(700px + (100vw - 1120px) / 2);
+        margin-right: calc(-1 * (100vw - 1080px));
+        margin-left: calc(-1 * ((100vw - 700px) / 4));
+    }
+
+    .alignfull {
+        max-width: calc(100vw - 380px);
+        margin-right: calc(-1 * ((100vw - 1080px) - ((100vw - 700px) / 2)));
+        margin-left: calc(-1 * ((100vw - 700px) / 2));
+    }
+}

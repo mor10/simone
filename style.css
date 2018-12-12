@@ -1352,7 +1352,7 @@ blockquote cite {
 }
 
 /* Meta responsive */
-@media screen and (min-width: 1320px) {
+/* @media screen and (min-width: 1320px) {
     .single .entry-meta {
         position: absolute;
         width: 120px;
@@ -1372,7 +1372,7 @@ blockquote cite {
     .single .mobile-hide {
         display: none;
     }
-}
+} */
 
 .entry-footer {
     margin-top: 3rem;
