@@ -1168,8 +1168,8 @@ a:focus.page-numbers{
 }
 
 .entry-content blockquote p {
-    font-size: 28px;
-    font-size: 2.8rem;
+    /* font-size: 28px;
+    font-size: 2.8rem; */
     line-height: 1.5em;
 }
 
@@ -1223,9 +1223,9 @@ blockquote cite {
     }
 
     .entry-content blockquote p {
-        font-size: 22px;
+        /* font-size: 22px;
         font-size: 2.2rem;
-        line-height: 1.5em;
+        line-height: 1.5em; */
     }
 
     blockquote cite {
@@ -1239,8 +1239,8 @@ blockquote {
     padding: 1em 1.5em 0;
     margin-bottom: 1em;
     font-style: italic;
-    border-top: solid 1px hsl(0, 0%, 80%);
-    border-bottom: solid 1px hsl(0, 0%, 80%);
+    /* border-top: solid 1px hsl(0, 0%, 80%);
+    border-bottom: solid 1px hsl(0, 0%, 80%); */
 }
 
 blockquote.alignleft {
@@ -1271,11 +1271,11 @@ blockquote em {
 blockquote cite {
     display: block;
     margin-top: 1em;
-    margin-left: 40%;
+    /* margin-left: 40%; */
     font-family: 'Lato', sans-serif;
     font-style: normal;
     line-height: 1.5em;
-    text-align: right;
+    /* text-align: right; */
 }
 
 /* Blockquotes responsive */
@@ -1920,4 +1920,8 @@ object { max-width: 100%; }
 
 .entry-content .has-larger-font-size {
     font-size: 50px;
+}
+
+.wp-block-pullquote {
+    margin-bottom: 1em;
 }

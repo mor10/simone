@@ -77,16 +77,16 @@ ol {
 /* =Blockquotes
 ----------------------------------------------- */
 blockquote p {
-        font-size: 28px;
-        line-height: 1.5em;
+        /* font-size: 28px;
+        line-height: 1.5em; */
 }
 
 blockquote {
 	padding: 1em 1.5em 0;
         margin-bottom: 1em;
         font-style: italic;
-        border-top: solid 1px hsl(0, 0%, 80%);
-        border-bottom: solid 1px hsl(0, 0%, 80%);
+        /* border-top: solid 1px hsl(0, 0%, 80%);
+        border-bottom: solid 1px hsl(0, 0%, 80%); */
 }
 
 blockquote.alignleft {

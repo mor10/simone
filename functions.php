@@ -94,6 +94,8 @@ function simone_setup() {
 	) );
 
 	// Block Editor support.
+	add_theme_support('editor-styles');
+	
 	add_theme_support( 'wp-block-styles' );
 	
 	add_theme_support( 'align-wide' );
@@ -148,7 +150,7 @@ function simone_setup() {
 
 	// Custom font sizes.
 	add_theme_support('disable-custom-font-sizes');
-	
+
 	add_theme_support( 'editor-font-sizes', array(
 		array(
 			'name' => __( 'small', 'simone' ),
