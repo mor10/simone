@@ -147,6 +147,8 @@ function simone_setup() {
 	) );
 
 	// Custom font sizes.
+	add_theme_support('disable-custom-font-sizes');
+	
 	add_theme_support( 'editor-font-sizes', array(
 		array(
 			'name' => __( 'small', 'simone' ),
