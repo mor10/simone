@@ -1839,3 +1839,68 @@ object { max-width: 100%; }
         margin-left: calc(-1 * ((100vw - 700px) / 2));
     }
 }
+
+/* Colors */
+.has-theme-primary-background-color {
+    background-color: #0587BF;
+}
+
+.has-theme-primary-color {
+    color: #0587BF;
+}
+
+.has-theme-secondary-background-color {
+    background-color: #D56D5F;
+}
+
+.has-theme-secondary-color {
+    color: #D56D5F;
+}
+
+.has-lilac-background-color {
+    background-color: #D56D5F;
+}
+
+.has-lilac-color {
+    color: #7B74A5;
+}
+
+.has-yellow-background-color {
+    background-color: #E9B55F;
+}
+
+.has-yellow-color {
+    color: #E9B55F;
+}
+
+.has-green-background-color {
+    background-color: #289485;
+}
+
+.has-green-color {
+    color: #289485;
+}
+
+.has-theme-white-background-color {
+    background-color: #fff;
+}
+
+.has-theme-white-color {
+    color: #fff;
+}
+
+.has-theme-grey-background-color {
+    background-color: #313131;
+}
+
+.has-theme-grey-color {
+    color: #313131;
+}
+
+.has-theme-black-background-color {
+    background-color: #010203;
+}
+
+.has-theme-black-color {
+    color: #010203;
+}

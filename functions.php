@@ -99,6 +99,53 @@ function simone_setup() {
 	add_theme_support( 'align-wide' );
 
 	add_theme_support( 'responsive-embeds' );
+
+	// Custom color palette.
+
+	add_theme_support( 'disable-custom-colors' );
+
+	add_theme_support( 'editor-color-palette', array(
+		array(
+			'name' => __( 'Primary', 'simone' ),
+			'slug' => 'theme-primary',
+			'color' => '#0587BF',
+		),
+		array(
+			'name' => __( 'Secondary', 'simone' ),
+			'slug' => 'theme-secondary',
+			'color' => '#D56D5F',
+		),
+		array(
+			'name' => __( 'Lilac', 'simone' ),
+			'slug' => 'lilac',
+			'color' => '#7B74A5',
+		),
+		array(
+			'name' => __( 'Yellow', 'simone' ),
+			'slug' => 'yellow',
+			'color' => '#E9B55F',
+		),
+		array(
+			'name' => __( 'Green', 'simone' ),
+			'slug' => 'green',
+			'color' => '#289485',
+		),
+		array(
+			'name' => __( 'White', 'simone' ),
+			'slug' => 'theme-white',
+			'color' => '#ffffff',
+		),
+		array(
+			'name' => __( 'Grey', 'simone' ),
+			'slug' => 'theme-grey',
+			'color' => '#313131',
+		),
+		array(
+			'name' => __( 'Black', 'simone' ),
+			'slug' => 'theme-black',
+			'color' => '#010203',
+		),
+	) );
 }
 endif; // simone_setup
 add_action( 'after_setup_theme', 'simone_setup' );
